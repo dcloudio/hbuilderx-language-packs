@@ -14,7 +14,7 @@
 		"Language Packs"
 	],
 	"tips":{
-		"setLanguageMessage": "当前语言已经设置为{1}",
+		"setLanguageMessage": "当前语言已经设置为{1}, 重启应用程序后生效",
 		"missingLanguageMessage": "在语言包({2})中没有找到对应语言({1})",
 		"askChangeLanguageMessage": "当前设置的缺省语言(中文(简体))与系统语言不同({1})",
 		"changeToButton": "设置与系统语言一致"
