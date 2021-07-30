@@ -6,12 +6,12 @@
 
 插件扩展package.json
 ```JSON
-	{
-		"name": "markdown-share",
-		"description": "%description%",
-		"displayName": "%displayname%",
-		"version": "x.x.x"
-    }
+{
+    "name": "markdown-share",
+    "description": "%description%",
+    "displayName": "%displayname%",
+    "version": "x.x.x"
+}
 ```
 
 
@@ -30,18 +30,18 @@
     package.nls.json			主语言翻译键值对应数据
     package.nls.[语言id].json	特定语言翻译键值对应关系
 ```
-	
-	
+    
+    
 ###### package.nls.json
 
 ```JSON
 {	
-	"version": "1.0.0",
-	"contents": {
-		"package": {
-			"description": "一键分享markdown"					
-		}		
-	}
+    "version": "1.0.0",
+    "contents": {
+        "package": {
+            "description": "一键分享markdown"					
+        }		
+    }
 }
 ```
  
@@ -51,14 +51,13 @@
  
 ```JSON
 {	
-	"version": "1.0.0",
-	"contents": {
-		"package": {
-			"description": "一键分享markdown"	,
-			"displayname": "一键分享"
-		}
-			
-	}
+    "version": "1.0.0",
+    "contents": {
+        "package": {
+            "description": "一键分享markdown"	,
+            "displayname": "一键分享"
+        }       
+    }
 }
 ```
 
@@ -70,36 +69,36 @@
 
 ```JSON
 {
-	"name": "language-pack-xxx",
-	"displayName": "xxx language package",
-	"description": "xxx language package",
-	"version": "0.0.1",
-	"publisher": "publisher",	
-	"license": "",	
-	"engines": {
-		"HBuilderX": "^3.1.21"
-	},
-	"icon": "",
-	"categories": [
-		"Language Packs"
-	],
-	"contributes": {
-		"localizations": [
-			{
-				"languageId": "xxx",
-				"languageName": "xxxxx",
-				"localizedLanguageName": "xxxxx",
-				"translations": [
-					...
-					,{
-						"id": "xxxxx",			
-						"path": "./extensions/xxxx"
-					}
-				]
-				
-			}
-		]
-	}
+    "name": "language-pack-xxx",
+    "displayName": "xxx language package",
+    "description": "xxx language package",
+    "version": "0.0.1",
+    "publisher": "publisher",	
+    "license": "",	
+    "engines": {
+        "HBuilderX": "^3.1.21"
+    },
+    "icon": "",
+    "categories": [
+        "Language Packs"
+    ],
+    "contributes": {
+        "localizations": [
+            {
+                "languageId": "xxx",
+                "languageName": "xxxxx",
+                "localizedLanguageName": "xxxxx",
+                "translations": [
+                    ...
+                    ,{
+                        "id": "xxxxx",			
+                        "path": "./extensions/xxxx"
+                    }
+                ]
+                
+            }
+        ]
+    }
 }
 ```
 
@@ -121,14 +120,14 @@
 
 ```JSON
 {
-	...
-	"version": "1.0.0",
-	"contents": {
-		"package": {
-			"displayname": "Markdown 语言基础功能",
-			"description": "在 Markdown 文件中提供代码片段和语法高亮功能。"
-		}
-	}
+    ...
+    "version": "1.0.0",
+    "contents": {
+        "package": {
+            "displayname": "Markdown 语言基础功能",
+            "description": "在 Markdown 文件中提供代码片段和语法高亮功能。"
+        }
+    }
 }
 ```
 

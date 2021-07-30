@@ -24,35 +24,35 @@ package.json完整示例如下：
 
 ```JSON
 {
-	"name": "hx-language-pack-zh-cn",
-	"displayName": "HBuilderX中文语言包",
-	"description": "HBuilderX中文语言包",
-	"version": "0.0.1",
-	"publisher": "HBuiderX",	
-	"license": "SEE LICENSE IN LICENSE.md",	
-	"engines": {
-		"HBuilderX": "^3.1.21"
-	},
-	"icon": "",
-	"categories": [
-		"Language Packs"
-	],
-	"contributes": {
-		"localizations": [
-			{
-				"languageId": "zh_CN",
-				"languageName": "Chinese Simplified",
-				"localizedLanguageName": "缺省中文(简体)",
-				"translations": [
-					{
-						"id": "hbuilderx",
-						"path": "./main.i18n.json"
-					}
-				]
-				
-			}
-		]
-	}
+    "name": "hx-language-pack-zh-cn",
+    "displayName": "HBuilderX中文语言包",
+    "description": "HBuilderX中文语言包",
+    "version": "0.0.1",
+    "publisher": "HBuiderX",	
+    "license": "SEE LICENSE IN LICENSE.md",	
+    "engines": {
+        "HBuilderX": "^3.1.21"
+    },
+    "icon": "",
+    "categories": [
+        "Language Packs"
+    ],
+    "contributes": {
+        "localizations": [
+            {
+                "languageId": "zh_CN",
+                "languageName": "Chinese Simplified",
+                "localizedLanguageName": "缺省中文(简体)",
+                "translations": [
+                    {
+                        "id": "hbuilderx",
+                        "path": "./main.i18n.json"
+                    }
+                ]
+                
+            }
+        ]
+    }
 }
 ```
 
@@ -136,35 +136,35 @@ contributes->localizations->languageId，必须为以下的值，下面罗列了
 
 ```JSON
 {
-	"name": "language-pack-en",
-	"displayName": "english language package",
-	"description": "english language package",
-	"version": "0.0.1",
-	"publisher": "publisher",	
-	"license": "",	
-	"engines": {
-		"HBuilderX": "^3.1.21"
-	},
-	"icon": "",
-	"categories": [
-		"Language Packs"
-	],
-	"contributes": {
-		"localizations": [
-			{
-				"languageId": "en",
-				"languageName": "English",
-				"localizedLanguageName": "English",
-				"translations": [
-					{
-						"id": "hbuilderx",
-						"path": "./main.i18n.json"
-					}
-				]
-				
-			}
-		]
-	}
+    "name": "language-pack-en",
+    "displayName": "english language package",
+    "description": "english language package",
+    "version": "0.0.1",
+    "publisher": "publisher",	
+    "license": "",	
+    "engines": {
+        "HBuilderX": "^3.1.21"
+    },
+    "icon": "",
+    "categories": [
+        "Language Packs"
+    ],
+    "contributes": {
+        "localizations": [
+            {
+                "languageId": "en",
+                "languageName": "English",
+                "localizedLanguageName": "English",
+                "translations": [
+                    {
+                        "id": "hbuilderx",
+                        "path": "./main.i18n.json"
+                    }
+                ]
+                
+            }
+        ]
+    }
 }
 ```
 
@@ -172,17 +172,17 @@ contributes->localizations->languageId，必须为以下的值，下面罗列了
 
 ```JSON
 {
-	"contents": {
-		"CLisenceDialog": {
-					"button.cancel.name": "Cancel",
-					"button.confirm.name": "Confirm"
-				},
-				"QColorDialog": {
-					"button.pickColor.name": "Pick Color"
-				}
-				...
-			}
-	}
+    "contents": {
+        "CLisenceDialog": {
+                    "button.cancel.name": "Cancel",
+                    "button.confirm.name": "Confirm"
+                },
+                "QColorDialog": {
+                    "button.pickColor.name": "Pick Color"
+                }
+                ...
+            }
+    }
 }
 ```
 
