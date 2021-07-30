@@ -114,7 +114,7 @@ contributes->localizations->languageId，必须为以下的值，下面罗列了
 
 |语言代码	|国家(地区)						|
 |--			|--								|
-|zh_HK		|中文 - 香港的 SAR				|
+|zh_HK		|中文 - 香港				|
 |zh_TW		|中文 -台湾地区						|
 |zh_CHT		|中文(繁体)					|
 |en_US		|英国 - 美国					|
