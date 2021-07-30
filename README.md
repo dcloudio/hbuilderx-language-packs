@@ -22,3 +22,7 @@ HBuilderX目前已有2种本地化语言扩展：
 如果您没有找到本地化的语言包，建议您自己或联合身边志同道合的朋友，开发一份本地化的语言包。
 
 [HBuilderX语言包制作教程](docs/tutorial.md)
+
+## 语言包安装与切换
+
+![](/docs/images/HBuilderX_Language_Settings.png)
