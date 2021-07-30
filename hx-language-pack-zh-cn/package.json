@@ -29,6 +29,10 @@
 					{
 						"id": "hbuilderx",
 						"path": "./translations/main.i18n.json"
+					},
+					{
+						"id": "markdown-share",
+						"path": "./extensions/markdown-share.i18n.json"
 					}
 				]
 				
