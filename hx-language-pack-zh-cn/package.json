@@ -4,12 +4,12 @@
 	"description": "HBuilderX中文语言包",
 	"version": "0.0.1",
 	"publisher": "HBuiderX",	
-	"license": "SEE MIT LICENSE IN LICENSE.md",
+	"license": "SEE LICENSE IN LICENSE.md",
 	"__private": true,
 	"engines": {
 		"HBuilder": "^3.1.21"
 	},
-	"icon": "languagepack.png",
+	"icon": "",
 	"categories": [
 		"Language Packs"
 	],
@@ -28,7 +28,7 @@
 				"translations": [
 					{
 						"id": "hbuilderx",
-						"path": "./translations/main.i18n.json"
+						"path": "./main.i18n.json"
 					},
 					{
 						"id": "markdown-share",

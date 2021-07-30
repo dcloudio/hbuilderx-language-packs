@@ -45,7 +45,7 @@
 
 - 授权协议
 ```JSON
-"license":"MIT"
+"license":""
 ```
 
 - 扩展所属分类
@@ -66,11 +66,11 @@
 					"translations":[
 						{
 							"id":"hbuilderx",
-							"path": "./translations/main.i18n.json"
+							"path": "./main.i18n.json"
 						},
 						{
-							"id":"hbuilderx.markdown-share",
-							"path": "./translations/extensions/markdown-share.i18n.json"
+							"id":"markdown-share",
+							"path": "./extensions/markdown-share.i18n.json"
 						},
 						...
 					]
@@ -292,11 +292,11 @@
 	"description": "HBuilderX中文语言包",
 	"version": "0.0.1",
 	"publisher": "HBuiderX",	
-	"license": "SEE MIT LICENSE IN LICENSE.md",	
+	"license": "SEE LICENSE IN LICENSE.md",	
 	"engines": {
 		"HBuilderX": "^3.1.21"
 	},
-	"icon": "languagepack.png",
+	"icon": "",
 	"categories": [
 		"Language Packs"
 	],
@@ -309,7 +309,7 @@
 				"translations": [
 					{
 						"id": "hbuilderx",
-						"path": "./translations/main.i18n.json"
+						"path": "./main.i18n.json"
 					}
 				]
 				
@@ -360,7 +360,7 @@
 	"engines": {
 		"HBuilderX": "^3.1.21"
 	},
-	"icon": "languagepack.png",
+	"icon": "",
 	"categories": [
 		"Language Packs"
 	],
@@ -373,7 +373,7 @@
 				"translations": [
 					{
 						"id": "hbuilderx",
-						"path": "./translations/main.i18n.en.json"
+						"path": "./main.i18n.en.json"
 					}
 				]
 				
@@ -466,7 +466,7 @@
 	"engines": {
 		"HBuilderX": "^3.1.21"
 	},
-	"icon": "languagepack.png",
+	"icon": "",
 	"categories": [
 		"Language Packs"
 	],
@@ -480,7 +480,7 @@
 					...
 					,{
 						"id": "xxxxx",			
-						"path": "./translations/xxxx"
+						"path": "./extensions/xxxx"
 					}
 				]
 				
@@ -497,7 +497,7 @@
 					...
 					,{
 						"id": "markdown-share",			
-						"path": "./translations/markdown-share.i18n.json"
+						"path": "./extensions/markdown-share.i18n.json"
 					}
 				]
 ```
