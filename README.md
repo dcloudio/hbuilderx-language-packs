@@ -66,10 +66,10 @@ package.json完整示例如下：
 |	version|语言包版本	|遵守“主版本.次要版本.补丁号”的格，|
 |	publisher|发布者	|插件制作者	|
 |	engines|HBuilderX运行引擎最低版本|数据类型`{ "HBuilderX":"^3.1.23"}`需对应HBuilderX版本|
-|	tips|	语言包提示|[详情](package.json语言包提示语)|
+|	tips|	语言包提示|[详情](#package.json语言包提示语)|
 |license|授权协议|比如`MIT`|
 |categories| HBuilderX插件所属分类|语言包字段应为:`["Language Packs"]` |
-|contributes|语言声明| [详情](package.json语言文件声明)|
+|contributes|语言声明| [详情](#package.json语言文件声明)|
 
 
 ##### package.json语言包提示语
@@ -100,7 +100,7 @@ package.json完整示例如下：
                 "path": "./main.i18n.json"
             },
             {
-                "id":"hbuilderx.markdown-share",
+                "id":"markdown-share",
                 "path": "./extensions/markdown-share.i18n.json"
             }
         ]
@@ -110,7 +110,7 @@ package.json完整示例如下：
 
 ##### package.json localizations
 
-contributes->localizations->languageId，必须为以下的值，下面罗列了部分languageID，[更多languageId参考](#localizations)
+contributes->localizations->languageId，必须为以下的值，下面罗列了部分languageID，[更多languageId参考](./localizations.md)
 
 |语言代码	|国家(地区)						|
 |--			|--								|
@@ -322,7 +322,7 @@ contributes->localizations->languageId，必须为以下的值，下面罗列了
     ...
     ,{
         "id": "markdown-share",			
-        "path": "./translations/markdown-share.i18n.json"
+        "path": "./extensions/markdown-share.i18n.json"
     }
 ]
 ```
@@ -343,7 +343,7 @@ contributes->localizations->languageId，必须为以下的值，下面罗列了
 }
 ```
 
->该文件要与当前语言包中的package.json中对应插件扩展id的path值对应上, 例子中是./translations/markdown-share.i18n.json
+>该文件要与当前语言包中的package.json中对应插件扩展id的path值对应上, 例子中是./extensions/markdown-share.i18n.json
 
 >以上的例子当插件扩展中的package.nls.json、package.nls.[对应语言id].json和语言包中的翻译文件都存在时，最后得到的%displayname%和%description%分别是
 
