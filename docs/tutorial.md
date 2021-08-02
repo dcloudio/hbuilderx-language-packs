@@ -38,10 +38,10 @@ package.json完整示例如下：
         "Language Packs"
     ],
     "tips":{
-    "setLanguageMessage": "当前语言已经设置为{1}",
-    "missingLanguageMessage": "在语言包({2})中没有找到对应语言({1})",
-    "askChangeLanguageMessage": "当前设置的缺省语言(中文(简体))与系统语言不同({1})",
-    "changeToButton": "设置与系统语言一致"
+        "setLanguageMessage": "当前语言已经设置为{1}",
+        "missingLanguageMessage": "在语言包({2})中没有找到对应语言({1})",
+        "askChangeLanguageMessage": "当前设置的缺省语言(中文(简体))与系统语言不同({1})",
+        "changeToButton": "设置与系统语言一致"
     },
     "contributes": {
         "localizations": [
@@ -85,6 +85,8 @@ package.json完整示例如下：
 
 > 在HBuilderX打开时检测语言环境并显示对应语言的通知栏提示，如果语言包中没有这些提示的对应翻译，HBuilderX将显示对应的英语内容
 
+示例：比如 日语语言包，则需要将`setLanguageMessage`、`missingLanguageMessage`、`askChangeLanguageMessage`、 `changeToButton`的值，翻译为日语，不包含`{}`内的内容。
+
 ```JSON
 "tips":{
     "setLanguageMessage": "当前语言已经设置为{1}",
@@ -100,17 +102,17 @@ package.json完整示例如下：
 ```JSON
 "contributes": {
     "localizations": [{
-        "languageId": "zh_CN",
-        "languageName": "Chinese Simplified",
-        "localizedLanguageName": "中文(简体)",
+        "languageId": "",
+        "languageName": "",
+        "localizedLanguageName": "",
         "translations":[
             {
                 "id":"hbuilderx",
                 "path": "./main.i18n.json"
             },
             {
-                "id":"markdown-share",
-                "path": "./extensions/markdown-share.i18n.json"
+                "id":"",
+                "path": ""
             }
         ]
     }]
@@ -123,10 +125,9 @@ contributes->localizations->languageId，必须为以下的值，下面罗列了
 
 |语言代码	|国家(地区)						|
 |--			|--								|
-|zh_HK		|中文 - 香港				|
-|zh_TW		|中文 -台湾地区						|
 |zh_CHT		|中文(繁体)					|
 |en_US		|英国 - 美国					|
+|ja        |日语                    |
 
 
 
