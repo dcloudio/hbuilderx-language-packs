@@ -54,8 +54,11 @@ package.json完整示例如下：
                         "id": "hbuilderx",
                         "path": "./main.i18n.json"
                     }
+                    ,{
+                    	"id": "hbuilderx.nls",
+                    	"path": "./extensions/ls.i18n.json"
+                    },
                 ]
-                
             }
         ]
     }
@@ -64,18 +67,18 @@ package.json完整示例如下：
 
 语言包package.json，字段解释如下
 
-|字段	|说明	|备注	|
-|--	|--	|--	|
-|	name|语言包名称	|	|
-|	displayName|语言包显示名称	|	|
-|	description|	语言包描述|	|
-|	version|语言包版本	|遵守“主版本.次要版本.补丁号”的格，|
-|	publisher|发布者	|插件制作者	|
-|	engines|HBuilderX运行引擎最低版本|数据类型`{ "HBuilderX":"^3.1.23"}`需对应HBuilderX版本|
-|	tips|	语言包提示|[详情](#package.json语言包提示语)|
-|license|授权协议|比如`MIT`|
-|categories| HBuilderX插件所属分类|语言包字段应为:`["Language Packs"]` |
-|contributes|语言声明| [详情](#package.json语言文件声明)|
+|字段			|说明						|备注													|
+|--				|--							|--														|
+|name			|语言包名称					|格式：hx-language-pack-languageID						|
+|displayName	|语言包显示名称				|建议格式：HBuilderX XX语言包							|
+|description	|语言包描述					|														|
+|version		|语言包版本					|遵守“主版本.次要版本.补丁号”的格，					|
+|publisher		|发布者						|插件制作者												|
+|engines		|HBuilderX运行引擎最低版本	|数据类型`{ "HBuilderX":"^3.1.23"}`需对应HBuilderX版本	|
+|tips			|语言包提示					|[详情](#package.json语言包提示语)						|
+|license		|授权协议					|比如`MIT`												|
+|categories		| HBuilderX插件所属分类		|语言包字段应为:`["Language Packs"]`					|
+|contributes	|语言声明					| [详情](#package.json语言文件声明)						|
 
 
 ##### package.json语言包提示语
@@ -132,7 +135,17 @@ contributes->localizations->languageId，必须为以下的值，下面罗列了
 - 文件必须为json格式
 - 跟节点必须是contents字段
 
-制作语言包之前，我们需要先根据【HBuilderX语言包目录结构】创建两个文件`package.json`和`main.i18n.json`
+制作语言包之前，我们需要先创建HBuilderX语言包目录结构
+
+```
+./
+|--- package.json
+|--- main.i18n.json
+|--- extensions/	扩展插件目录    
+    |--- ls.i18n.json
+```
+
+其中，`package.json`和`main.i18n.json`文件是必须的。
 
 下面，我们将演示如何制作一份英文语言包
 
@@ -182,18 +195,24 @@ contributes->localizations->languageId，必须为以下的值，下面罗列了
 
 ##### man.i18n.json
 
+下面仅罗列了个别字段，建议拷贝`hx-language-pack-zh-cn`下的`main.i18n.json`文件，逐条进行翻译。
+
 ```JSON
 {
+    "version": "1.0.0",
     "contents": {
-        "CLisenceDialog": {
-                    "button.cancel.name": "Cancel",
-                    "button.confirm.name": "Confirm"
-                },
-                "QColorDialog": {
-                    "button.pickColor.name": "Pick Color"
-                }
-                ...
-            }
+    	":/conf/resources/conf/menus.json": {
+    		"file.name": "&file",
+    		"edit.name": "&edit",
+    		"select.name": "&select",
+    		"find.name": "&find",
+    		"goto.name": "&goto",
+    		"run.name": "&run",
+    		"publish.name": "&publish",
+    		"view.name": "&view",
+    		"tool.name": "&tool",
+    		"help.name": "&help"
+    	}
     }
 }
 ```
@@ -207,4 +226,4 @@ contributes->localizations->languageId，必须为以下的值，下面罗列了
 
 ## HBuilderX语法库语言包
 
-- [语法库词条翻译](语法库翻译词条.md)
+[语法库词条翻译](语法库翻译词条.md)
