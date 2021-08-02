@@ -26,4 +26,4 @@ HBuilderX目前已有3种本地化语言扩展：
 
 ## 语言包安装与切换
 
-<img src="/docs/images/HBuilderX_Language_Settings.png" style="zoom: 50%;" />
+<img src="/docs/images/HBuilderX_Language_Settings.jpeg" style="zoom: 50%;" />
