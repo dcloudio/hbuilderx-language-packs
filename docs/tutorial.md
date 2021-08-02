@@ -37,6 +37,12 @@ package.json完整示例如下：
     "categories": [
         "Language Packs"
     ],
+    "tips":{
+    "setLanguageMessage": "当前语言已经设置为{1}",
+    "missingLanguageMessage": "在语言包({2})中没有找到对应语言({1})",
+    "askChangeLanguageMessage": "当前设置的缺省语言(中文(简体))与系统语言不同({1})",
+    "changeToButton": "设置与系统语言一致"
+    },
     "contributes": {
         "localizations": [
             {
@@ -149,6 +155,12 @@ contributes->localizations->languageId，必须为以下的值，下面罗列了
     "categories": [
         "Language Packs"
     ],
+    "tips":{
+        "setLanguageMessage": "Language has been setted to {1}",
+        "missingLanguageMessage": "Can't find {1} in package {2}",
+        "askChangeLanguageMessage": "The language (English) is different from system({1})",
+        "changeToButton": "Set to the same as system"
+    },
     "contributes": {
         "localizations": [
             {
