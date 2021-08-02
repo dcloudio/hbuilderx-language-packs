@@ -2,12 +2,13 @@
 
 此仓库包含所有的HBuilderX本地化语言包扩展。
 
-HBuilderX目前已有2种本地化语言扩展：
+HBuilderX目前已有3种本地化语言扩展：
 
-|语言	|languageId	| 语言包名称			|
-|--		|--			| --					|
-|中文	|zh_CN		| hx-language-pack-zh-cn|
-|英语	|en			|hx-language-pack-en	|
+|语言	|languageId	| 语言包名称			| 备注	|
+|--		|--			| --					| --	|
+|中文	|zh_CN		| hx-language-pack-zh-cn| 已完成|
+|英语	|en			|hx-language-pack-en	| 已完成|
+|日语	|ja			|hx-language-pack-ja	|未完成	|
 
 
 ## 贡献翻译

@@ -1,0 +1,13 @@
+{
+	"contents": {
+		"com.pandora.launcher.core.ios_sim": {
+			"Tip.BaseAppStarting": "アプリケーションを開始しています."
+		},
+		"com.pandora.launcher.core": {
+			"HMobileDeviceLauncher.Connection.1": "携帯電話接続の確立...",
+			"HMobileDeviceLauncher.Tip.SyncMobileProgramFileEnd": "携帯電話でのプログラムファイルの同期完了",
+			"HMobileDeviceLauncher.AppExist.Synchronizing.Resource": "携帯電話のプログラムファイルの同期...",
+			"HMobileDeviceLauncher.AppInstalled.Synchronizing.Resource": "携帯電話のプログラムファイルの同期..."
+		}
+	}
+}

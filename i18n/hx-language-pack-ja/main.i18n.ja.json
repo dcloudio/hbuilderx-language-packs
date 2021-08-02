@@ -1,0 +1,33 @@
+{
+	"version": "1.0.0",
+	"contents": {
+		":/conf/resources/conf/menus.json": {
+			"file.name": "&ファイル",
+			"edit.name": "&編集",
+			"select.name": "&選択",
+			"find.name": "&検索",
+			"goto.name": "&移動",
+			"run.name": "&実行",
+			"publish.name": "&発行",
+			"view.name": "&見る",
+			"tool.name": "&ツール",
+			"help.name": "&助けて"
+		},
+		"SearchBar": {
+			"textbox. Type File Name.placeholder": "入力ファイル名"
+		},
+		"WorkbenchWindow": {
+			"button.preView.desc": "アプリ"
+		},
+		"WelcomeWidget": {
+		    "menu.newproject.desc": "新築プロジェクト"
+		},
+		"QObject":{
+			"menu.welcome.changeTheme.name": "テーマを変える",
+			"menu.welcome.newBlankFile.name": "白紙のファイルを新規作成する",
+			"menu.welcome.changeKeymaps.name": "ショートカットキーの切り替え",
+			"menu.welcome.openFolder.name": "フォルダを開く",
+			"menu.welcome.userTutorial.name": "入門教程"
+		}
+	}
+}

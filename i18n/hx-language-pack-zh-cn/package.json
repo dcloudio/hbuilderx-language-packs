@@ -3,7 +3,7 @@
 	"displayName": "HBuilderX中文语言包",
 	"description": "HBuilderX中文语言包",
 	"version": "0.0.1",
-	"publisher": "HBuiderX",	
+	"publisher": "HBuilderX",	
 	"license": "SEE LICENSE IN LICENSE.md",
 	"__private": true,
 	"engines": {
