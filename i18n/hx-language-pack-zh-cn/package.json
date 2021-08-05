@@ -3,13 +3,12 @@
 	"displayName": "HBuilderX中文语言包",
 	"description": "HBuilderX中文语言包",
 	"version": "0.0.1",
-	"publisher": "HBuiderX",	
+	"publisher": "HBuilderX",	
 	"license": "SEE MIT LICENSE IN LICENSE.md",
 	"__private": true,
 	"engines": {
-		"HBuilder": "^3.1.21"
+		"HBuilderX": "^3.1.21"
 	},
-	"icon": "languagepack.png",
 	"categories": [
 		"Language Packs"
 	],
@@ -35,9 +34,7 @@
 						"path":"./extensions/ls.i18n.json"
 					}
 				]
-				
 			}
-			
 		]
 	}
 }
