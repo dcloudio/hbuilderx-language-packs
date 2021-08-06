@@ -248,7 +248,7 @@
             "button.cancel.name": "",
             "msgbox.cantOpenThisFile.desc.question": "The built-in server does not support opening this type of file, please configure the web server",
             "msgbox.fileNeedsToCompiled.desc.question": "The vue file cannot be run directly to the browser and needs to be compiled. If it is a web project, please run the npm command. If it is a uni-app project, please check whether the project type is correct, see <a href=\"http://ask.dcloud.net.cn/article/35878\">http://ask.dcloud.net.cn/article/35878</a>"
-            
+
         },
         "BuiltinBrowserHelper": {
             "notify.pluginUpdatingPleaseWait.info": "The built-in browser plug-in is being upgraded, please wait...",
@@ -261,7 +261,7 @@
         "BuiltinPreViewBrowser": {
             "tabbar.webBrowser.name": "Web Browser",
             "msgbox.associatedFileNotFound.desc.warning": "The DOM node associated file was not found."
-        },        
+        },
         "CompileSetiingDialog": {
             "dialog.Dialog.title": "",
             "button.browsing.name": "Browsing...",
@@ -1997,7 +1997,7 @@
         "Upgrade": {
             "menu.checkInProgress.name": "Checking for Update...",
             "menu.restart.name": "&Restart to Update",
-            "menu.checkUpdate.name": "&Check Update",
+            "menu.checkUpdate.name": "&Check for Updates",
             "menu.fallback.name": "&&Fallback Version",
             "menu.switchToLastest.name": "&&Latest Version"
         },
@@ -3451,7 +3451,7 @@
             "workbench.action.feedback.name": "&Mail feedback",
             "workbench.action.openforum.name": "&DCloud forums ...",
             "workbench.action.openlog.name": "&View running logs",
-            "update.showcurrentreleasenotes.name": "&Update release Notes every time",
+            "update.showcurrentreleasenotes.name": "&Release Notes",
             "license.name": "Licence",
             "workbench.action.openreadme.name": "ReadMe",
             "workbench.action.opensponsor.name": "&Sponsor us...",
