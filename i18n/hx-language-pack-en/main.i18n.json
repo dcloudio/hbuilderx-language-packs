@@ -6,12 +6,41 @@
     ],
     "version": "1.0.0",
     "contents": {
+        ":/unicloud/package.json": {
+            "menu.execJQL.name": "Execute JQL",
+            "menu.execJQL.terminate.name": "Terminate JQL",
+            "command.unicloud.ClientDBActionDeleteFiles.name": "Delete action(&L)",
+            "command.unicloud.newClientDBActionsFile.name": "New action(&C)",
+            "command.unicloud.newClientDBActionsFolder.name": "Create uni-clientDB-actions folder(&U)",
+            "command.unicloud.DBSchemaUpload.name": "Upload DB Schema(&B)",
+            "command.unicloud.newDBSchemaJson": "New DB Schema(&S)",
+            "command.unicloud.newJQLFile": "New JQL file(&Q)",
+            "command.unicloud.DBSchemaDownload.name": "Download DB Schema(&M)",
+            "command.unicloud.newFuncsFolder.name": "Create cloudfunctions folder(&T)",
+            "command.unicloud.newDBFolder.name": "Create database folder(&H)",
+            "command.unicloud.newDBInitJson.name": "New db_init.json(&O)",
+            "command.unicloud.newFuncsInitJson.name": "New cloudfunctions_init.json(&N)",
+            "command.unicloud.newValidationFolder.name": "Create validation folder(&V)",
+            "command.unicloud.newValidationFile.name": "New validation file(&V)",
+            "command.unicloud.uploadValidationFile.name": "Upload validation file(&I)",
+            "command.unicloud.downloadValidationFile.name": "Download validation file(&T)",
+            "command.unicloud.uploadAllValidationFile.name": "Upload all validation(&K)",
+            "command.unicloud.downloadAllValidationFile.name": "Download all validation(&J)",
+            "command.unicloud.DBDownload.name": "Download all DB Schema and validation files(&A)",
+            "command.unicloud.DBUpload.name": "Upload all DB Schema and validation files(&E)",
+            "command.unicloud.createCommon.name": "Create common folder(&R)",
+            "command.newPage.name": "New Page(&P)",
+            "command.unicloud.JQLRunOrStop.name": "Run",
+            "editor.command.JQLRunOrStop.run.name": "Execute JQL(&N)",
+            "editor.command.JQLRunOrStop.stop.name": "Stop JQL(&O)"
+        },
         "CLisenceDialog": {
             "button.cancel.name": "cancel(&C)",
             "button.confirm.name": "&Agree and Continue"
         },
         "QColorDialog": {
-            "button.pickColor.name": "Pick Screen Color"
+            "button.pickColor.name": "Pick Screen Color",
+            "Cursor at %1, %2\nPress ESC to cancel": "鼠标位置 %1, %2\n按ESC键取消"
         },
         "AboutDialog": {
             "dialog.Dialog.title": "",
@@ -159,7 +188,15 @@
             "msgbox.inTheQueue.desc.question": "It was detected that the installation package that was being made in this project was in the cloud queue, and continued packaging would cancel the production and queue up in the cloud team. Do you continue to submit it?",
             "msgbox.dependOnSafePackaging.desc.question": "Safe pack mode need plugin app-safe-pack do you want install?",
             "msgbox.installPluginFirst.desc.info": "safe pack mode need plugin {1},Please install the plug-in first",
-            "msgbox.resultFromServer.title": "Packaging check"
+            "msgbox.resultFromServer.title": "Packaging check",
+            "radio.cloudCertificate.name": "使用云端证书",
+            "label.insertEncourageSDK.desc": "集成激励视频({1})：",
+            "checkbox.bxmcontent.name": "互动游戏(变现猫)",
+            "msgbox.customBase.title": "自定义基座版本和上次版本相同，将会导致运行到手机时不会自动更新基座（建议先修改版本号），确定是否继续打包？",
+            "wechat.login.payment.sharing.same.text": "微信登录、微信支付、微信分享的UniversalLinks不一致",
+            "android.googleplay.aab.text": "Android平台GooglePlay渠道使用Android App Bundle(AAB)格式暂不支持安心打包 {1}，GooglePlay渠道包将使用传统打包模式提交云端打包，是否继续？",
+            "qq.login.sharing.ulink.text ": "QQ登录、QQ分享的UniversalLinks不一致",
+            "sina.weibo.login.sharing.same.text": "新浪微博登录、新浪微博分享的UniversalLinks不一致"
         },
         "AppPackageJob": {
             "console.checkPackingState.desc": "Check the cloud packing status...",
@@ -230,7 +267,12 @@
             "console.autoReturnDownloadLink.desc": "It will return download link automatically after packaging success.",
             "console.queryPackageStatus.desc": "You can query packaging status through menu [publish]-[view status].",
             "console.waitingInLine.desc": "There is a long queuing line at peak hours on Friday evening. Please be patient.",
-            "console.debuggingUseCustomBase.desc": "If it is for the 3rd party SDK debugging, use a custom base (menu run - mobile phone or simulator - make a custom base), and don't pack it repeatedly."
+            "console.debuggingUseCustomBase.desc": "If it is for the 3rd party SDK debugging, use a custom base (menu run - mobile phone or simulator - make a custom base), and don't pack it repeatedly.",
+            "android.cloud.certificate": "Android云端证书",
+            "console.googleaabplatform.text": "Android平台GooglePlay渠道使用Android App Bundle(AAB)格式，无法直接使用安装到手机上,",
+            "console.selectSpace.text": "你可点击 {1} 按钮，选择服务空间后安装包将通过前端网页托管上传",
+            "console.webhostingsuccess.text": "前端网页托管上传成功后，控制台将会显示安装包的下载地址",
+            "console.aab.detail": "详情"
         },
         "AutoCompletionListUI": {
             "window.Form.title": ""
@@ -248,7 +290,6 @@
             "button.cancel.name": "",
             "msgbox.cantOpenThisFile.desc.question": "The built-in server does not support opening this type of file, please configure the web server",
             "msgbox.fileNeedsToCompiled.desc.question": "The vue file cannot be run directly to the browser and needs to be compiled. If it is a web project, please run the npm command. If it is a uni-app project, please check whether the project type is correct, see <a href=\"http://ask.dcloud.net.cn/article/35878\">http://ask.dcloud.net.cn/article/35878</a>"
-
         },
         "BuiltinBrowserHelper": {
             "notify.pluginUpdatingPleaseWait.info": "The built-in browser plug-in is being upgraded, please wait...",
@@ -454,7 +495,13 @@
             "groupbox.cloudSpaceList.title": "Cloud space list(Only support for aliyun)",
             "msgbox.cloudSpaceNotOpened.desc.info": "cloud space {1} has not been opened.",
             "button.open.name": "&Open",
-            "button.cancel.name": "&Cancel"
+            "button.cancel.name": "&Cancel",
+            "dialog.publishkuaishouApp.title": "快手小程序发行",
+            "lineedit.pleaseTypekuaishouAppName.placeholder": "输入快手小程序名称",
+            "label.kuaishouAppNameCanNotBeNull.error": "快手应用名称不能为空",
+            "label.lineedit.kuaishouAppUnionName.desc": "快手小程序名称",
+            "checkBox.ssrCheck.text": "以SSR方式发行",
+            "label.support.text": "(暂不支持部署到前端网页托管，<a href=\"https://uniapp.dcloud.net.cn/ssr?id=distribute\">帮助</a>)"
         },
         "ExternalCommand": {
             "msgbox.externalCommand.title": "External command",
@@ -543,7 +590,8 @@
             "msgbox.sameNameAlreadyExists.desc.error": "A cloud function with the same name already exists at this location",
             "label.invalidFileName.error": "Invalid file name",
             "console.databaseSchema.desc": "Database Schema",
-            "console.validateFunction.desc": "Database extension check function"
+            "console.validateFunction.desc": "Database extension check function",
+            "selected.location.same.text": "选择的位置下已存在同名的{1}"
         },
         "CNewUniappPage": {
             "label.pagesIsNotValid.error": "There is an error in the engineering configuration file pages.json file, please adjust and try again",
@@ -613,7 +661,8 @@
             "button.reacquisitioning.name": "&Continue",
             "button.cancel.name": "&Cancel",
             "tooltip.onlyAvailableToUse.desc": "This feature is only available to users who have logged in",
-            "msgbox.pleaseLogin.info": "Please log in first, then use the cloud to get the Appid function"
+            "msgbox.pleaseLogin.info": "Please log in first, then use the cloud to get the Appid function",
+            "msgbox.title.inputAppidFirst": "请先输入appid,再获取通用链接"
         },
         "JsonFormFile": {
             "button.Browse.name": "Browse..."
@@ -726,7 +775,8 @@
             "msgbox.pluginIsInstalled.desc.info": "Plugin [{1}] is installed.",
             "msgbox.uninstallingPlugin.desc.info": "Uninstalling Plugin [{1}]...",
             "msgbox.pluginIsUninstalled.desc.info": "Plugin [{1}] is uninstalled.",
-            "msgbox.pluginUninstallFailed.desc.warning": "The plugin [{1}] failed to uninstall. Please go to Plugin in the HBuilderX directory to manually delete the plugin directory. Because the total number of files deleted by the OS at one time is limited, please delete files in batches if necessary."
+            "msgbox.pluginUninstallFailed.desc.warning": "The plugin [{1}] failed to uninstall. Please go to Plugin in the HBuilderX directory to manually delete the plugin directory. Because the total number of files deleted by the OS at one time is limited, please delete files in batches if necessary.",
+            "not support ssr to cef": "暂不支持Vue3 cli项目运行到内置浏览器，请运行到谷歌浏览器"
         },
         "PluginsDialog": {
             "dialog.Dialog.title": "",
@@ -783,7 +833,12 @@
             "console.projectIsNotExists.error": "Project is not exists.",
             "console.absenceOfTheNodejsEnvironment.error": "In the absence of the nodejs environment, configure the nodejs path in the settings",
             "console.uni-appToH5Reference.warning": "Uni-app to H5 reference: https://ask.dcloud.net.cn/article/35232",
-            "console.theCurrentVersionLower.error": "The current version of the cli project is low and does not support the running and publishing of the App: 1. You can enter the currently running project directory on the command line, and execute the 'npm update ' and ' vue add @dcloudio/hbuilderx ' commands in turn to manually upgrade and install , 2. Or drag the src directory under the project into HBuilderX to run and publish the App as a separate project, 3. Or re-create a new cli project."
+            "console.theCurrentVersionLower.error": "The current version of the cli project is low and does not support the running and publishing of the App: 1. You can enter the currently running project directory on the command line, and execute the 'npm update ' and ' vue add @dcloudio/hbuilderx ' commands in turn to manually upgrade and install , 2. Or drag the src directory under the project into HBuilderX to run and publish the App as a separate project, 3. Or re-create a new cli project.",
+            "vue3.onlysupportsH5.text": "目前Vue3 仅支持H5，详情:{1}",
+            "console.log.missingplug-ins.desc": "缺少编译时的必要插件，无法编译.",
+            "msgbox.button.reinstallplugin.desc": "重新安装插件",
+            "msgbox.title.pluginhasmodified.desc": "检测到插件代码被篡改，有可能存在安全隐患，解决此问题需要重新安装该插件或者HBuilderX.",
+            "msgbox.title.isInstall.desc": "是否需要安装？"
         },
         "ProjectExplorerItemEditor": {
             "label.project.desc": "Project",
@@ -911,7 +966,8 @@
             "radio.Aliyun.name": "Alibaba cloud",
             "radio.Tcb.name": "Tencent cloud",
             "label.Detail.link": "Detail",
-            "label.fullyAvailableCloudDevelopment.desc": "Fully available cloud development, using js to develop server logic."
+            "label.fullyAvailableCloudDevelopment.desc": "Fully available cloud development, using js to develop server logic.",
+            "text.csdnUpload.desc": "上传到Git代码托管平台（CSDN CODECHINA）"
         },
         "ProxyThread": {
             "console.cannotFindPathOfNode.error": "Can't find node.exe"
@@ -1287,7 +1343,7 @@
             "menu.mainWindow.showInProjectExplorer.name": "&Show In Project Explorer",
             "menu.mainWindow.ctrlO.name": "",
             "menu.mainWindow.closeOtherEditor.name": "&Close Other Editor",
-            "menu.mainWindow.openInExplorerConsole.name": "&Open in Terminal",
+            "menu.mainWindow.openInExplorerConsole.name": "&Open In Explorer(cmd mode)",
             "menu.mainWindow.gotoMatchingBracket.name": "&Goto Matching Bracket",
             "menu.mainWindow.altOpenBracket.name": "",
             "menu.mainWindow.selectNextWord.name": "&Select Next Word",
@@ -1376,7 +1432,7 @@
             "menu.mainWindow.indent.name": "&Indent",
             "menu.mainWindow.tab.name": "&Tab",
             "menu.mainWindow.multipleCursor.name": "Multi-cursor",
-           "menu.mainWindow.indentUsingSpaces.name": "&Use spaces instead of tabs when pressing Tab",
+            "menu.mainWindow.indentUsingSpaces.name": "&Use spaces instead of tabs when pressing Tab",
             "menu.mainWindow.tabWidth.desc": "Tab Width:&{1}",
             "menu.mainWindow.guessTabWidth.name": "&Guess the tab width",
             "menu.mainWindow.convertTabToSpaces.name": "&Convert Indentation To Spaces",
@@ -1604,73 +1660,92 @@
             "dialog.install.name": "&Install",
             "msgbox.packageJsonFormatError.title": "package.json File format error",
             "msgbox.checkPackageJsonFormat.title": "Check the package.json file format",
-            "label.editor.pressF2ToFocus.tooltips": "Press 'F2' for focus",
-            "NetworkError-1": "ConnectionRefusedError",
+            "label.editor.pressF2ToFocus.tooltips": "Press 'F2' for focus",            
             "ConnectionRefusedError": "ConnectionRefusedError",
-            "NetworkError-2": "RemoteHostClosedError",
             "RemoteHostClosedError": "RemoteHostClosedError",
-            "NetworkError-3": "HostNotFoundError",
             "HostNotFoundError": "HostNotFoundError",
-            "NetworkError-4": "TimeoutError",
             "TimeoutError": "TimeoutError",
-            "NetworkError-5": "OperationCanceledError",
             "OperationCanceledError": "OperationCanceledError",
-            "NetworkError-6": "SslHandshakeFailedError",
             "SslHandshakeFailedError": "SslHandshakeFailedError",
-            "NetworkError-7": "TemporaryNetworkFailureError",
             "TemporaryNetworkFailureError": "TemporaryNetworkFailureError",
-            "NetworkError-8": "NetworkSessionFailedError",
             "NetworkSessionFailedError": "NetworkSessionFailedError",
-            "NetworkError-9": "BackgroundRequestNotAllowedError",
             "BackgroundRequestNotAllowedError": "BackgroundRequestNotAllowedError",
-            "NetworkError-10": "TooManyRedirectsError",
             "TooManyRedirectsError": "TooManyRedirectsError",
-            "NetworkError-11": "InsecureRedirectError",
             "InsecureRedirectError": "InsecureRedirectError",
-            "NetworkError-99": "UnknownNetworkError",
             "UnknownNetworkError": "UnknownNetworkError",
-            "NetworkError-101": "ProxyConnectionRefusedError",
             "ProxyConnectionRefusedError": "ProxyConnectionRefusedError",
-            "NetworkError-102": "ProxyConnectionClosedError",
             "ProxyConnectionClosedError": "ProxyConnectionClosedError",
-            "NetworkError-103": "ProxyNotFoundError",
             "ProxyNotFoundError": "ProxyNotFoundError",
-            "NetworkError-104": "ProxyTimeoutError",
             "ProxyTimeoutError": "ProxyTimeoutError",
-            "NetworkError-105": "ProxyAuthenticationRequiredError",
             "ProxyAuthenticationRequiredError": "ProxyAuthenticationRequiredError",
-            "NetworkError-199": "UnknownProxyError",
             "UnknownProxyError": "UnknownProxyError",
-            "NetworkError-201": "ContentAccessDenied",
             "ContentAccessDenied": "ContentAccessDenied",
-            "NetworkError-202": "ContentOperationNotPermittedError",
             "ContentOperationNotPermittedError": "ContentOperationNotPermittedError",
-            "NetworkError-203": "ContentNotFoundError",
             "ContentNotFoundError": "ContentNotFoundError",
-            "NetworkError-204": "AuthenticationRequiredError",
             "AuthenticationRequiredError": "AuthenticationRequiredError",
-            "NetworkError-205": "ContentReSendError",
             "ContentReSendError": "ContentReSendError",
-            "NetworkError-206": "ContentConflictError",
             "ContentConflictError": "ContentConflictError",
-            "NetworkError-207": "ContentGoneError",
             "ContentGoneError": "ContentGoneError",
-            "NetworkError-299": "UnknownContentError",
             "UnknownContentError": "UnknownContentError",
-            "NetworkError-301": "ProtocolUnknownError",
             "ProtocolUnknownError": "ProtocolUnknownError",
-            "NetworkError-302": "ProtocolInvalidOperationError",
             "ProtocolInvalidOperationError": "ProtocolInvalidOperationError",
-            "NetworkError-399": "ProtocolFailure",
             "ProtocolFailure": "ProtocolFailure",
-            "NetworkError-401": "InternalServerError",
             "InternalServerError": "InternalServerError",
-            "NetworkError-402": "OperationNotImplementedError",
             "OperationNotImplementedError": "OperationNotImplementedError",
-            "NetworkError-403": "ServiceUnavailableError",
             "ServiceUnavailableError": "ServiceUnavailableError",
-            "NetworkError-499": "UnknownServerError",
-            "UnknownServerError": "UnknownServerError"
+            "title.msgbox.vueVersionDiffDesc.warning": "不同版本的vue混用可能会引起未知的错误",
+            "title.msgbox.vueVersionDifferentFrom.warning": "导入的插件所使用的vue版本为{1}, 与当前项目使用的版本{2}并不相同",
+            "button.closeAll.name": "关闭所有(&A)",
+            "button.download.name": "下载(&D)",
+            "text.openwith": "打开方式",
+            "git.env.checkTortoise.warning": "该操作依赖 TortoiseGit，在该计算机上未找到。\n请先下载安装，再重新操作。",
+            "git.env.chekcCmd.warning": "该操作依赖 Git 命令行环境。\n请先安装并配置好系统环境，并重启HBuilder X。",
+            "console.packageName.text": "[{1}] - 打包控制台",
+            "beendeployed.text": "{1} 已成功上传",
+            "encrypt.cloudcommon.text": "此文件为加密公共模块，无法查看源码。",
+            "write.text.err": "写入文件失败...",
+            "encrypt.encryptFile.text": "此文件为加密文件，无法查看源码。",
+            "node.version.text": "当前node版本已升级到node12.22，插件{1}存在兼容问题，请将该插件升级到最新版本",
+            "uploading.file.text": "正在上传文件{1}...",
+            "template.file.fail": "模板文件读取失败...",
+            "preparing.file.text": "正在准备文件{1}...",
+            "nofront.webhosting": "服务空间没有开通前端网页托管",
+            "encrypt.cloudfunction.text": "此文件为加密云函数，无法查看源码。",
+            "project.depends.plugin.text": "项目导入依赖{1}插件，请先安装该插件",
+            "update.now.text": "立即升级",
+            "create.unicloud.environment.text": "创建uniCloud环境依赖{1}插件，请先安装该插件",
+            "console.package.succuss.download.text": "已成功上传安装包,安装包下载地址: {1}",
+            "console.package.upload.success.text": "安装包上传成功 {1}",
+            "console.nodejs.error.text": "$$$1 未捕获异常 - 有一个未被捕获的异常, 并且没被 domain 或 'uncaughtException' 事件处理器处理。\n$$$2 - 未被使用 (Bash 为防内部滥用而保留)\n$$$3 内部的 JavaScript 解析错误 - Node.js 内部的 JavaScript 源代码在引导进程中导致了一个语法解析错误。 这是非常少见的, 一般只会在开发 Node.js 本身的时候出现。\n$$$4 内部的 JavaScript 执行失败 - 引导进程执行 Node.js 内部的 JavaScript 源代码时，返回函数值失败。 这是非常少见的, 一般只会在开发 Node.js 本身的时候出现。\n$$$5 致命错误 - 在 V8 中有一个致命的错误。 比较典型的是以 FATALERROR 为前缀从 stderr 打印出来的消息。\n$$$6 非函数的内部异常处理 - 发生了一个内部异常，但是内部异常处理函数被设置成了一个非函数，或者不能被调用。\n$$$7 内部异常处理运行时失败 - 有一个不能被捕获的异常，在试图处理这个异常时，处理函数本身抛出了一个错误。 这是可能发生的, 比如, 如果一个 'uncaughtException' 或者 domain.on('error') 处理函数抛出了一个错误。\n$$$8 - 未被使用，在之前版本的 Node.js, 退出码 8 有时候表示一个未被捕获的异常。\n$$$9 - 不可用参数 - 也许是某个未知选项没有确定，或者没给必需要的选项填值。\n$$$10 内部的 JavaScript 运行时失败 - 调用引导函数时，引导进程执行 Node.js 内部的 JavaScript 源代码抛出错误。 这是非常少见的, 一般只会在开发 Node.js 本身的时候出现。\n$$$12 不可用的调试参数 - --inspect 和/或 --inspect-brk 选项已设置，但选择的端口号无效或不可用。",
+            "File upload failed %1": "文件上传失败 %1",
+            "Alt+Number Mode": "Alt+数字模式",
+            "cover": "最近设置",
+            "source '%1' does not allow": "不允许使用'%1'作为源路径",
+            "Please install and configure the system environment and restart HBuilderX.": "请先安装并配置好系统环境，并重启HBuilder X",
+            "Please download and install and re-operate.": "请先下载安装，再重新操作。",
+            "command '%1' does not exists or missing params.": "命令'%1'不存在或缺少参数",
+            "please wait for last task to finish(%1)": "请等待上一个任务完成(%1)",
+            "Browser": "浏览",
+            "edit": "编辑",
+            "Retry Install": "重新安装(&I)",
+            "current setting is error": "当前设置存在错误，如不修改将导致异常",
+            "fix": "修改错误",
+            "FILE": "文件",
+            "buildin": "默认设置",
+            "Number Mode": "数字模式",
+            "no file in '%1'": "'%1'不存在可以上传的文件",
+            "This operation relies on TortoiseGit, but not found on this machine.": "该操作依赖 TortoiseGit，在该计算机上未找到。",
+            "Project [%1]": "项目【 %1 】",
+            "console.upgradecenter.text": "推荐使用升级中心，详见：%1",
+            "Mixing different versions of Vue will lead to risks": "混用不同VUE版本的代码有导致异常的风险",
+            "This operation relies on Git command tool environment.": "该操作依赖 Git 命令行环境。",
+            "please assign remote path": "请指定要删除的云空间文件路径，如:/myfile.file",
+            "source '%1' does not exists.": "'%1'源路径不存在",
+            "Download": "下载(&D)",
+            "Import vue version(%1) is defferent from project vue version(%2)": "将导入插件中声明的VUE(%1)版本与项目中声明的VUE(%2)版本并不相同",
+            "unvalid editorconfig file %1": "无效的editorconfig文件：%1。",
+            "DIR": "文件夹",
+            "opreation has been terminated.": "当前操作被用户中止"
         },
         "QuickAppCompiler": {
             "console.startCompile.warning": "Project '{1}' start compiling...",
@@ -1738,7 +1813,10 @@
             "console.compressInProgress.desc": "Project '{1}' is compressing...",
             "console.invalidUniAppProject.desc": "Project '{1}' is not uni-app.",
             "console.invalidAppId.desc": "The owner of the AppID of this project is not the currently logged-in account, please log in with the correct account again or get it again in the project’s manifest.json",
-            "console.emptyAppIdError.desc": "The project Appid is empty, please obtain it again!"
+            "console.emptyAppIdError.desc": "The project Appid is empty, please obtain it again!",
+            "text.kuaishouApp.desc": "快手小程序",
+            "console.appidNotowned.desc": "该项目的AppID非当前账号所有，请联系应用所有者设置你的账号为协作者或者在该项目的manifest.json中重新获取",
+            "Tips: The wgt is build in HBuilderx %1, the runtime sdk version must be the same version, if not the device will pop-up warning. details: http://ask.dcloud.net.cn/article/35627": "提示：本wgt文件由HBuilderX %1版本生成，运行的基座sdk也需配套相同版本，否则在手机端部分功能可能无法正常使用。详见 http://ask.dcloud.net.cn/article/35627"
         },
         "QuickAppProjectWizard": {
             "text.quickApp.desc": "QuickApp",
@@ -1752,7 +1830,8 @@
             "label,filterCharCurrentFile.desc": "Filter Char(Current File)",
             "label.replace.desc": "Replace",
             "label.gotoLine.desc": "Goto Line",
-            "label.filterCharCurrentDirectory.desc": "Filter Char(Current Directory)"
+            "label.filterCharCurrentDirectory.desc": "Filter Char(Current Directory)",
+            "label.filterCharCurrentFile.desc": "字符搜索(当前文件)"
         },
         "RPCService": {
             "status.downloadSyntaxHelper.desc": "Downloading syntax helper plugin ...",
@@ -1835,7 +1914,11 @@
             "console.waitForDownloadPlugin.desc": "The plugin {1} is downloading, please wait...",
             "text.accountNoProject.desc": "This item does not exist in the current login account.",
             "text.openProjectFailed.desc": "Failed to open project.",
-            "text.otherSimulators.desc": "Other"
+            "text.otherSimulators.desc": "Other",
+            "label.view.miniAppkuaishou.title": "小程序 - 快手",
+            "console.startKuaiShouAppDev.desc": "正在启动快手小程序开发者工具...",
+            "console.waitKuaiShouAppDev.desc": "等待快手小程序开发者工具启动后，在快手小程序开发者工具中打开：{1}，然后在HBuilderX中修改文件并保存，会自动刷新快手小程序开发者工具",
+            "text.kuaishouApp.desc": "快手小程序"
         },
         "DebuggerWindow": {
             "text.debug.desc": "Debug"
@@ -1891,7 +1974,8 @@
             "text.pleaseSelectScope.desc": "Please select scope",
             "msgbox.dirNoSearch.title": "The directory where the current document is located is not in the project manager and cannot be searched.",
             "msgbox.fileNoSearch.title": "The current document is not in the project manager and cannot be searched.",
-            "msgbox.trySelect.title": "The project manager did not select anything. Please select again."
+            "msgbox.trySelect.title": "The project manager did not select anything. Please select again.",
+            "button.findinselectregion.tooltips": "在选定的区域中查找"
         },
         "FilterRegExpDialog": {
             "label.includeFileName.desc": "Include File Name",
@@ -1942,7 +2026,10 @@
             "menu.disableBreakpoint.name": "Disable breakpoint",
             "menu.enableBreakpoint.name": "Enable breakpoint",
             "menu.removeBreakpoint.name": "Remove breakpoint",
-            "menu.clearBreakpoints.name": "Clear breakpoints"
+            "menu.clearBreakpoints.name": "Clear breakpoints",
+            "tooltpis.openHyperlink.Alt.desc": "打开链接（Alt + 单击）",
+            "tooltpis.openHyperlink.Command.desc": "打开链接（Command + 单击）",
+            "tooltpis.openHyperlink.Ctrl.desc": "打开链接（Ctrl + 单击）"
         },
         "UniAppBasicJsonFormPage": {
             "msgbox.loginFirstFetchAppid.title": "Please log in first, then use the cloud to get the Appid function",
@@ -1997,9 +2084,15 @@
         "Upgrade": {
             "menu.checkInProgress.name": "Checking for Update...",
             "menu.restart.name": "&Restart to Update",
-            "menu.checkUpdate.name": "&Check for Updates",
+            "menu.checkUpdate.name": "&Check Update",
             "menu.fallback.name": "&&Fallback Version",
-            "menu.switchToLastest.name": "&&Latest Version"
+            "menu.switchToLastest.name": "&&Latest Version",
+            "msgbox.updataVersion.desc": "切换版本，软件需要重启，大约耗时数秒，您后续可切换成上一个版本",
+            "msgbox.fallbackVersion.desc": "切换版本，软件需要重启，大约耗时数秒，您后续可切换成最新版本",
+            "msgbox.updataVersion.question.title": "确定切换到最新版本？",
+            "button.Cancel.name": "取消(&C)",
+            "buttn.Ok.name": "确定",
+            "msgbox.fallbackVersion.question.title": "确定切换到上一个版本？"
         },
         "UserAuth": {
             "text.sponsor.desc": "{1} [{2}sponsor] {3}"
@@ -2007,7 +2100,9 @@
         "UserAuthWidget": {
             "menu.exitAccount.name": "&&Exit account",
             "button.login.name": "Login",
-            "button.noLogin.name": "Not login"
+            "button.noLogin.name": "Not login",
+            "menu.switchAccount.name": "切换账号",
+            "menu.newAccount.name": "新增账号(&N)"
         },
         "Utils::FileSearch": {
             "text.searchResult.desc": "\n            ",
@@ -2051,7 +2146,8 @@
             "notify.tip.HBuilderXimprovemoreaboutvue": "HBuilderX provides a lot of optimization techniques for vue development.",
             "notify.tip.vueintroduce": "Please click <a style='color:green' href='changelog'> introduction to optimization techniques </a>",
             "notify.tip.notfoundlocalhistoryofthisfile": "Not found local history of this file.",
-            "notify.tip.savefirst": "Can not change encoding, please save this content first."
+            "notify.tip.savefirst": "Can not change encoding, please save this content first.",
+            "projectexplorer.expand.tip": "显示/隐藏项目管理器"
         },
         "ConsoleView": {
             "console.button.rerun.desc": "&Restart",
@@ -2231,7 +2327,29 @@
             "wechatwebdevtools": "Wechat web developer tools",
             "Import &svn folder": "&Import from SVN",
             "Import &git folder": "&Import from git",
-            "Android 11 is not supported at this time.": "Android 11 is not supported at this time."
+            "Android 11 is not supported at this time.": "Android 11 is not supported at this time.",
+            "menu.notfindmobiledevices.desc": "未检测到手机或设备，请稍后重试",
+            "menu.runkuaishouApp.desc": "快手小程序开发者工具(&A)",
+            "menu.stopkuaishouApp.desc": "停止快手小程序开发者工具(&A)",
+            "menu.kuaishouApp.desc": "快手小程序",
+            "menu.runH5UseSSR.desc": "以SSR方式运行H5",
+            "button.runKuaishou.text": "快手开发者工具(&A)",
+            "can not find mobile devices": "未检测到手机或设备，请稍后重试",
+            "run H5 use ssr": "以SSR方式运行H5",
+            "StopKuaiShouApp": "停止快手开发者工具(&A)",
+            "menu.cursorUp.name": "光标向上",
+            "menu.gotoParaDown.name": "光标到下个段落",
+            "menu.cursorPageUp.name": "光标到上一页",
+            "menu.cursorPageDown.name": "光标到下一页",
+            "menu.cursorRight.name": "光标向右",
+            "menu.gotoHomeDirect.name": "光标到行首",
+            "menu.gotoWordPartRight.name": "光标向右一个驼峰单词",
+            "menu.cursorDown.name": "光标向下",
+            "menu.gotoParaUp.name": "光标到上个段落",
+            "menu.gotoLineEndDirect.name": "光标到行尾",
+            "menu.cursorLeft.name": "光标向左",
+            "menu.gotoWordPartLeft.name": "光标向左一个驼峰单词",
+            "menu.showPublishMenu.name": "显示发行菜单(&P)"
         },
         "Workspace": {
             "notify.tip.filesmovedrelateproject": "Files have moved successfully.",
@@ -2288,7 +2406,15 @@
             "notify.tip.imoprtingprojectfromGIT": "Imoprting project from Git.",
             "notify.tip.imoprtprojectsuccess": "Imoprt project succeed.",
             "notify.tip.imoprtprojectfailed": "Imoprt project failed.",
-            "brunch(option)": "Brunch(option)"
+            "brunch(option)": "Brunch(option)",
+            "dialog.label.nullparams.desc": "URL和本地路径不能为空",
+            "dialog.label.invalidpath.desc": "本地路径无效",
+            "dialog.label.invalidurl.desc": "URL无效",
+            "dialog.label.installtortoiseSVNfirst.desc": "SVN插件依赖TortoiseSVN，请先安装该软件",
+            "dialog.label.installtortoiseGITfirst.desc": "Git插件依赖TortoiseGIT，请先安装该软件",
+            "dialog.label.localpathmustbeempty.desc": "本地目录必须为空",
+            "notify.tip.importFromPlugin": "此次导入将使用 [{1}] 插件导入",
+            "path.existWarning": "已经存在相同路径的项目，请选择新的路径或先移除存在的项目。"
         },
         "WorkspaceModel": {
             "statusbar.warning.copyfailed": "Copy failed:",
@@ -2333,7 +2459,16 @@
             "dialog.msgbox.text.commitonlylocalrepository": "Commit only to local repository,",
             "dialog.msgbox.text.pushremoterepository": "Use \"git push\" command to push the commit to remote repository if needed.",
             "msgbox.text.messageisempty": "Message is empty. Please input valid message.",
-            "Commit to repository 失败": "Commit to repository failed"
+            "Commit to repository 失败": "Commit to repository failed",
+            "dialog.label.unknownrepositorytype.desc": "未知的仓库类型",
+            "dialog.label.committo.desc": "提交至：",
+            "dialog.label.multitargetsselected.desc": "（已选择多个目标）",
+            "dialog.label.logmessage.desc": "日志信息：",
+            "dialog.label.changelist.desc": "变更列表（双击文件查看差异，仅支持修改状态的文件）：",
+            "dialog.label.selected.desc": "已选择 <font color=font-color>{1}</font> 个文件,共有 <font color=font-color>{2}</font> 个文件",
+            "dialog.label.check.desc": "选中：",
+            "dialog.label.selectonerecord.desc": "选择一个记录（双击确认）：",
+            "dialog.label.nobranch": "无分支"
         },
         "VerCtrl::LogTableModel": {
             "list.title.version": "Version",
@@ -2373,7 +2508,9 @@
             "dialog.edit.username.placeholdertext": "User Name",
             "dialog.edit.password.placeholdertext": "Password",
             "dialog.lable.nameisnull": "User name is empty",
-            "dialog.lable.passwordisnull": "Password is empty"
+            "dialog.lable.passwordisnull": "Password is empty",
+            "dialog.label.nameisnull": "用户名为空",
+            "dialog.label.passwordisnull": "密码为空"
         },
         "MAC_APPLICATION_MENU": {
             "menu.services.desc": "Services",
@@ -2435,7 +2572,11 @@
             "dialog.msgbox.text.currentaccountnotpurchasedtheplugin": "The current account is not the account that purchased the plug-in. Do you want to continue?",
             "dialog.msgbox.text.trialplugindiffcloudspace": "The service space corresponding to the project {1} you selected is {2}, which is different from the service space {3} bound to the trial plug-in. Are you sure to import the plug-in into this project?",
             "Select Project": "Select Project",
-            "the project appid is empty, please check!": "The appid of the project is empty, please configure the appid in manifest.json."
+            "the project appid is empty, please check!": "The appid of the project is empty, please configure the appid in manifest.json.",
+            "dialog.label.suggest.desc": "建议先在测试服务空间里体验插件，避免对商用系统的数据和存储产生负面影响",
+            "dialog.label.selectauniappProject": "选择一个uni-app项目导入该插件",
+            "dialog.label.nouniappproject": "未找到uni-app项目，请创建一个uni-app项目",
+            "messagebox.nospace.error": "您选择的项目{1}没有绑定服务空间，是否确认把插件导入到该项目？"
         },
         "PluginMarketEditorPart": {
             "editor.title.uniapppluginmanager": "uni-app plugin market"
@@ -2480,7 +2621,13 @@
             "notify.thepluginisdownloading": "Plugin {1} is downloading",
             "notify.thepluginisinstalling": "Plugin {1} is processing",
             "notify.thepluginisuninstalling": "Plugin {1} is uninstalling",
-            "notify.downloadingdependencesoftheplugin": "Downloading dependences of plugin {1}"
+            "notify.downloadingdependencesoftheplugin": "Downloading dependences of plugin {1}",
+            "Plugin %1 install failed, log: %2": "插件[%1]安装失败, 错误日志：%2",
+            "Plugin failure solution:": "插件安装失败解决方案：",
+            "Retry": "重试",
+            "Detail": "详情",
+            "Cancel": "取消",
+            "Plugin %1 install failed. Detail: npm install failed.": "插件【%1】安装失败。原因：npm install 失败。"
         },
         "WelcomeWidget": {
             "menu.newproject.desc": "New Project"
@@ -2503,7 +2650,8 @@
             "msgbox.button.cancel.desc": "&Cancel"
         },
         "ExpandBtnWidget": {
-            "lable.closedproject.desc": "Closed Project"
+            "lable.closedproject.desc": "Closed Project",
+            "label.closedproject.desc": "已关闭项目"
         },
         "VerCtrl::LocalHistoryWidget": {
             "menu.diff.desc": "Local files compare",
@@ -2544,7 +2692,8 @@
             "statusbar.table.title.size": "size",
             "statusbar.table.title.sort:": "Sort:",
             "statusbar.button.table.details.desc": "Details",
-            "statusbar.button.icon.desc": "Big icon"
+            "statusbar.button.icon.desc": "Big icon",
+            "statusbar.label.Byte.desc": "字节"
         },
         "ExplorerNavigationBar": {
             "toolbar.button.searchin.tooltip": "Search",
@@ -2624,7 +2773,8 @@
             "menu.property.desc": "&Properties",
             "menu.newcomponent.desc": "&New Component",
             "menu.newpage.desc": "&New Page",
-            "Drag File": "Drag File"
+            "Drag File": "Drag File",
+            "label.nomatchedsearchpattern.desc": "没有与搜索条件匹配的项"
         },
         "ExplorerItemEdit": {
             "tooltip.filenamecouldnotincludefollowingchar": "File name could not include following char:"
@@ -2798,7 +2948,15 @@
             "Please right click the cloud function directory under the project and select or create a new cloud service space.": "Please click the right-click menu on the cloud function catalog under the project and select or create a new cloud service space.",
             "Coming soon": "Coming soon",
             "The cloud function already has content. Do you want to replace it with the cloud function that will be downloaded?": "The cloud function already has content, do you want to replace it with the cloud function that you will download?",
-            "The common module already has content. Do you want to replace it with the common module that will be downloaded?": "The public module already has content, do you want to replace it with the public module you will download?"
+            "The common module already has content. Do you want to replace it with the common module that will be downloaded?": "The public module already has content, do you want to replace it with the public module you will download?",
+            "text.replaceIfExists.question": "当前云函数已存在是否替换?",
+            "text.replaceIfModuleExists.question": "当前公共模块已存在是否替换?",
+            "notify.createSpaceDone.desc": "请对项目下的云函数目录点右键菜单，选择或新建云服务空间。",
+            "text.downloadAndReplaceFunction.question": "该云函数已经存在内容，你是要用即将下载的云函数替换它吗？",
+            "text.downloadAndReplaceCommModule.question": "该公共模块已经存在内容，你是要用即将下载的公共模块替换它吗？",
+            "skip %1": "跳过%1个文件。",
+            "%1 begins to deploy to %2 cloud space...": "%1 开始上传到%2服务空间...",
+            "Detail": "显示详情"
         },
         "CRequestTaskThread": {
             "console.error.packagejsonparsesfailed.desc": "package.json has syntax error, parses failed.",
@@ -2842,7 +3000,10 @@
             "Open Service": "Open Service",
             "refresh list": "Refresh list",
             "querying ...": "Querying...",
-            "New Cloud Space": "New Cloud Space"
+            "New Cloud Space": "New Cloud Space",
+            "dialog.label.selectdeploypath.desc": "选择要上传的目录：",
+            "dialog.dialog.text": "请选择一个服务空间",
+            "label.goLink.text": "知道了"
         },
         "StaticDeploymentViewPart": {
             "dialog.title.uniCloudstatic.desc": "Web Page Hosting",
@@ -2898,7 +3059,12 @@
             "dialog.checkbox.trialcloudspace.desc": "Trial for Cloud Space.",
             "dialog.button.getverifycode": "Verification Code",
             "dialog.edit.mobilenumber.placeholdertext": "Please input mobile phone number",
-            "dialog.edit.vertifycode.placeholdertext": "Please input verify code"
+            "dialog.edit.vertifycode.placeholdertext": "Please input verify code",
+            "dialog.label.needlogin.desc": "检测到您还未登录，请先登录。",
+            "dialog.label.error.notauthenticate.desc": "当前登录账号还未完成实名认证，无法使用uniCloud服务空间。",
+            "dialog.label.authentication.realnameorusetrialspace.desc": "请先完成<a style=\"color: #4EAB57; font-size: 12px;\" href='auth'> 实名认证 </a>或者使用体验服务空间。",
+            "dialog.label.expire.trialservicespacedetail": "体验服务空间存在时间限制，将在创建后4个小时自动销毁，如在体验服务空间销毁之前完成实名认证，则该服务空间会继续保留。",
+            "dialog.label.next.ifnextauthenticated": "完成实名认证后可继续下一步进行服务空间绑定。"
         },
         "OperateCloudSpacePage": {
             "dialog.groupbox.title.bindselectspace": "Select the space you want to bind",
@@ -2919,7 +3085,13 @@
             "dialog.button.success.desc": "Done",
             "dialog.label.prompt.projectnoresourcedeploy.desc": "The Project do not have resources to deploy.",
             "Init cloud functions on cloudfunctions_init.json": "Initialize cloud function configuration according to cloudfunctions_init.json",
-            "Check cloud function doucment >>": "<a style=\"color: #43C45B; font-size: 12px;\" href='Function'> view >></a>"
+            "Check cloud function doucment >>": "<a style=\"color: #43C45B; font-size: 12px;\" href='Function'> view >></a>",
+            "dialog.label.initDBDetail.name": "包含db_init.json配置的数据项及与数据项同名的DB Schema",
+            "dialog.label.dataBaseDetail.name": ",database下的扩展校验函数",
+            "dialog.label.initscheme.name": "包含database下的DB Schema及扩展校验函数,如果勾选了",
+            "dialog.label.initschemedbinit.name": "db_init.json初始化数据库，扩展校验函数不会重复上传",
+            "dialog.label.checkscheme": "<a style=\"color: #43C45B; font-size: 12px;\" href='DBscheme'>查看>></a>",
+            "dialog.label.deployscheme.name": "部署项目下的DB Schema及扩展校验函数"
         },
         "WebViewEdit": {
             "dialog.panel.tip.openingfile": "Opening file...",
@@ -2927,7 +3099,13 @@
             "dialog.button.save.msgdialog.title.savefailed.": "Save file failed.",
             "dialog.button.save.msgdialog.title.filenotmatcheditor": "The new file doesn't match the current custom editor type.",
             "dialog.button.save.msgdialog.text.selectnewfile": "Please select new file.",
-            "dialog.button.quit.msgdialog.title.notsavefile": "The files below are not saved, the changes will be lost if don't save."
+            "dialog.button.quit.msgdialog.title.notsavefile": "The files below are not saved, the changes will be lost if don't save.",
+            "editor.warningOnUninstallPlugin": "是否自动关闭依赖该插件的自定义编辑器？",
+            "menu.openwith.builtinEditor": "内置编辑器",
+            "menu.configAssociation": "配置编辑器关联...",
+            "Done't Save": "不保存",
+            "Whether to automatically close the custom editor that depends on the plug-in?": "是否自动关闭依赖该插件的自定义编辑器？",
+            "Close all": "关闭所有(&A)"
         },
         "LocalFaskPackJob": {
             "dialog.button.exit.msgbox.text": "Fask pack task is being executed, are you sure to exit and terminate the task ?",
@@ -3016,7 +3194,10 @@
             "dialog.tree.tootip": "Double-click to compare.",
             "dialog.footer.error.nocheckedfile": "No files are checked",
             "dialog.loding.merging.desc": "Merging selected files",
-            "dialog.loding.desc": "Comparing folder"
+            "dialog.loding.desc": "Comparing folder",
+            "dialog.label.willmergefiles.desc": "待合并的文件",
+            "dialog.editor.binaryfile.type.encryptedfile": "加密的文件",
+            "Encrypted file": "加密的文件"
         },
         "BuiltinCef3BrowserImpl": {
             "text.back.name": "&Back",
@@ -3152,7 +3333,10 @@
             "editor.tip.querystopped!": "query has been stopped!",
             "editor.query.uselocalschema": "use local schema",
             "editor.query.useremoteschema": "use remote schema",
-            "editor.radiobutton.remote.tooltip": "show remote schema tips"
+            "editor.radiobutton.remote.tooltip": "show remote schema tips",
+            "console.cmbbox.item.onlydata.desc": "只看data",
+            "console.cmbbox.item.fulldetail.desc": "全部信息",
+            "editor.tip.nospaceid.desc": "检测到项目还未关联云服务空间，请先关联云服务空间后再执行"
         },
         "CSelectUniSpaceDlg": {
             "dialog.button.text.confirm": "confirm",
@@ -3160,7 +3344,14 @@
             "dialog.tip.cloudservicenotopened": "no cloud service",
             "dialog.listdlg.list.title": "support aliyun cloud service only",
             "dialog.listdlg.subtitle": "help",
-            "dialog.msgbox.title.hostingservicenotopened": "the cloud space has not been opened, so generated failed"
+            "dialog.msgbox.title.hostingservicenotopened": "the cloud space has not been opened, so generated failed",
+            "dialog.listdlg.choosedomain": "配置域名",
+            "dialog.radiobutton.defaultdomain.desc": "默认域名(建议用于测试)",
+            "dialog.radiobutton.selfdefinedomain.desc": "自定义域名",
+            "dialog.tip.configureDomainfirst.desc": "请先配置域名后，再点击完成",
+            "dialog.label.setselfdefinedomain.desc": "<a href=\"https://ask.dcloud.net.cn\">去配置</a>",
+            "dialog.label.help.desc": "<a href=\"https://uniapp.dcloud.io/api/plugins/universal-links\">通用链接自动生成指南</a>",
+            "please configure domain": "请先配置域名后，再点击完成"
         },
         "HXSpaceList": {
             "dialog.list.tip.hostingserviceopened": "hosting service opened",
@@ -3170,9 +3361,9 @@
         ":/conf/resources/conf/menus.json": {
             "file.name": "&File",
             "new.name": "&New",
-            "history.name": "&Open history file",
+            "history.name": "Open multi-&window project",
             "importfolder.name": "&Import",
-            "tab.name": "Right indent",
+            "tab.name": "&Tab",
             "workbench.action.files.newuntitledfile.name": "&New tab [Double-click the blank on the right side of the tab]",
             "workbench.action.closeactiveeditor.name": "&Close tab",
             "workbench.action.closerighteditor.name": "&Close the right tab",
@@ -3181,8 +3372,6 @@
             "workbench.action.closealleditors.name": "&Close all tabs",
             "workbench.action.lefttab.name": "&Switch to left tab",
             "workbench.action.righttab.name": "&Switch to right tab",
-            "workbench.action.ctrltab.name": "Switch to the recent tab [Ctrl+Tab]",
-            "workbench.action.alttab.name": "Switch to the recent tab [Alt+Tab]",
             "workbench.action.moveeditorleftingroup.name": "&Move tab to the left",
             "workbench.action.moveeditorrightingroup.name": "&Move tab to the right",
             "workbench.action.openeditoratindex1.name": "&Display the first tab",
@@ -3197,33 +3386,43 @@
             "workbench.action.openeditoratindex0.name": "&Display the end tab",
             "fav.name": "&Favorite",
             "workbench.action.files.openfile.name": "&Open file ...",
-            "workbench.action.files.openfolder.name": "&Import from local directory...",
-            "menu_id.name": "&Convert document line breaks to \n",
+            "workbench.action.files.openfolder.name": "&Open directory ...",
+            "history.name.d": "&Open history file",
+            "workbench.action.reopenclosededitor.name": "&Recover the closed tab",
             "workbench.action.clearhistoryfiles.name": "&Clear the history list",
             "encodings.name": "&Reopen with specified encoding",
-            "save.name": "&Save",
+            "workbench.action.files.save.name": "&Save",
             "workbench.action.files.saveas.name": "&Save as ...",
             "workbench.action.files.saveall.name": "&Save all",
             "historyfolder.name": "&Recover the removed project",
             "workbench.action.clearhistoryprojects.name": "&Clear the history list",
-            "openinexplorer.name": "&Reveal in Finder",
+            "revealfileinos.name": "&Open in external explorer",
+            "revealfileinos.name.d": "&Open the directory where the file is located",
             "revealfileinterminal.name": "Use a command-line window to open the directory",
             "app.action.about.name": "&Exit",
             "edit.name": "&Edit",
             "undo.name": "&Undo",
             "redo.name": "&Redo",
-            "copy.name": "&Copy selection or current line",
+            "editor.action.clipboardcopyaction.name": "&Copy selection or current line",
             "editor.action.clipboardcutaction.name": "&Cut selection or current line",
             "editor.action.swichselectionorline.name": "&Replace letter/selection/line",
             "editor.action.clipboardcopypathaction.name": "&Copy file path",
             "editor.action.clipboardpasteaction.name": "&Paste",
             "editor.action.clipboardpasteashtml.name": "&Paste as HTML",
             "editor.action.clipboardpastefromhistory.name": "&Paste from history",
-            "format.name": "&Reformat the code",
+            "editor.action.format.name": "&Reformat the code",
             "editor.action.joinlines.name": "&Merge into one line",
-            "line.name": "&Select current line or continuous line[Click the line number or three-click the current line]",
+            "editor.action.movelinesupaction.name": "Move Line Up",
             "editor.action.movelinesdownaction.name": "Move Line Down",
             "edit.del.name": "&Delete",
+            "editor.action.deletelines.name": "&Delete line",
+            "deletewordleft.name": "&Left delete word",
+            "deletewordright.name": "&Right delete word",
+            "deletewordpartleft.name": "&Left delete hump word",
+            "deletewordpartright.name": "&Right delete hump word",
+            "deletelineleft.name": "&Delete to start of line",
+            "deletelineright.name": "&Delete to end of line",
+            "editor.action.triggerdeletelineendspace.name": "&Delete blank spaces at the end of the line",
             "edit.insert.name": "&Insert",
             "editor.action.insertlineafter.name": "Insert line down",
             "editor.action.insertlinebefore.name": "Insert line up",
@@ -3232,13 +3431,11 @@
             "editor.action.surroundbylanguage.name": "&Surround(Such as if and other function)",
             "editor.action.unsurroundbylanguage.name": "&Anti-surround",
             "editor.action.bold.name": "&Bold",
-            "editor.action.selectionaddqoute.name": "Add quotation marks and brackets on the 2 side of the selection [selected content directly press the corresponding symbol]",
-            "editor.action.markdownselectionaddsymbols.name": "Add `or ~ or _ on the 2 side of markdown selection area [selected content directly press the corresponding symbol]",
             "edit.comment.name": "&Comment",
-            "editor.action.commentline.name": "&1 Comment line/uncomment",
-            "editor.action.blockcommentline.name": "&2 Block enclosing comment",
-            "editor.action.commentifdef.name": "&3 Conditional compilation ifdef",
-            "editor.action.commentifndef.name": "&4 Conditional compilation ifdef",
+            "editor.action.commentline.name": "&Comment line/uncomment",
+            "editor.action.blockcommentline.name": "&Block surrounding comment",
+            "editor.action.commentifdef.name": "&Conditional compilation ifdef",
+            "editor.action.commentifndef.name": "&Conditional compilation ifndef",
             "edit.order.name": "&Beginning list symbol",
             "editor.action.orderlistsymbols.name": "&Ordered list symbol",
             "editor.action.unorderlistsymbolsbyminus.name": "&- Unordered list symbol",
@@ -3248,7 +3445,11 @@
             "editor.action.taskfinishlistsymbols.name": "&Finished task list symbol",
             "editor.action.quotelistsymbols.name": "&Quote list symbol",
             "change.file.tail.format.name": "&End-of-line to the newline symbol",
+            "editor.action.windows.name": "&Convert document line breaks to \\r\\n",
+            "editor.action.macos.name": "&Convert document line breaks to \\r",
+            "editor.action.unix.name": "&Convert document line breaks to \\n",
             "edit.indent.name": "&Indent",
+            "tab.name.d": "Right indent",
             "outdent.name": "Left indent",
             "edit.transform.name": "&Transform",
             "editor.action.transformtouppercase.name": "&Transfrom to uppercase",
@@ -3256,7 +3457,7 @@
             "editor.action.transformtotitlecase.name": "&Transform initial caps",
             "editor.action.triggersuggest.name": "&Active code assistant",
             "select.name": "&Select",
-            "selectall.name": "&Select all",
+            "editor.action.selectall.name": "&Select all",
             "select.system.name": "&System selection",
             "cursorleftselect.name": "&Select left",
             "cursorrightselect.name": "&Select right",
@@ -3276,56 +3477,38 @@
             "cursorpagedownselect.name": "Select to page down",
             "cursortopselect.name": "Select to top of page Ctrl+Shift+Home",
             "cursorbottomselect.name": "Select to end of page Ctrl+Shift+End",
-            "area.name": "&Expand selection",
+            "editor.action.expandselection.name": "&Expand selection",
             "editor.action.expandselectiontwosides.name": "Expand selection to both sides",
             "editor.action.narrowselectiontwosides.name": "Reduce Selection from both sides inward",
-            "word.name": "&Select current word or the next same word",
+            "editor.action.addselectiontonextfindmatch.name": "&Select current word or the next same word",
             "editor.action.selectallsameword.name": "&Select All The Same Words",
             "editor.action.selectsamewordbylan.name": "&Select The Same Grammatical Words or Matching Symbols",
             "editor.action.skipselectionandselectnext.name": "&Skip Current Selection and Select The Next Same Word",
+            "expandlineselection.name": "&Select current line or continuous line[Click the line number or three-click the current line]",
             "editor.action.selectlinenoblankstr.name": "&Select the current line (excluding blank characters at the beginning and end) [Double-click the end of the line]",
             "editor.action.selectmatchbracket.name": "&Select inside the brackets [Double-click inside the brackets, press Alt to select the outside brackets]",
             "editor.action.selectmatchquote.name": "&Select inside the quotation mark  [double click the inside of the quotation mark, press Alt to select the outside of the quotation mark]",
-            "editor.action.selectrelationwords.name": "Select connected words [double-click -, _,. and other hyphens]",
             "editor.action.selectfold.name": "&Select Folding Area[Double-click the left side of the first character of the folded line]",
             "editor.action.selectsameindentationline.name": "Select the same indented line [Double-click the blank character at the beginning of the line]",
-            "editor.action.selectlistrange.name": "Select the list area [double click the list symbol]",
             "select.partition.name": "&Select Specific Grammar Area",
-            "selection.partition.selecthtmltag.name": "Select Html Tag [Double-click the beginning of the tag <left or end> right]",
-            "selection.partition.selecthtmlproperties.name": "Select Html attribute [Double-click the attribute assignment equal sign =]",
-            "selection.partition.selectiffunction.name": "Select the encircled area such as if, funtion, etc. [Double-click the keyword with the mouse, if you only select the word, double-click the right side of the word]",
-            "selection.partition.selectjssemicolon.name": "Choose js and other languages; paragraph before the semicolon [double click the semicolon]",
-            "selection.partition.selectcssclass.name": "Select Css Class [Double-click Left Side of the Class]",
-            "selection.partition.selectvarbycomma.name": "Select a Comma-separated Array or Function Parameters or Define Variables [Double-click Left or Right Side of The Comma]",
-            "selection.partition.selectcomments.name": "Select the comment area [Double-click the comment symbol]",
-            "selection.partition.selectmarkdownsections.name": "&Select markdown title paragraph[Double-click #]",
-            "selection.partition.selectmarkdownsymbols.name": "Select markdown pictures, hyperlinks, bold, italic, code and other syntax areas [double-click the beginning of the syntax delimiter]",
-            "colum.name": "Select to up column",
+            "editor.action.insertcursorabove.name": "Select to up column",
             "editor.action.insertcursorbelow.name": "Select to down colunm",
-            "editor.atlmouseleftselection.name": "[Alt+left mouse button to drag and select as column selection]",
-            "editor.ctrlmouseleftselection.name": "【Ctrl+left mouse button drag selection as column selection】",
-            "editor.ctrlmouseleftcolumn.name": "【Ctrl+Left mouse button drag selection as column selection】",
-            "0_cursor.name": "Add cursors on both sides of the selection",
+            "editor.action.setcursorsurroundsel.name": "Add cursors on both sides of the selection",
             "editor.action.setcursoreachline.name": "Add cursor at the start of each line",
             "editor.action.undoselection.name": "Cancel previous selection or cursor",
             "1_cursor.name": "[Ctrl+Left mouse button to add cursor/selection]",
-            "editor.ctrlmouserightdelete.name": "[Ctrl+Right mouse button to delete cursor/selection]",
-            "editor.ctrldoubleleft.name": "[Ctrl+Left mouse button to drag or double-click to add multiple selection]",
-            "editor.altleftaddcursor.name": "[Alt+Left mouse button to add cursor/selection]",
-            "editor.altrightdeletecursor.name": "[Alt+Right mouse button to delete cursor/selection]",
-            "editor.altleftaddmultipleselection.name": "[Alt+Left mouse button to drag or double-click to add multiple selection]",
-            "editor.commandleftaddcursor.name": "[Command+Left mouse button to drag or double-click to add multiple selection]",
-            "editor.commandrightdeletecursor.name": "[Command+Right mouse button to delete cursor/selection]",
-            "edit.toggle.multicursormodifier.name": "Switch to \"Command+Click\" to Insert Multi-cursor",
+            "edit.toggle.multicursormodifier.name": "Switch to \"Alt+Click\" to insert multi-cursor",
+            "edit.toggle.multicursormodifier.name.d": "Switch to \"Ctrl+Click\" to insert multi-cursor",
+            "edit.toggle.multicursormodifier.name.d.d": "Switch to \"Command+Click\" to Insert Multi-cursor",
             "find.name": "&Search",
-            "findfile.name": "&Find file",
-            "findword.name": "&Find word (Current file)",
+            "workbench.action.quickopen.name": "&Find file",
+            "actions.find.name": "&Find word (Current file)",
             "workbench.action.findinfiles.name": "&Find character(files)",
             "editor.action.startfindreplaceaction.name": "&Replace",
-            "editor.action.nextselectionmatchfindaction.name": "&Goto next search result",
+            "editor.action.nextselectionmatchfindaction.name": "&Find next of selected words",
             "editor.action.previousselectionmatchfindaction.name": "&Find previous of selected words",
-            "findsymbol.name": "&Find index symbol(Current File)",
-            "goto.name": "&Go to definition[Alt+onclick]",
+            "actions.quickfind.name": "&Find index symbol(Current File)",
+            "goto.name": "&Goto",
             "system_goto.name": "&System Goto",
             "cursorleft.name": "Cursor left",
             "cursordown.name": "Cursor down",
@@ -3347,14 +3530,16 @@
             "cursorbottom.name": "Cursor to page end",
             "workbench.action.navigateback.name": "&Back previous position",
             "workbench.action.navigateforward.name": "&Foward next position",
-            "line_goto.name": "&Goto Line",
+            "workbench.action.gotoline.name": "&Goto Line",
             "editor.action.jumptobracket.name": "&Goto matching bracket",
             "goto.bookmark.name": "&Bookmark",
             "workbench.action.togglebookmark.name": "&Set/Cancel bookmark",
-            "workbench.action.nextbookmark.name": "&Goto next bookmark",
+            "workbench.action.nextbookmark.name": "&Next bookmark",
             "workbench.action.prevbookmark.name": "&Previous bookmark",
             "workbench.action.clearbookmarks.name": "&Clear All Bookmarks",
             "goto.scrollbar.name": "&Scroll bar",
+            "workbench.action.nextbookmark.name.d": "&Goto next bookmark",
+            "editor.action.nextselectionmatchfindaction.name.d": "&Goto next search result",
             "workbench.action.nexterror.name": "&Goto next syntax error",
             "goto.folding.name": "&Fold",
             "workbench.action.foldlinecontract.name": "&Fold",
@@ -3364,9 +3549,11 @@
             "workbench.action.foldallcontract.name": "&Fold all",
             "workbench.action.foldallexpand.name": "&Expand all",
             "workbench.action.foldcontractother.name": "&Fold region",
-            "define_goto.name": "&Goto definition[Alt+Click]",
-            "workbench.action.gotodefinition.name": "&Go to definition[ctrl+onclick]",
-            "workbench.action.gotodefinitionwithpane.name": "&Goto definition to column[Command+Alt+Click]",
+            "workbench.action.gotodefinition.name": "&Goto definition[Alt+Click]",
+            "workbench.action.gotodefinition.name.d": "&Goto definition[Ctrl+Click]",
+            "workbench.action.gotodefinition.name.d.d": "&Goto definition[Command+Click]",
+            "workbench.action.gotodefinitionwithpane.name": "&Goto definition to column[Ctrl+Alt+Click]",
+            "workbench.action.gotodefinitionwithpane.name.d": "&Goto definition to column[Command+Alt+Click]",
             "run.name": "&Run",
             "publish.name": "&Publish",
             "project.action.app.pack.name": "&Native App - Cloud Packing",
@@ -3376,25 +3563,25 @@
             "workbench.action.openandroidpackageguide.name": "&Local packing guide for Android...",
             "workbench.action.openiospackageguide.name": "&Local packing guide for IOS...",
             "project.action.app.export.wgt.app.name": "&Native App - export wgt App",
-            "project.action.app.publish.weapp.name": "&3 Release to Wechat mini-program",
-            "project.action.app.publish.baiduapp.name": "&4 Release to Baidu mini-program",
-            "project.action.app.publish.alipayapp.name": "&5 Release to ALiPay mini-program",
+            "project.action.app.publish.weapp.name": "&Mini-program - WeChat(For uni-app Only)",
+            "project.action.app.publish.baiduapp.name": "&Mini-program - BaiDu(For uni-app Only)",
+            "project.action.app.publish.alipayapp.name": "&Mini-program - AliPay(For uni-app Only)",
             "project.action.app.publish.bytedanceapp.name": "&Mini-program - ByteDance(For uni-app Only)",
             "project.action.app.publish.qqapp.name": "&Mini-program - QQ(For uni-app Only)",
-            "project.action.app.publish.360app.name": "&6 Release to 360 appstore",
-            "project.action.app.publish.huaweiapp.name": "&7 Release to Huawei appstore",
-            "project.action.app.publish.quickappunion.name": "&8 Release to quickappunion",
-            "project.action.app.publish.html5.name": "&2 Create H5 website",
+            "project.action.app.publish.360app.name": "&Mini-program - 360(For uni-app Only)",
+            "project.action.app.publish.huaweiapp.name": "&QuickApp - HuaWei(For uni-app Only)",
+            "project.action.app.publish.quickappunion.name": "&Quickapp - Union(For uni-app Only)",
+            "project.action.app.publish.html5.name": "&Web - H5 For Cell Phone(For uni-app Only)",
             "publish.custom.name": "&Custom Publish",
             "project.action.app.publish.app.name": "&Generate unified publishing page",
             "project.action.app.publish.statichosting.name": "&Upload website to server",
             "project.action.view.statichosting.name": "&View the server site file",
             "view.name": "&View",
             "workbench.action.minimize.name": "&Minimize",
-            "min_window.name": "&New HBuilder window",
+            "workbench.action.newwindow.name": "&New HBuilder window",
             "workbench.action.puremode.name": "&Switch to pure mode [Double-click Tab]",
             "workbench.action.distancefreemode.name": "&Switch to no disturb mode",
-            "focus_editor.name": "&Forcus Editor",
+            "workbench.action.focuseditor.name": "&Forcus Editor",
             "workbench.view.explorer.name": "&Forcus to Porject Explorer",
             "workbench.action.togglesidebarvisibility.name": "&Show left view",
             "editor.action.triggeroutline.name": "&Show document struction",
@@ -3407,7 +3594,7 @@
             "workbench.action.toggleremotedebug.name": "&Show webview debug console",
             "workbench.action.toggleunicloudview.name": "&Show front-end web hosting",
             "workbench.action.showextensionview.name": "&Show extension plugin view",
-            "show_lineno.name": "&Show line number",
+            "editor.action.togglerenderlinenumber.name": "&Show line number",
             "editor.action.togglerenderindentreference.name": "&Show indentation",
             "editor.action.togglerenderwhitespace.name": "&Displays whitespace characters when highlighted",
             "editor.action.togglewordwrap.name": "&Word Wrap",
@@ -3421,17 +3608,11 @@
             "workbench.action.prevpane.name": "&Focus left column",
             "workbench.action.nextpane.name": "&Focus Right column",
             "scroll.name": "Scroll",
-            "scroll.toleft.name": "Scroll left [Alt+Scroll Up]",
-            "scroll.toright.name": "Scroll right [Alt+Scroll Down]",
-            "scroll.uppage.name": "Scroll up one screen [Shift+Scroll Down]",
-            "scroll.downpage.name": "Scroll down one screen [Shift+Scroll Down]",
-            "scroll.toleftpage.name": "Scroll left one screen [Ctrl+Alt+Scroll Up]",
-            "scroll.torightpage.name": "Scroll right one screen [Ctrl+Alt+Scroll Down]",
-            "plus_font.name": "&Increase front size [Ctrl+Scroll Up]",
+            "workbench.action.zoomin.name": "&Increase front size [Ctrl+Scroll Up]",
             "workbench.action.zoomout.name": "&Decrease front size [Ctrl+Scroll Down]",
             "tool.name": "&Tool",
             "workbench.action.openglobalsettings.name": "&Settings",
-            "shortcuts.name": "&Custom keybindings",
+            "workbench.action.openglobalkeybindings.name": "&Custom keybindings",
             "tool.keybindingsswitch.name": "&Keybindings switch",
             "snippets.name": "&Snippets Setting",
             "workbench.action.newsnippet.name": "&Customize other language snippets...",
@@ -3444,7 +3625,7 @@
             "ext_settings.name": "&External command plug-in setting",
             "update.openplugindialog.name": "&Plug-in installation",
             "help.name": "&Help",
-            "documents.name": "&Introductory tutorial...",
+            "workbench.action.opentutorial.name": "&Introductory tutorial...",
             "workbench.action.openmarkdownhelp.name": "&Markdown Help",
             "workbench.action.openusercenter.name": "&Developer cloud console...",
             "workbench.action.openwish.name": "&Requirments wall...",
@@ -3452,25 +3633,79 @@
             "workbench.action.openforum.name": "&DCloud forums ...",
             "workbench.action.openlog.name": "&View running logs",
             "update.showcurrentreleasenotes.name": "&Release Notes",
-            "license.name": "Licence",
+            "workbench.action.openlicense.name": "Licence",
             "workbench.action.openreadme.name": "ReadMe",
             "workbench.action.opensponsor.name": "&Sponsor us...",
             "app.action.quit.name": "&About...",
             "__hbuilder.native.action.code.test.name": "Test only",
+            "workbench.action.gotodefinition.name.d.d.d": "&Go to definition[Alt+onclick]",
+            "workbench.action.gotodefinition.name.d.d.d.d": "&Go to definition[ctrl+onclick]",
             "z_commands.name": "&External commands",
             "import.svn.name": "&Import from SVN...",
             "import.git.name": "&Import from Git...",
+            "workbench.action.files.openfolder.name.d": "&Import from local directory...",
             "cloud.function.upload.deploy.name": "&0 Upload and deploy cloud functions",
             "unicloud.dbschemaupload.name": "&0 Upload data collection Schema",
             "unicloud.clientdbactionsuploadselected.name": "&0 Upload action",
             "unicloud.uploadvalidationfile.name": "&0 Upload database extension verification function",
-            "apppack.name": "&1 App cloud packaging"
+            "project.action.app.pack.name.d": "&1 App cloud packaging",
+            "project.action.app.publish.html5.name.d": "&2 Create H5 website",
+            "project.action.app.publish.weapp.name.d": "&3 Release to Wechat mini-program",
+            "project.action.app.publish.baiduapp.name.d": "&4 Release to Baidu mini-program",
+            "project.action.app.publish.alipayapp.name.d": "&5 Release to ALiPay mini-program",
+            "project.action.app.publish.360app.name.d": "&6 Release to 360 appstore",
+            "project.action.app.publish.huaweiapp.name.d": "&7 Release to Huawei appstore",
+            "project.action.app.publish.quickappunion.name.d": "&8 Release to quickappunion",
+            "editor.action.commentline.name.d": "&1 Comment line/uncomment",
+            "editor.action.blockcommentline.name.d": "&2 Block enclosing comment",
+            "editor.action.commentifdef.name.d": "&3 Conditional compilation ifdef",
+            "editor.action.commentifndef.name.d": "&4 Conditional compilation ifdef",
+            "workbench.switchtab.ctrl": "Switch to the recent tab [Ctrl+Tab]",
+            "workbench.switchtab.alt": "Switch to the recent tab [Alt+Tab]",
+            "editor.append.qoute": "Add quotation marks and brackets on the 2 side of the selection [selected content directly press the corresponding symbol]",
+            "markdown.append.wave": "Add `or ~ or _ on the 2 side of markdown selection area [selected content directly press the corresponding symbol]",
+            "editor.selectconnectword": "Select connected words [double-click -, _,. and other hyphens]",
+            "editor.selectlistzone": "Select the list area [double click the list symbol]",
+            "select.html.tag.right": "Select Html Tag [Double-click the beginning of the tag <left or end> right]",
+            "select.html.properties": "Select Html attribute [Double-click the attribute assignment equal sign =]",
+            "select.cover.iforfunction": "Select the encircled area such as if, funtion, etc. [Double-click the keyword with the mouse, if you only select the word, double-click the right side of the word]",
+            "select.paragraph.js": "Choose js and other languages; paragraph before the semicolon [double click the semicolon]",
+            "select.class.css": "Select Css Class [Double-click Left Side of the Class]",
+            "select.array.bycomma": "Select a Comma-separated Array or Function Parameters or Define Variables [Double-click Left or Right Side of The Comma]",
+            "select.comment.zone": "Select the comment area [Double-click the comment symbol]",
+            "select.markdown.paragraph": "&Select markdown title paragraph[Double-click #]",
+            "select.markdown.syntax.zone": "Select markdown pictures, hyperlinks, bold, italic, code and other syntax areas [double-click the beginning of the syntax delimiter]",
+            "editor.drag.mouseleft.alt.forcolumnselection": "[Alt+left mouse button to drag and select as column selection]",
+            "editor.drag.mouseleft.ctrl.forcolumnselection": "【Ctrl+left mouse button drag selection as column selection】",
+            "editor.drag.mouseleft.ctrl.forcolumnselection.d": "【Ctrl+Left mouse button drag selection as column selection】",
+            "editor.mouseright.ctrl.delete.cursorselection": "[Ctrl+Right mouse button to delete cursor/selection]",
+            "editor.mouseleft.drag.addselection": "[Ctrl+Left mouse button to drag or double-click to add multiple selection]",
+            "editor.mouseleft.alt.delete.cursorselection": "[Alt+Left mouse button to add cursor/selection]",
+            "editor.mouseright.alt.delete.cursorselection": "[Alt+Right mouse button to delete cursor/selection]",
+            "editor.mouseleft.alt.addselection": "[Alt+Left mouse button to drag or double-click to add multiple selection]",
+            "editor.mouseleft.command.addselection": "[Command+Left mouse button to add cursor/selection]",
+            "editor.mouseright.command.addselection": "[Command+Right mouse button to delete cursor/selection]",
+            "editor.mouseleft.command.drag.addselection": "[Command+Left mouse button to drag or double-click to add multiple selection]",
+            "scroll.toleft.alt.wheel.up": "Scroll left [Alt+Scroll Up]",
+            "scroll.toright.alt.wheel.down": "Scroll right [Alt+Scroll Down]",
+            "scroll.uppage.shift.wheel.up": "Scroll up one screen [Shift+Scroll Down]",
+            "scroll.downpage.shift.wheel.down": "Scroll down one screen [Shift+Scroll Down]",
+            "scroll.toleftpage.ctrl.alt.wheel.up": "Scroll left one screen [Ctrl+Alt+Scroll Up]",
+            "scroll.torightpage.ctrl.alt.wheel.down": "Scroll right one screen [Ctrl+Alt+Scroll Down]",
+            "actions.findinregion.name": "区域内搜索(当前文件)(&I)",
+            "project.action.app.publish.kuaishouapp.name": "小程序-快手(仅适用于uni-app)(&J)"
         },
         ":/conf/resources/conf/settings.json": {
             "editor.fontfmychs": "Microsoft Yahei Light",
-            "mac:editor.fontfmychs": "Chinese fine black"
+            "mac:editor.fontfmychs": "Chinese fine black",
+            "editor.foldedcodeexpandmode": "部分展开",
+            "editor.autohandoffchinesepunctuation.css.characters": "：“”；‘’，。》【】！￥（）、",
+            "editor.contentassistselectionmode": "Alt+数字模式",
+            "editor.autohandoffchinesepunctuation.javascript.characters": "：“”；‘’，。《》？【】！￥（）、",
+            "editor.autohandoffchinesepunctuation.json.characters": "：“”‘’，【】",
+            "editor.autohandoffchinesepunctuation.html.characters": "：“”；‘’，。《》【】！￥（）、"
         },
-        ":/conf/resources/conf/setting-schema.json": {
+        ":/conf/resources/conf/settings-schema.json": {
             "title": "Common configuration",
             "description": "",
             "properties.editor.fontsize.title": "The editor font size",
@@ -3624,25 +3859,34 @@
             "properties.node.path.title": "node path",
             "properties.node.path.description": "node executable program path",
             "properties.extensions.title": "Plugin configuration",
-            "properties.extensions.description": "Installed plug-in extension configuration"
+            "properties.extensions.description": "Installed plug-in extension configuration",
+            "properties.editor.foldedcodeexpandmode.description": "对已折叠的代码展开的方式",
+            "properties.editor.foldedcodeexpandmode.title": "代码展开方式",
+            "properties.editor.contentassistselectionmode.title": "代码提示选择模式",
+            "properties.editor.matcheschars.enable.title": "启用自动匹配字符功能",
+            "properties.editor.contentassistselectionmode.description": "应用代码提示中某一项的快捷选择方式",
+            "properties.editor.wordwrapmode.title": "选择自动换行方式",
+            "properties.editor.wordwrapmode.description": "需要开启自动换行后该设置才会生效",
+            "properties.kuaishouapp.devtools.path.title": "快手小程序开发者工具路径",
+            "properties.kuaishouapp.devtools.path.description": "快手小程序开发者工具可执行程序，如未安装请到<a style='color:#298bdb' href='https://mp.kuaishou.com/docs/develop/developerTools/downloadPath.html'>https://mp.kuaishou.com/docs/develop/developerTools/downloadPath.html</a>下载"
         },
         ":/conf/resources/conf/settings-uiconfig.json": {
-            "editorŋwordwrap.title": "Editor configuration",
-            "editorŋwordwrap.description": "Editor related configuration",
-            "adbŋpath.title": "Mobile/emulator running configuration",
-            "adbŋpath.description": "",
-            "localhistoryŋfileŋmaxbackupcount.title": "Local history",
-            "localhistoryŋfileŋmaxbackupcount.description": "When the file is saved, it is backed up locally. You can view the backed up file through \"local history\"",
-            "nodeŋrunŋmemoryparam.title": "uni-app running configuration",
-            "nodeŋrunŋmemoryparam.description": "",
-            "weappŋdevtoolsŋpath.title": "Mini program running configuration",
-            "weappŋdevtoolsŋpath.description": "uni-app depends on the small program developer tool, and the installation directory of the small program development tool needs to be specified",
-            "cloudŋruninlocalŋtimeout.title": "Cloud function local running configuration",
-            "cloudŋruninlocalŋtimeout.description": " ",
-            "terminalŋtype.title": "node running configuration",
-            "terminalŋtype.description": " "
+            "editor.wordwrap.title": "Editor configuration",
+            "editor.wordwrap.description": "Editor related configuration",
+            "adb.path.title": "Mobile/emulator running configuration",
+            "adb.path.description": "",
+            "localhistory.file.maxbackupcount.title": "Local history",
+            "localhistory.file.maxbackupcount.description": "When the file is saved, it is backed up locally. You can view the backed up file through \"local history\"",
+            "node.run.memoryparam.title": "uni-app running configuration",
+            "node.run.memoryparam.description": "",
+            "weapp.devtools.path.title": "Mini program running configuration",
+            "weapp.devtools.path.description": "uni-app depends on the small program developer tool, and the installation directory of the small program development tool needs to be specified",
+            "cloud.runinlocal.timeout.title": "Cloud function local running configuration",
+            "cloud.runinlocal.timeout.description": " ",
+            "terminal.type.title": "node running configuration",
+            "terminal.type.description": " "
         },
-        ":config/app-manifest-schema.json": {
+        ":/config/app-manifest-schema.json": {
             "title": "Basic configuration ",
             "description": "<a style='color:#298bdb' href='http://ask.dcloud.net.cn/article/94'>Configuration guide</a>",
             "properties.id.title": "Application ID (AppID)",
@@ -3992,9 +4236,12 @@
             "properties.plus.properties.distribute.properties.apple.properties.uibackgroundmodes.title": "Background operation capability",
             "properties.plus.properties.distribute.properties.apple.properties.uibackgroundmodes.description": "Play music (audio), location (location) and other functions in the background of the application, multiple use',' to separate, for example: audio, location; <a style='color:#298bdb' href='https://ask.dcloud .net.cn/article/42'>Reference documents</a>",
             "properties.plus.properties.distribute.properties.apple.properties.idfa.title": "Use advertising logo (IDFA)",
-            "properties.plus.properties.distribute.properties.apple.properties.idfa.description": "<a style='color:#298bdb' href='https://ask.dcloud.net.cn/article/36107'>Reference documents</a>"
+            "properties.plus.properties.distribute.properties.apple.properties.idfa.description": "<a style='color:#298bdb' href='https://ask.dcloud.net.cn/article/36107'>Reference documents</a>",
+            "properties.plus.properties.distribute.properties.apple.properties.privacydescription.properties.nsusertrackingusagedescription.title": "跟踪用户的活动(NSUserTrackingUsageDescription)",
+            "properties.plus.properties.distribute.properties.plugins.properties.ad.properties.ks-content.title": "快手内容联盟",
+            "properties.plus.properties.distribute.properties.apple.properties.privacydescription.properties.nsusertrackingusagedescription.description": "iOS14及更高版本"
         },
-        ":config/app-manifest-uiconfig.json": {
+        ":/config/app-manifest-uiconfig.json": {
             "plus.splashscreen.title": "Start interface configuration",
             "plus.splashscreen.description": "Application startup and splash related configuration. Changes to the startup diagram or interface need to take effect after cloud packaging, and it is recommended that the image be stored in the unpackage directory. Local packaging needs to be configured separately in the native project.",
             "permissions.title": "Module configuration",
@@ -4012,7 +4259,7 @@
             "plus.distribute.google.schemes.title": "Android settings",
             "plus.distribute.google.schemes.description": " "
         },
-        ":config/uniapp-manifest-schema.json": {
+        ":/config/uniapp-manifest-schema.json": {
             "title": "Basic configuration",
             "description": "<a style='color:#298bdb' href='http://uniapp.dcloud.io/manifest'>Configuration guide</a>",
             "properties.appid.title": "uni-AppID",
@@ -4406,9 +4653,13 @@
             "properties.quickapp-webview.properties.versionname.title": "App version name",
             "properties.quickapp-webview.properties.versionname.description": "for example：\"1.0\"。",
             "properties.quickapp-webview.properties.versioncode.title": "App version number",
-            "properties.quickapp-webview.properties.versioncode.description": "Increase from 1. Be sure to versionCode+1 every time you re-upload the package, otherwise it will affect the update of the listed version. For example, the original version is 11, and the versionCode of the updated version needs to be 12. Must be an integer."
+            "properties.quickapp-webview.properties.versioncode.description": "Increase from 1. Be sure to versionCode+1 every time you re-upload the package, otherwise it will affect the update of the listed version. For example, the original version is 11, and the versionCode of the updated version needs to be 12. Must be an integer.",
+            "properties.app-plus.properties.distribute.properties.sdkconfigs.properties.ad.properties.bxm-ad.title": "互动游戏(变现猫)",
+            "properties.app-plus.properties.distribute.properties.ios.properties.privacydescription.properties.nsusertrackingusagedescription.title": "跟踪用户的活动(NSUserTrackingUsageDescription)",
+            "properties.app-plus.properties.distribute.properties.sdkconfigs.properties.ad.properties.ks-content.title": "快手内容联盟",
+            "properties.app-plus.properties.distribute.properties.ios.properties.privacydescription.properties.nsusertrackingusagedescription.description": "iOS14及更高版本"
         },
-        ":config/uniapp-manifest-uiconfig.json": {
+        ":/config/uniapp-manifest-uiconfig.json": {
             "app-plus.distribute.icons.title": "App icon configuration",
             "app-plus.splashscreen.title": "App startup interface configuration",
             "app-plus.splashscreen.description": "Application startup and splash cover image related configuration. Changes to the startup diagram or interface need to take effect after cloud packaging. It is recommended that the image be stored in the unpackage directory. Local packaging needs to be configured separately in the native project.",
@@ -4445,7 +4696,154 @@
             "app-plus.distribute.ios.urltypes.title": "iOS settings",
             "app-plus.distribute.ios.urltypes.description": " ",
             "app-plus.distribute.android.schemes.title": "Android settings",
-            "app-plus.distribute.android.schemes.description": " "
+            "app-plus.distribute.android.schemes.description": " ",
+            "mp-kuaishou.title": "快手小程序配置",
+            "mp-kuaishou.description": "<a style='color:#298bdb' href='https://uniapp.dcloud.io/collocation/manifest?id=mp-kuaishou'>配置指南</a>"
+        },
+        ":/unicloud-base/package.json": {
+            "menu.command.unicloud.ClientDBActionDownload.title": "Download uni-clientDB-actions(&D)",
+            "menu.command.unicloud.ClientDBActionsUpload.title": "Upload uni-clientDB-actions(&I)",
+            "menu.command.unicloud.ClientDBActionsUploadSelected": "Upload action(&U)"
+        },
+        "SelectSpaceDialog": {
+            "dialog.dialog.text": "选择云服务空间",
+            "spaceList.text": "注：目前仅支持阿里云云服务空间",
+            "button.ok.text": "确定(&F)",
+            "button.cancel.text": "取消(&C)",
+            "label.footTitle.text": "请选择一个服务空间，选择服务空间后安装包将上传到云存储,",
+            "label.footTitle.des": "上传成功后，控制台将会显示安装包的下载地址"
+        },
+        "PublishDialog": {
+            "dialog.dialog.text": "H5手机版发行",
+            "label.titleName.text": "网站标题",
+            "label.domainName.text": "网站域名",
+            "label.staticdeploy.text": "前端网页托管",
+            "input.pleaseEntersitetile.placeholder": "输入网站标题",
+            "input.pleaseEnterdomainName.placeholder": "输入网站域名",
+            "checkBox.deploy.text": "将编译后的资源部署到",
+            "checkBox.deploy.des": "<a href=\"https://uniapp.dcloud.io/uniCloud/hosting\"><span >[uniCloud-前端网页托管]</span></a>（免费服务器，更快访问速度）",
+            "spaceList.support.text": "云服务空间列表（目前仅支持uniCloud阿里云版）",
+            "button.setting.text": "高级(&S)",
+            "button.publish.text": "发行(&P)",
+            "button.cance.text": "取消(&C)"
+        },
+        "CEX_CMP_MergePages_Dlg": {
+            "dialog.title.mergePages.desc": "合并Pages窗口",
+            "dialog.subtitle.mergePages.desc": "即将在Pages.json注册如下页面",
+            "dialog.label.titleL.desc": "当前所在分包位置",
+            "dialog.label.titleR.desc": "设置分包位置:"
+        },
+        ":/conf/resources/conf/plugins.json": {
+            "mac:launcher.description": "App开发真机运行",
+            "launcher.name": "App真机运行",
+            "git.description": "Git版本管理（依赖TortoiseGit）",
+            "svn.description": "SVN版本管理（依赖TortoiseSVN）",
+            "mac:uniapp-cli.name": "uni-app编译",
+            "builtincef3browser.description": "内置浏览器，支持边改边预览",
+            "mac:builtinbrowser.description": "内置浏览器，支持边改边预览",
+            "mac:uniapp-debugger.name": "uni-app App调试",
+            "mac:svn.description": "SVN版本管理",
+            "mac:uni_modules.name": "uniModules插件",
+            "mac:builtinterminal.name": "内置终端",
+            "mac:unicloud.description": "uniCloud云开发",
+            "uniapp-debugger.name": "uni-app App调试",
+            "mac:uni_modules.description": "uniModules插件",
+            "uniapp-debugger.description": "uni-app的App端调试工具",
+            "mac:git.name": "Git插件",
+            "builtincef3terminal.description": "内置的命令行终端，可在菜单视图中呼出",
+            "unicloud.description": "uniCloud云开发",
+            "uni_modules.description": "uniModules插件",
+            "mac:builtinterminal.description": "内置的命令行终端，可在菜单视图中呼出",
+            "mac:git.description": "Git版本管理",
+            "git.name": "Git插件",
+            "uniapp-cli.description": "uni-app编译到各端的编译器",
+            "mac:unicloud.name": "uniCloud云开发",
+            "mac:builtinbrowser.name": "内置浏览器",
+            "uni_modules.name": "uniModules插件",
+            "builtincef3browser.name": "内置浏览器",
+            "launcher.description": "App开发真机运行",
+            "uniapp-cli.name": "uni-app编译",
+            "builtincef3terminal.name": "内置终端",
+            "unicloud.name": "uniCloud云开发",
+            "mac:launcher.name": "App真机运行",
+            "mac:uniapp-debugger.description": "uni-app的App端调试工具",
+            "mac:uniapp-cli.description": "uni-app编译到各端的编译器",
+            "svn.name": "SVN插件",
+            "mac:svn.name": "SVN插件",
+            "uniapp-cli(vue3).name": "uni-app（vu3）编译",
+            "uniapp-cli(vue3).description": "uni-app编译vue3到各端的编译器",
+            "mac:uniapp-cli(vue3).name": "uni-app（vu3）编译",
+            "mac:uniapp-cli(vue3).description": "uni-app编译vue3到各端的编译器"
+        },
+        ":/i18n/package.json": {
+            "menu.localizations.title": "Switch Language"
+        },
+        ":/app-upgrade-center/package.json": {
+            "app.hx.native.appUpgradeCenterHandler.title": "一键上传到uniCloud（免费cdn、长期稳定）"
+        },
+        ":/config/uniapp-manifest-permission.json": {
+            "statistic.desc": "Statistic(统计)"
+        },
+        ":/vertrans/package.json": {
+            "vertran.migrate.title": "迁移 cloudfunctions 目录(&E)"
+        },
+        ":/markdown-share/package.json": {
+            "markdown-share.share.title": "一键分享(&S)",
+            "markdown-share.share.publish.title": "markdown一键分享(&S)",
+            "markdown-share.share.submenu.title": "&0 markdown一键分享"
+        },
+        ":/unicloudhosting/package.json": {
+            "unicloud.web.publish.title": "查看服务端网页文件(&D)",
+            "launchers.Deploy.label": "上传网站到服务器(&N)"
+        },
+        ":/IPK/package.json": {
+            "IPK.installToMobile.title": "安装到手机"
+        },
+        ":/custom-context-menu/package.json": {
+            "custommenu.openOrCreateMenuJson.title": "自定义右键菜单(&D)..."
+        },
+        ":/dependence/package.json": {
+            "command.commondependence-manager.manager.title": "管理公共模块依赖(&Z)"
+        },
+        "HXWizardDialog": {
+            "button.back.desc": "上一步(&N)",
+            "button.next.desc": "下一步(&N)",
+            "button.commit.desc": "提交(&T)",
+            "button.finish.desc": "完成(&F)",
+            "button.cancel.desc": "取消(&C)"
+        },
+        "GitUserSettingWidget": {
+            "label.userName": "用户名：",
+            "label.userEmail": "电子邮件：",
+            "checkbox.applyToGlobal": "应用到全局用户设置",
+            "checkbox.applyLocal": "仅应用到本地用户设置",
+            "labal.title": "Git用户信息设置",
+            "label.repository": "仓库路径:"
+        },
+        "GitOpeartion": {
+            "label.pickref": "选择要签出的ref",
+            "checkout.status.processing": "正在签出项目[{1}]的[{2}]分支...",
+            "checkout.status.finished": "在项目[{1}]上签出分支完成",
+            "checkout.status.failed": "在项目[{1}]上签出分支失败",
+            "fetch.status.processing": "正在获取项目[{1}]的更新...",
+            "fetch.status.finished": "项目[{1}]的更新获取完成",
+            "fetch.status.failed": "项目[{1}]的更新获取失败",
+            "label.pickPullOption": "选择以下拉取选项",
+            "pull.status.processing": "正在拉取项目[%1]...",
+            "pull.status.finished": "项目[{1}]拉取完成",
+            "pull.status.failed": "项目[{1}]拉取失败",
+            "label.pickPushOption": "选择以下推送选项",
+            "push.forceWarning": "强制推送将覆盖远程分支，确定推送？",
+            "push.status.processing": "正在推送项目[{1}]...",
+            "push.status.finished": "项目[{1}]推送完成",
+            "push.status.failed": "项目[{1}]推送失败"
+        },
+        "QWidgetTextControl": {
+            "label.menu.copylink": "复制链接地址(&L)"
+        },
+        "QPlatformTheme": {
+            "qt.platformtheme.ok": "确定",
+            "qt.platformtheme.cancel": "取消"
         }
     }
 }
