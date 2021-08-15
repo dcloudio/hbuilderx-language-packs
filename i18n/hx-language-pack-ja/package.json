@@ -1,31 +1,29 @@
 {
-	"name": "hx-language-pack-ja",
-	"displayName": "HBuilderX japan language pack",
-	"description": "HBuilderX japan language pack",
-	"version": "0.0.2",
-	"publisher": "HBuilderX",
-	"license": "SEE LICENSE IN LICENSE.md",
-	"engines": {
-		"HBuilderX": "^3.2.0"
-	},
-	"icon": "",
-	"categories": [
-		"Language Packs"
-	],
-	"contributes": {
-		"localizations": [{
-				"languageId": "ja",
-				"languageName": "Japanese",
-				"localizedLanguageName": "Japanese",
-				"translations": [{
-					"id": "hbuilderx",
-					"path": "./main.i18n.ja.json"
-				},{
-					"id": "hbuilderx.nls",
-					"path": "./extensions/ls.i18n.json"
-				}]
-			}
-
-		]
-	}
+    "name": "hx-language-pack-ja",
+    "displayName": "HBuilderX japan language pack",
+    "description": "HBuilderX japan language pack",
+    "version": "0.0.2",
+    "publisher": "HBuilderX",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "engines": {
+        "HBuilderX": "^3.2.0"
+    },
+    "icon": "",
+    "categories": [
+        "Language Packs"
+    ],
+    "contributes": {
+        "localizations": [{
+            "languageId": "ja",
+            "languageName": "Japanese",
+            "localizedLanguageName": "Japanese",
+            "translations": [{
+                "id": "hbuilderx",
+                "path": "./main.i18n.ja.json"
+            }, {
+                "id": "hbuilderx.nls",
+                "path": "./extensions/ls.i18n.json"
+            }]
+        }]
+    }
 }
