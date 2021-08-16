@@ -9,6 +9,7 @@ There are currently 3 languages for HBuilderX.
 |Chinese Simplified	|zh_CN		| hx-language-pack-zh-cn| completed|
 |Chinese Traditional	|zh_CN		| hx-language-pack-zh-cht	| completed|
 |Chinese Traditional（China Taiwan）|zh_TW        | hx-language-pack-zh-tw   | completed|
+|Chinese Traditional（China HK）|zh_HK        | hx-language-pack-zh-hk   | completed|
 |English	|en			|hx-language-pack-en	| completed|
 |Japanese	|ja			|hx-language-pack-ja	|unfinished	|
 

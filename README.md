@@ -9,6 +9,7 @@ HBuilderX目前已有3种本地化语言扩展：
 |简体中文	|zh_CN		| hx-language-pack-zh-cn	| 已完成|
 |繁体中文	|zh_CHT		| hx-language-pack-zh-cht	| 已完成|
 |繁体中文（中国台湾）|zh_TW        | hx-language-pack-zh-tw   | 已完成|
+|繁体中文（中国香港）|zh_HK        | hx-language-pack-zh-hk   | 已完成|
 |英语		|en			|hx-language-pack-en		| 已完成|
 |日语		|ja			|hx-language-pack-ja		|未完成	|
 
