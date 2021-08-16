@@ -3344,9 +3344,9 @@
             "mac:uniapp-cli.description": "uni-app編譯到各端的編譯器",
             "svn.name": "SVN插件",
             "mac:svn.name": "SVN插件",
-            "uniapp-cli(vue3).name": "uni-app（vu3）編譯",
+            "uniapp-cli(vue3).name": "uni-app（vue3）編譯",
             "uniapp-cli(vue3).description": "uni-app編譯vue3到各端的編譯器",
-            "mac:uniapp-cli(vue3).name": "uni-app（vu3）編譯",
+            "mac:uniapp-cli(vue3).name": "uni-app（vue3）編譯",
             "mac:uniapp-cli(vue3).description": "uni-app編譯vue3到各端的編譯器"
         },
         ":/config/app-manifest-schema.json": {
