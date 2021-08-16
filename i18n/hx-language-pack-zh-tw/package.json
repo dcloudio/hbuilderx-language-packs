@@ -1,10 +1,10 @@
 {
     "id": "hx-language-pack-zh-tw",
     "name": "hx-language-pack-zh-tw",
-    "displayName": "HBuilderX繁体中文（中国台湾）语言包",
-    "description": "HBuilderX繁体中文（中国台湾）语言包",
+    "displayName": "HBuilderX繁體中文（中國台灣）語言包",
+    "description": "HBuilderX繁體中文（中國台灣）語言包",
     "version": "1.0.0",
-    "publisher": "wandali",
+    "publisher": "HBuilderX",
     "engines": {
         "HBuilderX": "^3.2.2"
     },
@@ -21,7 +21,7 @@
         "localizations": [{
             "languageId": "zh_TW",
             "languageName": "chinese",
-            "localizedLanguageName": "繁体中文（中国台湾）",
+            "localizedLanguageName": "繁體中文（中國台灣）",
             "translations": [{
                 "id": "hbuilderx",
                 "path": "./main.i18n.json"

@@ -1,6 +1,5 @@
 {
     "version": "1.0.0.20210815",
-    "author": "wandali",
     "contents": {
         ":/unicloud/package.json": {
             "menu.execJQL.name": "執行JQL查詢語句",
