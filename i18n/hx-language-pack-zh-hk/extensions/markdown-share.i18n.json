@@ -1,0 +1,8 @@
+{
+    "version": "1.0.0",
+    "contents": {
+        "package": {
+            "description": "分享markdown至uniCloud前端網站部署服務"
+        }
+    }
+}

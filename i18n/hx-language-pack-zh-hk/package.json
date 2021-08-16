@@ -1,0 +1,31 @@
+{
+    "id": "hx-language-pack-zh-hk",
+    "name": "hx-language-pack-zh-hk",
+    "displayName": "HBuilderX繁體中文（中國香港）語言包",
+    "description": "HBuilderX繁體中文（中國香港）語言包",
+    "version": "1.0.0",
+    "publisher": "HBuilderX",
+    "engines": {
+        "HBuilderX": "^3.2.2"
+    },
+    "categories": [
+        "Language Packs"
+    ],
+    "tips": {
+        "setLanguageMessage": "當前語言已經設置為{1}, 重啟應用程序後",
+        "missingLanguageMessage": "在語言包({2})中沒有找到對應語言({1})",
+        "askChangeLanguageMessage": "當前設置的缺省語言(中文(簡體))與系統語言不同({1})",
+        "changeToButton": "設置與系統語言一致並重啟"
+    },
+    "contributes": {
+        "localizations": [{
+            "languageId": "zh_HK",
+            "languageName": "chinese",
+            "localizedLanguageName": "繁體中文（中國香港）",
+            "translations": [{
+                "id": "hbuilderx",
+                "path": "./main.i18n.json"
+            }]
+        }]
+    }
+}
