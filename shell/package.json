@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "htmlparser2": "^6.1.0",
+    "xml-js": "^1.6.11"
+  },
+  "name": "hx_xml_to_json",
+  "version": "1.0.0",
+  "main": "xmltojson.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dracula",
+  "license": "ISC",
+  "description": ""
+}
