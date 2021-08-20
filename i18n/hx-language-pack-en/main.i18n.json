@@ -931,7 +931,7 @@
             "label.sameNameAlreadyExists.error": "A file with the same name already exists at the location",
             "label.alreadyExistsNotCreated.error": "The project already exists and can not be created repeatedly",
             "label.unableToCreateProject.error": "Unable to create project, please check disk space and directory permissions",
-            "radio.Web.name": "&Ordinary project",
+            "radio.Web.name": "&Web",
             "radio.HBuilderXExtension.name": "HBuilderX Extension(&E)",
             "radio.5+App.name": "5+App(&A)",
             "radio.Wap2App.name": "Wap2App(&P)",
