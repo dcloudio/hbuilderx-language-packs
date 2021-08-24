@@ -30,7 +30,7 @@
     "uniapp_vue.default.name": "default",
     "uniapp_vue.default.description": "uniapp default template",
     "uniapp_vue.hello-uniapp.name": "Hello uni-app",
-    "uniapp_vue.Hello-uni-app.description": "A demo project for uni-app framework (Author: DCloud), <a href='https://ext.dcloud.net.cn/plugin?id=4941'>Details</a>",
+    "uniapp_vue.Hello-uniapp.description": "A demo project for uni-app framework (Author: DCloud), <a href='https://ext.dcloud.net.cn/plugin?id=4941'>Details</a>",
     "uniapp_vue.hello-unicloud.name": "hello-unicloud",
     "uniapp_vue.hello-unicloud.description": "A demo project for uniCloud functions (Author: DCloud), <a href='https://ext.dcloud.net.cn/plugin?id=4082'>Details</a>)",
     "uniapp_vue.uniStarter.name": "uni-starter",
