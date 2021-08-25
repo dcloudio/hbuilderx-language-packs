@@ -304,6 +304,3 @@ export {
     getCssToJsonFromFolderData,
     cssToJsonFromFile
 };
-
-cssToJsonFromFolder('E:/HBwork/node/defs/css');
-cssToJsonFromFile('E:/HBwork/node/defs/css/weex_css.xml');
