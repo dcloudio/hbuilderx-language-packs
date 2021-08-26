@@ -1351,7 +1351,7 @@
 			"menu.mainWindow.showStatusBar.name": "&Show Status Bar",
 			"menu.mainWindow.findFile.name": "&Find File",
 			"menu.mainWindow.toggleComment.name": "&Comment/Uncomment",
-			"menu.mainWindow.showInProjectExplorer.name": "&Show in Project Explorer",
+			"menu.mainWindow.showInProjectExplorer.name": "&Reveal in Project Explorer",
 			"menu.mainWindow.ctrlO.name": "",
 			"menu.mainWindow.closeOtherEditor.name": "&Close Other Editor",
 			"menu.mainWindow.openInExplorerConsole.name": "&Open in Terminal",
