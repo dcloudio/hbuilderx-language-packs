@@ -2116,9 +2116,9 @@
 			"text.sponsor.desc": "{1} [{2}sponsor] {3}"
 		},
 		"UserAuthWidget": {
-			"menu.exitAccount.name": "&&Exit account",
+			"menu.exitAccount.name": "Sign out(&E)",
 			"button.login.name": "Login",
-			"button.noLogin.name": "Not login",
+			"button.noLogin.name": "Not logged in",
 			"menu.switchAccount.name": "Switch account",
 			"menu.newAccount.name": "Add account(&N)"
 		},
