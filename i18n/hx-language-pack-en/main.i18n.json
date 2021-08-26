@@ -2711,7 +2711,7 @@
 			"statusbar.table.title.size": "size",
 			"statusbar.table.title.sort:": "Sort:",
 			"statusbar.button.table.details.desc": "Details",
-			"statusbar.button.icon.desc": "Big icon",
+			"statusbar.button.icon.desc": "Large Icons",
 			"statusbar.label.Byte.desc": "字节"
 		},
 		"ExplorerNavigationBar": {
@@ -2769,7 +2769,7 @@
 			"menu.view.desc": "&View",
 			"menu.sortmode.desc": "&Sort",
 			"menu.detail.desc": "&Detail",
-			"menu.largeicon.desc": "&Big Icon",
+			"menu.largeicon.desc": "&Large Icons",
 			"menu.name.desc": "Name",
 			"menu.lastmodifyyime.desc": "Last Modified Date",
 			"menu.type.desc": "Type",
