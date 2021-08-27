@@ -650,9 +650,12 @@
 			"dialog.commonModule.title.part": "Common module",
 			"textbox.pleaseInputModuleName.placeholder": "Please input a module name",
 			"msgbox.sameNameAlreadyExists.desc.error": "A cloud function with the same name already exists at this location",
-			"***missing pages": "模版中文件遗失",
-			"***no valid parameters in source pages.json": "模版pages.json文件内容有误",
-			"***current template is not a valid one.": "当前模版数据有错误，请调整后再试"
+			"***missing pages": "Files in the template are missing",
+			"***no valid parameters in source pages.json": "The content of the template pages.json file is incorrect",
+			"***current template is not a valid one.": "There is an error in the current template data, please adjust and try again",
+			"checkbox.createdir.title": "Create same name directory",
+			"checkbox.registerpage.title": "Register in pages.json",
+			"label.selectApp.title": "Select the subcontracting of App and Mini Program:"
 		},
 		"FloatImgUI": {
 			"dialog.Form.title": ""

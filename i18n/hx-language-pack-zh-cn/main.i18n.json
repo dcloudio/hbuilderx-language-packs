@@ -675,7 +675,10 @@
             "textbox.pleaseInputFunctionName.placeholder": "请输入函数名称",
             "dialog.commonModule.title.part": "公共模块",
             "textbox.pleaseInputModuleName.placeholder": "请输入公共模块名称",
-            "msgbox.sameNameAlreadyExists.desc.error": "选择的位置下已存在同名的云函数"
+            "msgbox.sameNameAlreadyExists.desc.error": "选择的位置下已存在同名的云函数",
+            "checkbox.createdir.title": "创建同名目录",
+            "checkbox.registerpage.title": "在pages.json中注册",
+            "label.selectApp.title": "选择App和小程序的分包："
         },
         "FloatImgUI": {
             "dialog.Form.title": ""
