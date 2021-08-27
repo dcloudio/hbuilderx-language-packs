@@ -820,6 +820,7 @@
             "button.Close.name": "关闭(&C)",
             "dialog.pluginInstall.title": "插件安装",
             "label.Installed.desc": "已安装",
+            "button.Config.name": "配置",
             "button.Uninstall.name": "卸载",
             "label.Downloading.desc": "正在下载",
             "label.Installing.desc": "正在安装",
