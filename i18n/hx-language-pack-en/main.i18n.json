@@ -1525,7 +1525,7 @@
 			"status.editor.saveImageFailed.desc": "",
 			"menu.mainWindow.undoSelection.name": "Undo Last Selection",
 			"menu.mainWindow.ctrlShiftZ.name": "",
-			"menu.mainWindow.pasteAsHTML.name": "&Paste As HTML",
+			"menu.mainWindow.pasteAsHTML.name": "&Paste as HTML",
 			"menu.mainWindow.ctrlShiftV.name": "",
 			"menu.mainWindow.selectDocumentStart.name": "",
 			"menu.mainWindow.selectDocumentEnd.name": "",
