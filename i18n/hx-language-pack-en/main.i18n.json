@@ -1366,7 +1366,7 @@
 			"menu.language.others.name": "&Others",
 			"menu.language.languageSetting.name": "&Custom Language Association...",
 			"label.editor.customSnippets.name": "&Snippet Setting",
-			"menu.mainWindow.snippet.name": "&Snippet Setting",
+			"menu.mainWindow.snippet.name": " Snippet",
 			"text.snippet.triggerChar.desc": "Trigger char:",
 			"status.autoComplete.pressAlt.desc": "Press Alt+Number to Insert the Corresponding Item. Click Alt to Switch Insert Mode.",
 			"status.autoComplete.pressAltPlusNum.desc": "Press the Number to Insert the Corresponding Item. Click Alt to Switch Insert Mode.",
