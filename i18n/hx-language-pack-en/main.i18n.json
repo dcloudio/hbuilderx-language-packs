@@ -92,7 +92,7 @@
 			"label.insertAdvanceadSDK.desc": "Insert advance ad sdk ({1}):",
 			"label.plusAdDocument.link": "<a href='https://www.html5plus.org/doc/zh_cn/ad.html'>plus.ad document </a>",
 			"label.adComponentDocument.link": "<a href='https://uniapp.dcloud.io/component/ad'>AD Component document </a>",
-			"label.encourageVedioDocument.link": "、<a href='https://uniapp.dcloud.io/api/a-d/rewarded-video'> Encourage vedio document </a>",
+			"label.encourageVedioDocument.link": "<a href='https://uniapp.dcloud.io/api/a-d/rewarded-video'>Encourage vedio document</a>",
 			"label.openBaseAds.desc": "Open base ads:",
 			"label.joinuniAD.desc.link": "Join uni-AD network to help your app cash in. <a href='https://uniad.dcloud.net.cn/'>[Click here to learn more]</a><a href='https://ask.dcloud.net.cn/article/36769'> [How to open?] </a>",
 			"label.moreAdsMoreProfit.desc": "The more advertisements you open, the higher the profit",
@@ -146,7 +146,7 @@
 			"checkbox.ksads.name": "KuaiShou ads",
 			"checkbox.csjads.name": "ChuanShanJia ads",
 			"checkbox.kscontent.name": "ks content",
-			"groupbox.nativeConfusion.title": "原native confusion",
+			"groupbox.nativeConfusion.title": "Native confusion",
 			"label.moreSettings.link": "<a href='EXCHANGE'>[more setting]</a>",
 			"msgbox.serverBusyPleaseLater.desc.error": "Cloud server is busy, please try again later",
 			"msgbox.NetworkErrorCheckSettings.desc.error": "Network connection failed, please check network status and system proxy settings",
@@ -193,14 +193,14 @@
 			"msgbox.dependOnSafePackaging.desc.question": "Safe pack mode need plugin app-safe-pack do you want install?",
 			"msgbox.installPluginFirst.desc.info": "safe pack mode need plugin {1},Please install the plug-in first",
 			"msgbox.resultFromServer.title": "Packaging check",
-			"radio.cloudCertificate.name": "使用云端证书",
-			"label.insertEncourageSDK.desc": "集成激励视频({1})：",
-			"checkbox.bxmcontent.name": "互动游戏(变现猫)",
-			"msgbox.customBase.title": "自定义基座版本和上次版本相同，将会导致运行到手机时不会自动更新基座（建议先修改版本号），确定是否继续打包？",
-			"wechat.login.payment.sharing.same.text": "微信登录、微信支付、微信分享的UniversalLinks不一致",
-			"android.googleplay.aab.text": "Android平台GooglePlay渠道使用Android App Bundle(AAB)格式暂不支持安心打包 {1}，GooglePlay渠道包将使用传统打包模式提交云端打包，是否继续？",
-			"qq.login.sharing.ulink.text ": "QQ登录、QQ分享的UniversalLinks不一致",
-			"sina.weibo.login.sharing.same.text": "新浪微博登录、新浪微博分享的UniversalLinks不一致"
+			"radio.cloudCertificate.name": "Use Cloud certificate",
+			"label.insertEncourageSDK.desc": "Integrated rewarded video({1})：",
+			"checkbox.bxmcontent.name": "Interactive games (realizing cats)",
+			"msgbox.customBase.title": "The customized dock version is the same as the last version, which will cause the dock not to be automatically updated when running on the phone (it is recommended to modify the version number first). Are you sure you want to continue packaging?",
+			"wechat.login.payment.sharing.same.text": "The UniversalLinks of WeChat login, WeChat payment, and WeChat sharing are inconsistent",
+			"android.googleplay.aab.text": "The Android App Bundle (AAB) format used in the Android platform GooglePlay channel does not currently support safe packaging {1}. The GooglePlay channel package will be submitted to the cloud using the traditional packaging mode. Do you want to continue?",
+			"qq.login.sharing.ulink.text ": "The UniversalLinks of QQ login and QQ sharing are inconsistent",
+			"sina.weibo.login.sharing.same.text": "Sina Weibo login and Sina Weibo shared UniversalLinks are inconsistent"
 		},
 		"AppPackageJob": {
 			"console.checkPackingState.desc": "Check the cloud packing status...",
@@ -272,11 +272,11 @@
 			"console.queryPackageStatus.desc": "You can query packaging status through menu [publish]-[view status].",
 			"console.waitingInLine.desc": "There is a long queuing line at peak hours on Friday evening. Please be patient.",
 			"console.debuggingUseCustomBase.desc": "If it is for the 3rd party SDK debugging, use a custom base (menu run - mobile phone or simulator - make a custom base), and don't pack it repeatedly.",
-			"android.cloud.certificate": "Android云端证书",
-			"console.googleaabplatform.text": "Android平台GooglePlay渠道使用Android App Bundle(AAB)格式，无法直接使用安装到手机上,",
-			"console.selectSpace.text": "你可点击 {1} 按钮，选择服务空间后安装包将通过前端网页托管上传",
-			"console.webhostingsuccess.text": "前端网页托管上传成功后，控制台将会显示安装包的下载地址",
-			"console.aab.detail": "详情"
+			"android.cloud.certificate": "Android Cloud Certificate",
+			"console.googleaabplatform.text": "The Android platform GooglePlay channel uses the Android App Bundle (AAB) format, which cannot be directly installed on the mobile phone.",
+			"console.selectSpace.text": "You can click the {1} button to select the service space and the installation package will be uploaded through the front-end web hosting",
+			"console.webhostingsuccess.text": "After the front-end web hosting upload is successful, the console will display the download address of the installation package",
+			"console.aab.detail": "Details"
 		},
 		"AutoCompletionListUI": {
 			"window.Form.title": ""
@@ -501,12 +501,12 @@
 			"msgbox.cloudSpaceNotOpened.desc.info": "cloud space {1} has not been opened.",
 			"button.open.name": "&Open",
 			"button.cancel.name": "&Cancel",
-			"dialog.publishkuaishouApp.title": "快手小程序发行",
-			"lineedit.pleaseTypekuaishouAppName.placeholder": "输入快手小程序名称",
-			"label.kuaishouAppNameCanNotBeNull.error": "快手应用名称不能为空",
-			"label.lineedit.kuaishouAppUnionName.desc": "快手小程序名称",
-			"checkBox.ssrCheck.text": "以SSR方式发行",
-			"label.support.text": "(暂不支持部署到前端网页托管，<a href=\"https://uniapp.dcloud.net.cn/ssr?id=distribute\">帮助</a>)"
+			"dialog.publishkuaishouApp.title": "Kuaishou applet issuance",
+			"lineedit.pleaseTypekuaishouAppName.placeholder": "Enter the name of the fast hand applet",
+			"label.kuaishouAppNameCanNotBeNull.error": "Kuaishou app name cannot be empty",
+			"label.lineedit.kuaishouAppUnionName.desc": "Kuaishou applet name",
+			"checkBox.ssrCheck.text": "Issued by SSR",
+			"label.support.text": "(Currently does not support deployment to front-end web hosting，<a href=\"https://uniapp.dcloud.net.cn/ssr?id=distribute\">Help</a>)"
 		},
 		"ExternalCommand": {
 			"msgbox.externalCommand.title": "External command",
@@ -1801,7 +1801,7 @@
 			"text.baiduApp.desc": "Baidu mini-app",
 			"text.bytedanceApp.desc": "Bytedance mini-app",
 			"text.qqApp.desc": "QQ mini-app",
-			"text.360App.desc": "360小程序",
+			"text.360App.desc": "360 mini-app",
 			"text.huaweiApp.desc": "Huawei Quick-app",
 			"text.quickAppUnion.desc": "Quick-app",
 			"console.startPublishProject.desc": "Project '{1}' start to publish...",
@@ -2670,8 +2670,7 @@
 			"msgbox.button.cancel.desc": "&Cancel"
 		},
 		"ExpandBtnWidget": {
-			"lable.closedproject.desc": "Closed Project",
-			"label.closedproject.desc": "已关闭项目"
+			"label.closedproject.desc": "Closed Project"
 		},
 		"VerCtrl::LocalHistoryWidget": {
 			"menu.diff.desc": "Local files compare",
