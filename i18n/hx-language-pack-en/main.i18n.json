@@ -1764,10 +1764,10 @@
 			"opreation has been terminated.": "The current operation was aborted by the user",
 			"*****empty spaces list": "无可用的服务空间，请先创建",
 			"UnknownServerError": "未知服务",
-			"msgbox.button.continue": "继续(&R)",
-			"msgbox.reportCrash.title": "应用程序HBuilderX已经意外退出",
-			"msgbox.reportCrash.description": "已生成了一份崩溃报告。为了帮助我们改进HBuilderX,请选择 \"继续\" 添加一份详细的说明,这其中包括重现这次步骤的过程<a href='https://hx.dcloud.net.cn/Tutorial/CrashReporter'>[详情]</a>。\n\n我们将通过此崩溃报告，找到这一问题的未来解决方案",
-			"console.unicloudResouceconflicts.error": "初始化向导已中断，请解决以上冲突后再试"
+			"msgbox.button.continue": "continue(&R)",
+			"msgbox.reportCrash.title": "The application HBuilderX has exited unexpectedly",
+			"msgbox.reportCrash.description": "A crash report has been generated. To help us improve HBuilderX, please select \"Continue\" to add a detailed description, which includes the process of reproducing this step<a href='https://hx.dcloud.net.cn/Tutorial/CrashReporter'>[Details]</a>。\n\nWe will use this crash report to find a future solution to this problem",
+			"console.unicloudResouceconflicts.error": "The initialization wizard has been interrupted, please resolve the above conflicts and try again"
 		},
 		"QuickAppCompiler": {
 			"console.startCompile.warning": "Project '{1}' start compiling...",
@@ -1836,8 +1836,8 @@
 			"console.invalidUniAppProject.desc": "Project '{1}' is not uni-app.",
 			"console.invalidAppId.desc": "The owner of the AppID of this project is not the currently logged-in account, please log in with the correct account again or get it again in the project’s manifest.json",
 			"console.emptyAppIdError.desc": "The project Appid is empty, please obtain it again!",
-			"text.kuaishouApp.desc": "快手小程序",
-			"console.appidNotowned.desc": "该项目的AppID非当前账号所有，请联系应用所有者设置你的账号为协作者或者在该项目的manifest.json中重新获取",
+			"text.kuaishouApp.desc": "Kuaishou Mini Program",
+			"console.appidNotowned.desc": "The AppID of this project is not owned by the current account, please contact the owner of the app to set your account as a collaborator or get it again in the project’s manifest.json",
 			"Tips: The wgt is build in HBuilderx %1, the runtime sdk version must be the same version, if not the device will pop-up warning. details: http://ask.dcloud.net.cn/article/35627": "提示：本wgt文件由HBuilderX %1版本生成，运行的基座sdk也需配套相同版本，否则在手机端部分功能可能无法正常使用。详见 http://ask.dcloud.net.cn/article/35627"
 		},
 		"QuickAppProjectWizard": {
