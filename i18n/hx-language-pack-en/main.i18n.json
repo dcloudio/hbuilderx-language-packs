@@ -1421,7 +1421,7 @@
 			"msgbox.search.saveButton.name": "&Save",
 			"msgbox.search.notSaveButton.name": "&Not save",
 			"msgbox.search.saveAsButton.name": "&Save as...",
-			"menu.mainWindow.newFile.name": "&New File [Double-click the blank on the right side of the tab]",
+			"menu.mainWindow.newFile.name": "&New File",
 			"menu.mainWindow.tabIndent.name": "Indent to the Right",
 			"menu.mainWindow.outdent.name": "Indent to the Left",
 			"menu.mainWindow.shiftTab.name": "",
