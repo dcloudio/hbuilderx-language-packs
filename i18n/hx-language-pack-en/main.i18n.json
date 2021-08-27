@@ -3542,7 +3542,7 @@
 			"edit.toggle.multicursormodifier.name": "Switch to \"Alt+Click\" to Insert Multi-Cursor",
 			"edit.toggle.multicursormodifier.name.d": "Switch to \"Ctrl+Click\" to Insert Multi-Cursor",
 			"edit.toggle.multicursormodifier.name.d.d": "Switch to \"Command+Click\" to Insert Multi-Cursor",
-			"find.name": "&Search",
+			"find.name": "&Find",
 			"workbench.action.quickopen.name": "&Find File",
 			"actions.find.name": "&Find Word (Current File)",
 			"workbench.action.findinfiles.name": "&Find Character(Files)",
