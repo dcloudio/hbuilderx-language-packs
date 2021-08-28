@@ -4013,7 +4013,7 @@
 			"properties.extensions.title": "Plugins",
 			"properties.extensions.description": "Installed plug-in extension configuration",
 			"properties.editor.foldedcodeexpandmode.description": "How to expand the collapsed code",
-			"properties.editor.foldedcodeexpandmode.title": "Code Expansion Method",
+			"properties.editor.foldedcodeexpandmode.title": "Code Expansion Strategy",
 			"properties.editor.foldedcodeexpandmode.item.partialexpansion": "Partial Expansion",
 			"properties.editor.foldedcodeexpandmode.item.allxpansion": "All Expansion",
 			"properties.editor.contentassistselectionmode.title": "Code Completion Apply Select Mode",
