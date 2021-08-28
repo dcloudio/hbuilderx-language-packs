@@ -1,11 +1,11 @@
 {
 	"contents":{
 		"com.pandora.language":{
-			"Language.Belong.Class" : "所属类库",
-			"Language.Belong.Object" : "所属对象",
-			"Language.Reference" : "参考",
-			"Language.ReturnValue" : "返回值",
-			"Language.ClassType" : "类型",
+			"Language.Belong.Class" : "Class",
+			"Language.Belong.Object" : "Object",
+			"Language.Reference" : "Reference",
+			"Language.ReturnValue" : "ReturnValue",
+			"Language.ClassType" : "Type",
 			"Language.CloudFunction1" : "[云函数:",
 			"Language.CloudFunction2" : "] 运行日志：",
 			"Language.Error.NotFoundMainEXE" : "检测不到主进程，开始自动退出。",
