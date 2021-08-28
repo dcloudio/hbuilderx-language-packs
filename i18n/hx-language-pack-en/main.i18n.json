@@ -4026,8 +4026,8 @@
 			"properties.editor.wordwrapmode.description": "This setting will only take effect after automatic line wrapping is turned on",
 			"properties.kuaishouapp.devtools.path.title": "Kuaishou Mini Program Developer Tool Path",
 			"properties.kuaishouapp.devtools.path.description": "Kuaishou Mini Program Developer Tool executable program, if not installed, please go to <a style='color:#298bdb' href='https://mp.kuaishou.com/docs/develop/developerTools/downloadPath.html'>https://mp.kuaishou.com/docs/develop/developerTools/downloadPath.html</a> to download",
-			"properties.logInfo.auto.reportCrash.title": "帮助我们改进HBuilderX的功能和性能",
-			"properties.logInfo.auto.reportCrash.description": "自动将使用情况统计信息和崩溃报告给我们"
+			"properties.logInfo.auto.reportCrash.title": "Help us improve the functionality and performance of HBuilderX",
+			"properties.logInfo.auto.reportCrash.description": "Automatically report usage statistics and crashes to us"
 		},
 		":/conf/resources/conf/settings-uiconfig.json": {
 			"editor.wordwrap.title": "Editor",
