@@ -1532,7 +1532,7 @@
 			"menu.mainWindow.selectSurroudCursor.name": "Set Cursor Surroud Selection",
 			"menu.mainWindow.ctrlDoubleBackslash.name": "Ctrl+\\",
 			"menu.mainWindow.ctrlE.name": "",
-			"menu.mainWindow.selectSameVariable.name": "&Select Same Word",
+			"menu.mainWindow.selectSameVariable.name": "&Select All Occurrences",
 			"menu.mainWindow.skipSelectionPickSame.name": "&Skip Selection And Select Next Word",
 			"menu.mainWindow.ctrlShiftE.name": "",
 			"menu.mainWindow.debugOnMobile.name": "&Debug On Mobile",
