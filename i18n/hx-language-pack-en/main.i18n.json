@@ -1224,7 +1224,7 @@
 			"notify.rebuildIndexForProject": "Rebuild index for project {1}",
 			"notify.upgrade.doNotUpdateButton.name": "Not updated yet",
 			"nofity.upgrade.updateNowButton.name": "Update right now",
-			"nofity.upgrade.viewLog.desc": "View <a style='color:green' href='changelog'> Changelog </a>",
+			"nofity.upgrade.viewLog.desc": "View <a style='color:green' href='changelog'> release notes </a>",
 			"notify.upgrade.updateNow.desc": "Updating now...",
 			"notify.upgrade.noUpdateFind.desc": "It is already the latest version.",
 			"notify.upgrade.currentVersion.desc": "The current version is",
