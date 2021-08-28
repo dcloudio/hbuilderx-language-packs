@@ -3920,7 +3920,7 @@
 			"properties.editor.longlineindicator.description": "",
 			"properties.editor.longlineindicatorcolumn.title": "The Long Line Indicates Which Column The Vertical Line Is Displayed In",
 			"properties.editor.longlineindicatorcolumn.description": "",
-			"properties.editor.lineheight.title": "Editor Line Height",
+			"properties.editor.lineheight.title": "Line Spacing Ratio",
 			"properties.editor.lineheight.description": "Document line spacing ratio, the value is 1.x, for example, 1.5 means 1.5 times the line height",
 			"properties.editor.onlyhighlightword.title": "Trigger The Same Word Highlighting Only When A Complete Word Is Selected",
 			"properties.editor.onlyhighlightword.description": "",
