@@ -3960,7 +3960,7 @@
 			"properties.editor.mousewheelzoom.description": "",
 			"properties.editor.guessindent.title": "Auto Guess of Tab Size",
 			"properties.editor.guessindent.description": "Intelligently guess the number of spaces in the tab. When it is false, the value of editor.tabSize in the configuration will be used. After modifying this item, you need to reopen the file",
-			"properties.editor.scrollbeyondlastline.title": "Editor Scroll Down One Screen",
+			"properties.editor.scrollbeyondlastline.title": "Allows Scrolling One Page Below the Last Line",
 			"properties.editor.scrollbeyondlastline.description": "After the editor scrolls to the end of the text, can you continue to scroll a certain area? When the value is true, you can still scroll down one screen",
 			"properties.adb.path.title": "adb Path (empty Is The Default Path)",
 			"properties.adb.path.description": "",
