@@ -4016,7 +4016,7 @@
 			"properties.editor.foldedcodeexpandmode.title": "Code Expansion Method",
 			"properties.editor.foldedcodeexpandmode.item.partialexpansion": "Partial Expansion",
 			"properties.editor.foldedcodeexpandmode.item.allxpansion": "All Expansion",
-			"properties.editor.contentassistselectionmode.title": "Code Prompt Selection Mode",
+			"properties.editor.contentassistselectionmode.title": "Code Completion Apply Select Mode",
 			"properties.editor.matcheschars.enable.title": "Enable Automatic Character Matching",
 			"properties.editor.contentassistselectionmode.description": "Shortcut selection of an item in the application code prompt",
 			"properties.editor.contentassistselectionmode.enum.item.allandnumber": "Alt+Number Mode",
