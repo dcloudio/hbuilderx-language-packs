@@ -1234,7 +1234,7 @@
 			"notify.upgrade.hbuilderxUrl.desc": "<a style='color:green' href='https://www.dcloud.io/hbuilderx.html'>https://www.dcloud.io/hbuilderx.html</a>",
 			"notify.upgrade.fallbackInstanceNoUpgrade.desc": "The rollback version does not support direct updates, please switch to the latest local version and try again.",
 			"notify.upgrade.downloadFailedTryNetwork.desc": "The update failed. Please check the network and try again.",
-			"notify.upgrade.iKownButton.name": "I know.",
+			"notify.upgrade.iKownButton.name": "I &Know",
 			"notify.upgrade.forNewOrNo.question": "There has a new version for HBuilerX,update or not?",
 			"notify.upgrade.updateFinishedRestartNow.question": "A restart is required to complete the update. Do you want to restart now?",
 			"notify.upgrade.restartNowButton.name": "Restart now",
