@@ -3870,7 +3870,7 @@
 			"properties.editor.fontfmychs.macos.description": "Editor Chinese font display, need to customize the font in the \" source view \" change \" editor.fontfmychs \" value",
 			"properties.editor.tabsize.title": "Tab Size",
 			"properties.editor.tabsize.description": "editor.tabSize，A TAB is equal to the number of Spaces",
-			"properties.editor.insertspaces.title": "Spaces Instead Of Tabs",
+			"properties.editor.insertspaces.title": "Insert Spaces when Pressing Tab",
 			"properties.editor.insertspaces.description": "Press \"Tab\" to insert space. When true, press the Tab key to insert the number of Spaces corresponding to the Tab width editor.tabsize value",
 			"properties.editor.saveonfocuslost.title": "Losing Focus Is Autosaving",
 			"properties.editor.saveonfocuslost.description": "Automatically saves when the editor loses focus. Value of true automatically saves the current content when the editor loses focus",
