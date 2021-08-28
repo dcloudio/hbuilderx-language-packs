@@ -3904,7 +3904,7 @@
 			"properties.explorer.folder.openexplorerviewonclick.description": "When you click or double-click the directory in the project manager, open the internal resource manager tab in the editor area on the right ",
 			"properties.editor.showendofline.title": "Render End of Line Characters(EOL)",
 			"properties.editor.showendofline.description": "Whether to display line breaks. Display the carriage return at the end of the line when the value is true",
-			"properties.editor.showdefaultendofline.title": "Select Default Newline",
+			"properties.editor.showdefaultendofline.title": "The Default End of Line Character(EOL)",
 			"properties.editor.showdefaultendofline.description": "Only affect the behavior of hitting the Enter key",
 			"properties.editor.minimap.maxpixelwidth.title": "Maximum Pixel Width Of Mini Map",
 			"properties.editor.minimap.maxpixelwidth.description": "The maximum pixel width of the mini map, please enter an integer greater than zero",
