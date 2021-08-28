@@ -1,0 +1,22 @@
+{
+    "": [
+        "--------------------------------------------------------------------------------------------",
+        "Copyright (c) DCloud . All rights reserved.",
+        "--------------------------------------------------------------------------------------------"
+    ],
+    "version": "1.0.0",
+    "contents": {
+        "vue_script": {
+            "VueComponents.description": "Register Vue Components"
+        },
+        "javascript":{
+            "clog.description": "Print Variables",
+            "clogvar.description": "Print variable",
+            "clogjson.description": "Print JSON string",
+            "dbget.description": "Read database data (client example)",
+            "dbadd.description": "Insert data into the database (client example)",
+            "dbupdate.description": "Update database data (client example)",
+            "dbremove.description": "Delete database data (client example)"
+        }
+    }
+}

@@ -33,6 +33,18 @@
                 {
                     "id": "ls",
                     "path": "./extensions/ls.i18n.json"
+                },
+                {
+                    "id": "templates",
+                    "path":"./extensions/templates.i18n.json"
+                },
+                {
+                    "id": "html",
+                    "path":"./extensions/html.i18n.json"
+                },
+                {
+                    "id": "javascript",
+                    "path":"./extensions/javascript.i18n.json"
                 }
             ]
         }]

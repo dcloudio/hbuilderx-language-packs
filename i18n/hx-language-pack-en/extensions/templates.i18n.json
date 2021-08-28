@@ -1,0 +1,39 @@
+{
+    "": [
+        "--------------------------------------------------------------------------------------------",
+        "Copyright (c) DCloud . All rights reserved.",
+        "--------------------------------------------------------------------------------------------"
+    ],
+    "version": "1.0.0",
+    "contents": {
+        "file/vue-page/config": {
+            "default.name"                         : "Default Template",
+            "less.name"                            : "Pages using less",
+            "scss.name"                            : "Pages using scss",
+            "stylus.name"                          : "Pages using stylus",
+            "typescript.name"                      : "Pages using typescript",
+            "uni.bigImage.newsList.description"    : "Arranged vertically, thumbnails show large images",
+            "uni.blend.newsList.description"       : "Uni-Cloud news list template based on Uni-List, mixed layout",
+            "uni.imageAndText.newsList.description": "Vertical arrangement, mixed arrangement of pictures and texts",
+            "uni.leftPicture.newsList.description" : "Horizontal arrangement, left picture and right text",
+            "uni.listProductList.description"      : "Uni-Cloud commodities list template based on Uni-List, list layout",
+            "uni.multiGraph.newsList.description"  : "Arranged vertically, thumbnails show multiple images",
+            "uni.newsDetail.description"           : "Uni-Cloud news details template",
+            "uni.noThumbnail.newsList.description" : "Vertical arrangement, no thumbnail, main title + subtitle display",
+            "uni.palaceGridProductList.description": "Uni-Cloud commodities list template based on Uni-List, palace grid layout",
+            "uni.productList.description"          : "Uni-Cloud commodities list template based on Uni-List, default layout",
+            "uni.rightPicture.newsList.description": "Uni-Cloud news list template based on Uni-List, left text and right picture",
+            "uni.bigImage.newsList.name"           : "Large picture mode | Uni-Cloud news list",
+            "uni.blend.newsList.name"              : "Mixed layout | Uni-Cloud news list",
+            "uni.imageAndText.newsList.name"       : "Mixed arrangement of pictures and texts | Uni-Cloud news list",
+            "uni.leftPicture.newsList.name"        : "Left picture and right text | Uni-Cloud news list",
+            "uni.listProductList.name"             : "List layout | Uni-Cloud commodities list",
+            "uni.multiGraph.newsList.name"         : "Multi graph display | Uni-Cloud news list",
+            "uni.newsDetail.name"                  : "Uni-Cloud news details",
+            "uni.noThumbnail.newsList.name"        : "No thumbnail | Uni-Cloud news list",
+            "uni.palaceGridProductList.name"       : "Palace grid layout | Uni-Cloud commodities list",
+            "uni.productList.name"                 : "Uni-Cloud commodities list",
+            "uni.rightPicture.newsList.name"       : "Left text and right picture | Uni-Cloud news list"
+        }
+    }
+}

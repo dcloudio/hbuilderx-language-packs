@@ -1,0 +1,49 @@
+{
+    "": [
+        "--------------------------------------------------------------------------------------------",
+        "Copyright (c) DCloud . All rights reserved.",
+        "--------------------------------------------------------------------------------------------"
+    ],
+    "version": "1.0.0",
+    "contents": {
+        "html": {
+            "audio.body.text": "The current browser does not support audio",
+            "scriptHtml5plus.description": "This script block needs to be added when html5plus is injected in advance",
+            "video.body.text1": "The current browser does not support direct video playback, click here to download the video:",
+            "video.body.text2": "Download video"
+        },
+        "nml": {
+            "u_list.body.text1": "When the attribute type value of the list element is the same, you need to ensure that the rendered view layout is also exactly the same",
+            "u_list.body.text2": "Load more",
+            "u_list.body.text3": "Load more",
+            "u_input.body.text": "Please enter text",
+            "u_label.body.text1": "label defines label for input and textarea components",
+            "u_label.body.text2": "Please enter",
+            "u_refresh.body.text": "Stop refreshing"
+        },
+        "uni_vue_tag": {
+            "uNavBar.body.text1": "Return",
+            "uNavBar.body.text2": "Menu",
+            "uNavBar.body.text3": "Title",
+            "uSegmentedControl.body.text1": "Content of Tab 1",
+            "uSegmentedControl.body.text2": "Content of Tab 2",
+            "uSegmentedControl.body.text3": "Content of Tab 3",
+            "uCard.body.text1": "Title Text",
+            "uCard.body.text2": "Extra Information",
+            "uCard.body.text3": "The body of the content, you can customize the content and style",
+            "uCollapse.body.text": "Content",
+            "uGroup.body.text": "The body of the content, you can customize the content and style",
+            "uSection.body.text": "The body of the content, you can customize the content and style",
+            "uTable.body.text": "No more data yet"
+        },
+        "ux": {
+            "q_list.body.text1": "When the attribute type value of the list element is the same, you need to ensure that the rendered view layout is also exactly the same",
+            "q_list.body.text2": "Load more",
+            "q_list.body.text3": "Load more",
+            "q_input.body.text": "Please enter text",
+            "q_label.body.text1": "label defines label for input and textarea components",
+            "q_label.body.text2": "Please enter",
+            "q_refresh.body.text": "Stop refreshing"
+        }
+    }
+}
