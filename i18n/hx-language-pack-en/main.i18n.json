@@ -543,6 +543,13 @@
 			"msgbox.continueWithReplacement.desc.question": "Note: \"Replace\" will delete the entire contents of the directory {1} to the recycle bin, and then copy the new file"
 		},
 		"FileWizard": {
+			"empty"               : "Empty File",
+            "simple"              : "Simple Template",
+            "default"             : "Default Template",
+            "scss component"      : "Template component using scss",
+            "less component"      : "Template component using less",
+            "stylus component"    : "Template component using stylus",
+            "typescript component": "Template component using typescript",
 			"textbox.pleaseInputJQLName.placeholder": "please input a jql name",
 			"textbox.pleaseInputUniModuleName.placeholder": "Please input a uniModule name",
 			"msgbox.cloudFunctionNameExist.desc.question": "The Cloud Function Name had been exist, continue?",
