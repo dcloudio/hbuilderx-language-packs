@@ -4984,9 +4984,9 @@
 			"vertran.migrate.title": "Migration cloudfunctions Migration(&E)"
 		},
 		":/markdown-share/package.json": {
-			"markdown-share.share.title": "One-click sharing (&S)",
-			"markdown-share.share.publish.title": "markdown One-click sharing (&S)",
-			"markdown-share.share.submenu.title": "&0 markdown One-click sharing"
+			"markdown-share.share.title": "&Share to Link",
+			"markdown-share.share.publish.title": "&Share Markdown to Link",
+			"markdown-share.share.submenu.title": "&0 Share Markdown to Link"
 		},
 		":/unicloudhosting/package.json": {
 			"unicloud.web.publish.title": "View server web files(&D)",
