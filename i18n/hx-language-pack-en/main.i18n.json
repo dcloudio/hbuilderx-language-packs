@@ -3910,7 +3910,7 @@
 			"properties.editor.minimap.maxpixelwidth.description": "The maximum pixel width of the mini map, please enter an integer greater than zero",
 			"properties.editor.scrollbarhoverpreview.enabled.title": "Mini Map:  Preview on Mouse Hover",
 			"properties.editor.scrollbarhoverpreview.enabled.description": "Preview the content of the mouse position when the mouse is hovering over the editor scroll bar or mini map",
-			"properties.editor.savefoldstatus.enabled.title": "Memorize Document Folding State When Closed",
+			"properties.editor.savefoldstatus.enabled.title": "Remember Folding States when Document Close",
 			"properties.editor.savefoldstatus.enabled.description": "",
 			"properties.editor.editorconfigsupport.title": "Enable .editorconfig support",
 			"properties.editor.editorconfigsupport.description": "When enabled, the editor configuration will be overwritten",
