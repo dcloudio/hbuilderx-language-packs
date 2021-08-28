@@ -1975,7 +1975,7 @@
 			"button.Search Type.tooltips": "Search Type",
 			"textbox. Type File Name.placeholder": "Input File Name",
 			"textbox. Find.placeholder": "Find",
-			"textbox. MultiFile Find.placeholder": "Multi-file search, please enter the characters you want to find",
+			"textbox. MultiFile Find.placeholder": "Find in Files",
 			"textbox. Replace With.placeholder": "Replace",
 			"button.Find.tooltips": "Find",
 			"msgbox.autosaveOrReplaceFile.title": "Replace and autosave all files or Replace the current file",
