@@ -1647,7 +1647,7 @@
 			"msgbox.mainWindow.windowStyleChanged.desc": "The window style setting has been changed,\nneed to restart HBuilder X to take effect.",
 			"menu.mainWindow.localHistory.name": "&Local History",
 			"menu.mainWindow.showMinimap.name": "Show Minimap",
-			"menu.mainWindow.showCodeLens.name": "Show Code Lens",
+			"menu.mainWindow.showCodeLens.name": "Enable Preview on Mouse Hover",
 			"text.cloudfunction.noSpace.desc": "Unselect cloud server space",
 			"text.cloudfunction.relatedProject.desc": "Related project",
 			"menu.mainWindow.makeRelationToSpace.name": "&Current Cloud Space ...",
