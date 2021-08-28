@@ -3930,7 +3930,7 @@
 			"properties.editor.codeassistkeytab.description": "After enabling this option, the tab key will not trigger emmet when the code assistant is displayed.",
 			"properties.editor.codeassistfontsize.title": "Code Completion Widget Font Size",
 			"properties.editor.codeassistfontsize.description": "",
-			"properties.editor.triggerchars.title": "Code Assistant Trigger Character",
+			"properties.editor.triggerchars.title": "Code Completion Trigger Characters",
 			"properties.editor.triggerchars.description": "",
 			"properties.editor.codeassist.px2rem.enabel.title": "Enable PX To Rem Prompt",
 			"properties.editor.codeassist.px2rem.enabel.description": "",
