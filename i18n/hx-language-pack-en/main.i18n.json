@@ -2921,7 +2921,7 @@
 			"menu.aliyun.desc": "&Alibaba Cloud",
 			"console.tip.success": "Success",
 			"console.tip.failed": "Fail",
-			"menu.createuniClouddevelopment.desc": "&Create UniCloud Development Environment",
+			"menu.createuniClouddevelopment.desc": "&Create uniCloud Environment",
 			"menu.created.desc": "Created",
 			"msgbox.button.replace.desc": "Replace",
 			"msgbox.button.saveas.desc": "Save as...",
