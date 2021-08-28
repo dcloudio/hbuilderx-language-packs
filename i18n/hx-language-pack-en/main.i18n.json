@@ -772,6 +772,7 @@
 			"button.Stop.name": "Stop",
 			"button.copy.name": "copy",
 			"label.readyToCopy.desc": "Ready to copy...",
+			"msgbox.title.replaceAndTips":"A file named {1} already exists at this location. Do you want to replace it with the item you are moving？",
 			"button.move.name": "move",
 			"label.readyToMove.desc": "Ready to move...",
 			"button.Cancel.name": "Cancel",
