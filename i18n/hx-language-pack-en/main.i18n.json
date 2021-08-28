@@ -2674,7 +2674,7 @@
 			"label.closedproject.desc": "Closed Project"
 		},
 		"VerCtrl::LocalHistoryWidget": {
-			"menu.diff.desc": "Local files compare",
+			"menu.diff.desc": "Compare with Local File",
 			"dialog.label.selecthistoryfilefromleftlist": "(Select one history file from left list)",
 			"file local history : ": "Local history:",
 			"Backup Time": "Record Time"
