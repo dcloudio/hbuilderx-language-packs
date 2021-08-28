@@ -1848,12 +1848,12 @@
 			"text.form.desc": ""
 		},
 		"QuickSearchType": {
-			"label.fileName.desc": "File Name Search",
-			"label,filterCharCurrentFile.desc": "Filter Char (Current File)",
+			"label.fileName.desc": "Find File",
+			"label,filterCharCurrentFile.desc": "Find Text (Current File)",
 			"label.replace.desc": "Replace",
 			"label.gotoLine.desc": "Goto Line",
-			"label.filterCharCurrentDirectory.desc": "Filter Char (Current Dir)",
-			"label.filterCharCurrentFile.desc": "Filter Char (Current File)"
+			"label.filterCharCurrentDirectory.desc": "Find Text (Current Dir)",
+			"label.filterCharCurrentFile.desc": "Find Text (Current File)"
 		},
 		"RPCService": {
 			"status.downloadSyntaxHelper.desc": "Downloading syntax helper plugin ...",
