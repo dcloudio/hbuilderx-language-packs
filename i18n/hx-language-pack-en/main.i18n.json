@@ -3872,7 +3872,7 @@
 			"properties.editor.tabsize.description": "editor.tabSize，A TAB is equal to the number of Spaces",
 			"properties.editor.insertspaces.title": "Insert Spaces when Pressing Tab",
 			"properties.editor.insertspaces.description": "Press \"Tab\" to insert space. When true, press the Tab key to insert the number of Spaces corresponding to the Tab width editor.tabsize value",
-			"properties.editor.saveonfocuslost.title": "Losing Focus Is Autosaving",
+			"properties.editor.saveonfocuslost.title": "Auto Save when Focus Losed",
 			"properties.editor.saveonfocuslost.description": "Automatically saves when the editor loses focus. Value of true automatically saves the current content when the editor loses focus",
 			"properties.files.associations.suffixs.title": "File Type Association",
 			"properties.files.associations.suffixs.description": "In the operating system associated with the following suffix files (such as MD, JSON), set its default opener to HBuilder X",
