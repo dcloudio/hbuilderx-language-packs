@@ -1988,7 +1988,7 @@
 			"text.currentProject.desc": "Current Project",
 			"text.allProject.desc": "All Projects",
 			"dialog.configFilterRegexp.title": "Config filter regexp",
-			"diaalog.excludeDir.title": "Search Directory Not Included",
+			"diaalog.excludeDir.title": "Filter Files to Exclude",
 			"textbox.selectedDirectories.tooltips": "Selected {1} directories",
 			"textbox.selectedFiles.tooltips": "Selected {1} files",
 			"textbox.selectedDirectoriesAndFiles.tooltips": "Selected {1} directories and {2} files",
