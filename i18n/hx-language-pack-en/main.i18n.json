@@ -73,7 +73,7 @@
 			"checkbox.ios.name": "IOS(ipa package)",
 			"tabbar.iosSettings.name": "IOS setting",
 			"label.textboxAppid.desc": "Appid",
-			"label.textboxPrivateKeyPw.desc": "码Certificate privateKey password",
+			"label.textboxPrivateKeyPw.desc": "Certificate privateKey password",
 			"label.textboxCertificateProfile.desc": "Certificate profile",
 			"button.browse.name": "Browse ...",
 			"label.textboxprivatekeycertificate.desc": "PrivateKey certificate",
@@ -170,7 +170,7 @@
 			"button.continuePack.name": "&Continue",
 			"button.jailbreak.cancel.name": "&Cancel",
 			"msgbox.splashNotSetAll.desc.question": "{1} splash is not set all, please check continue pack or cancel and set the splash all",
-			"label.iosCertificateGuide.link": "<a href=\"https://ask.dcloud.net.cn/article/152\"> How to apply certificate </a>",
+			"label.iosCertificateGuide.link": "iOS IDP/IEP certificate <a href=\"https://ask.dcloud.net.cn/article/152\">How to apply for a certificate</a>",
 			"label.androidCertificateGuide.link": "<a href=\"https://ask.dcloud.net.cn/article/35985\">Android certificate guide </a>",
 			"label.createCertificate.link": "<a href=\"https://ask.dcloud.net.cn/article/35777\"> How to create certificate </a>",
 			"label.unUseDetail.link": "<a href=\"https://ask.dcloud.net.cn/article/36522\"> detail </a>",
@@ -427,7 +427,7 @@
 			"label.applicationResourceBundles.desc.link": "<html><head/><body><p>&nbsp;&nbsp; The full name of wgt is widget, which is a front-end application resource pack. <br/>&nbsp;&nbsp; reference: <a href=\"http://ask.dcloud.net.cn/article/182\"><span style=\" text-decoration: underline; color:#0000ff;\"> App resource online upgrade </span></a></p></body></html>",
 			"button.browser.name": "Browser...",
 			"checkbox.enableJsNativeConfusion.name": "Enable js native confusion",
-			"checkbox.enableNvueNativeConfusion.name": "Enable js/nvue native confusion淆",
+			"checkbox.enableNvueNativeConfusion.name": "Enable js/nvue native confusion",
 			"label.configurationGuide.link": "<html><head/><body><p><a href=\"https://ask.dcloud.net.cn/article/36437\"><span style=\" text-decoration: underline; color:#0000ff;\">[Configuration Guide]</span></a></p></body></html>",
 			"dialog.ExportWGT.title": "Export wgt package",
 			"dialog.publishH5.title": "Publish H5",
@@ -473,8 +473,8 @@
 			"label.quickAppUnionNameCanNotBeNull.error": "QuickAppUnion Name can not be null",
 			"label.360 appIdCanNotBeNull.error": "360 appId can not be null",
 			"label.subcontractNameCanNotBeEmpty.error": "Subcontract name cannot be empty",
-			"label.lineedit.title.desc": "title",
-			"label.lineedit.domain.desc": "domain",
+			"label.lineedit.title.desc": "Site title",
+			"label.lineedit.domain.desc": "Website domain name",
 			"label.lineedit.staticDeploy.desc": "Static deploy",
 			"label.lineedit.weAppName.desc": "WeChat miniApp name",
 			"label.lineedit.weAppAppid.desc": "WeChat miniApp appId",
@@ -3021,9 +3021,9 @@
 			"refresh list": "Refresh list",
 			"querying ...": "Querying...",
 			"New Cloud Space": "New Cloud Space",
-			"dialog.label.selectdeploypath.desc": "选择要上传的目录：",
-			"dialog.dialog.text": "请选择一个服务空间",
-			"label.goLink.text": "知道了"
+			"dialog.label.selectdeploypath.desc": "Select upload directory :",
+			"dialog.dialog.text": "Please select a service space",
+			"label.goLink.text": "I know"
 		},
 		"StaticDeploymentViewPart": {
 			"dialog.title.uniCloudstatic.desc": "Web Page Hosting",
@@ -3377,9 +3377,9 @@
 			"please configure domain": "请先配置域名后，再点击完成"
 		},
 		"HXSpaceList": {
-			"dialog.list.tip.hostingserviceopened": "hosting service opened",
-			"dialog.list.tip.hostingservicenotopened": "hosting service not opened",
-			"dialog.list.openservice": "open service"
+			"dialog.list.tip.hostingserviceopened": "Hosting Service opened",
+			"dialog.list.tip.hostingservicenotopened": "Hosting Service not opened",
+			"dialog.list.openservice": "<a href=\"{1}\">Open</a>"
 		},
 		":/conf/resources/conf/menus.json": {
 			"file.name": "&File",
