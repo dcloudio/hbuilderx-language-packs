@@ -3928,7 +3928,7 @@
 			"properties.editor.codeassist.description": "",
 			"properties.editor.codeassistkeytab.title": "Auto Insert the Selected Item in Code Completion when Pressing Tab",
 			"properties.editor.codeassistkeytab.description": "After enabling this option, the tab key will not trigger emmet when the code assistant is displayed.",
-			"properties.editor.codeassistfontsize.title": "Code Assistant Font Size",
+			"properties.editor.codeassistfontsize.title": "Code Completion Widget Font Size",
 			"properties.editor.codeassistfontsize.description": "",
 			"properties.editor.triggerchars.title": "Code Assistant Trigger Character",
 			"properties.editor.triggerchars.description": "",
