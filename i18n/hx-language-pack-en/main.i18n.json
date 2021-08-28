@@ -375,7 +375,7 @@
 			"dialog.searchResults.desc": ""
 		},
 		"CursorPositionWidget": {
-			"statusbar.row.desc": "Row:",
+			"statusbar.row.desc": "Line:",
 			"statusbar.column.desc": "Column:",
 			"statusbar.lines.desc": "Line",
 			"statusbar.charsSelected.desc": "Chars selected",
