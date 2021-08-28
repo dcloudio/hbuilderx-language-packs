@@ -377,8 +377,8 @@
 		"CursorPositionWidget": {
 			"statusbar.row.desc": "Line:",
 			"statusbar.column.desc": "Column:",
-			"statusbar.lines.desc": "Line",
-			"statusbar.charsSelected.desc": "Chars selected",
+			"statusbar.lines.desc": " Line",
+			"statusbar.charsSelected.desc": " Chars selected",
 			"statusbar.selections.desc": "Selections"
 		},
 		"DebugDeviceThread": {
