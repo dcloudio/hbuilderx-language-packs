@@ -2693,12 +2693,12 @@
 			"msgbox.button.no.desc": "No"
 		},
 		"WelcomeWizard": {
-			"theme.lightdefault": "Light Default",
+			"theme.lightdefault": "Default",
 			"theme.atomonedark": "Atom One Dark",
-			"theme.darkdefault": "Dark Default",
+			"theme.darkdefault": "Monokai",
 			"theme.selectyourfavoritetheme": "Select your favorite theme",
-			"dialog.label.selectkeybindyouuse.desc": "Select the keybind you are used to",
-			"dialog.button.startuse": "Start to Experience"
+			"dialog.label.selectkeybindyouuse.desc": "Select the Keybinding Scheme",
+			"dialog.button.startuse": "&Enjoy It"
 		},
 		"ExplorerStatusWidget": {
 			"statusbar.tip.selecteditem": "Selected {1} item(s)",
