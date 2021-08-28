@@ -2175,7 +2175,7 @@
 		"ConsoleView": {
 			"console.button.rerun.desc": "&Restart",
 			"console.button.run.desc": "&Run",
-			"console.button.stoprun.desc": "&Stop)",
+			"console.button.stoprun.desc": "&Stop",
 			"menu.copylink.desc": "&Copy Link",
 			"statusbar.tip.copylinksuccess": "Copy Link Success."
 		},
