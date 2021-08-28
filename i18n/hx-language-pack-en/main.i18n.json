@@ -1998,7 +1998,7 @@
 			"msgbox.dirNoSearch.title": "The directory where the current document is located is not in the project manager and cannot be searched.",
 			"msgbox.fileNoSearch.title": "The current document is not in the project manager and cannot be searched.",
 			"msgbox.trySelect.title": "The project manager did not select anything. Please select again.",
-			"button.findinselectregion.tooltips": "Search in the area"
+			"button.findinselectregion.tooltips": "Find in Selection"
 		},
 		"FilterRegExpDialog": {
 			"label.includeFileName.desc": "Include File Name",
