@@ -3886,7 +3886,7 @@
 			"properties.dir.exclude.description": "Folders that are not searched, with each rule separated by a half corner comma",
 			"properties.terminal.maxcount.title": "Maximum Number of Terminals Allowed to be Open",
 			"properties.terminal.maxcount.description": "The maximum number of terminals allowed to be open. Since terminals are resource-intensive, opening too many terminals may cause a crash",
-			"properties.editor.wordwrap.title": "Autowrap",
+			"properties.editor.wordwrap.title": "Word Wrap",
 			"properties.editor.wordwrap.description": "Whether to automatically wrap by default globally. When the value is true, automatic line wrapping is enabled",
 			"properties.editor.renderwhitespace.title": "Display Blank Characters When Highlighted",
 			"properties.editor.renderwhitespace.description": "Not included end-of-line newline",
