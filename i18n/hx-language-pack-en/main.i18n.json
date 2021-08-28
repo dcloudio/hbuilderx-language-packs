@@ -3924,7 +3924,7 @@
 			"properties.editor.lineheight.description": "Document line spacing ratio, the value is 1.x, for example, 1.5 means 1.5 times the line height",
 			"properties.editor.onlyhighlightword.title": "Highlight Occurrences Only when Select Whole Word",
 			"properties.editor.onlyhighlightword.description": "",
-			"properties.editor.codeassist.title": "Enable Code Assistant (effective After Restart)",
+			"properties.editor.codeassist.title": "Enable Code Completion",
 			"properties.editor.codeassist.description": "",
 			"properties.editor.codeassistkeytab.title": "Tab Key Automatically Inserts The Selected Item In The Code Assistant",
 			"properties.editor.codeassistkeytab.description": "After enabling this option, the tab key will not trigger emmet when the code assistant is displayed.",
