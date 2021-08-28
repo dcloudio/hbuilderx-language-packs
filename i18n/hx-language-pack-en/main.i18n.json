@@ -1259,7 +1259,7 @@
 			"console.fastapp.rpkInvalid.error": "rpk is illegal!",
 			"console.fastapp.parseInterfaceRules.desc": "Analyzing interface rules...",
 			"console.fastapp.parseFinished.desc": "Data capture is complete!",
-			"console.clearButton.name": "&Clear console",
+			"console.clearButton.name": "&Clear Console",
 			"menu.fastappSearchAndAnalize.name": "&Search Analysis",
 			"menu.lockScrollBar.name": "&Lock Scrollbar",
 			"menu.selectAll.name": "&Select All",
