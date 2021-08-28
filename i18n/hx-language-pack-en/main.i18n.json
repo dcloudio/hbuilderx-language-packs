@@ -661,7 +661,7 @@
 			"dialog.Form.title": ""
 		},
 		"JsonForm": {
-			"navigation.codeView.list.name": "Code view",
+			"navigation.codeView.list.name": "Source View",
 			"tooltip.JSONFileSyntaxError.error": "JSON file syntax error",
 			"tooltip.thereAreSomeErrors.error": "There are some errors in the {1} that need to be fixed"
 		},
@@ -3856,7 +3856,7 @@
 			"editor.autohandoffchinesepunctuation.html.characters": "：“”；‘’，。《》【】！￥（）、"
 		},
 		":/conf/resources/conf/settings-schema.json": {
-			"title": "Common",
+			"title": "Commonly Used",
 			"description": "",
 			"properties.editor.fontsize.title": "The Editor Font Size",
 			"properties.editor.fontsize.description": "Editor font size, the unit pixel",
@@ -4010,7 +4010,7 @@
 			"properties.npm.path.description": "npm executable program path",
 			"properties.node.path.title": "node Path",
 			"properties.node.path.description": "node executable program path",
-			"properties.extensions.title": "Plugin",
+			"properties.extensions.title": "Plugins",
 			"properties.extensions.description": "Installed plug-in extension configuration",
 			"properties.editor.foldedcodeexpandmode.description": "How to expand the collapsed code",
 			"properties.editor.foldedcodeexpandmode.title": "Code Expansion Method",
