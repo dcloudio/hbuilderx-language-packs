@@ -3922,7 +3922,7 @@
 			"properties.editor.longlineindicatorcolumn.description": "",
 			"properties.editor.lineheight.title": "Line Spacing Ratio",
 			"properties.editor.lineheight.description": "Document line spacing ratio, the value is 1.x, for example, 1.5 means 1.5 times the line height",
-			"properties.editor.onlyhighlightword.title": "Trigger The Same Word Highlighting Only When A Complete Word Is Selected",
+			"properties.editor.onlyhighlightword.title": "Highlight Occurrences Only when Select Whole Word",
 			"properties.editor.onlyhighlightword.description": "",
 			"properties.editor.codeassist.title": "Enable Code Assistant (effective After Restart)",
 			"properties.editor.codeassist.description": "",
