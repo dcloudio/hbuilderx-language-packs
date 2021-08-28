@@ -3914,7 +3914,7 @@
 			"properties.editor.savefoldstatus.enabled.description": "",
 			"properties.editor.editorconfigsupport.title": "Enable .editorconfig support",
 			"properties.editor.editorconfigsupport.description": "When enabled, the editor configuration will be overwritten",
-			"properties.editor.viewindentationguides.title": "Show Code Indent Alignment",
+			"properties.editor.viewindentationguides.title": "Render Indent Guides",
 			"properties.editor.viewindentationguides.description": "",
 			"properties.editor.longlineindicator.title": "Show Long Indicator Lines",
 			"properties.editor.longlineindicator.description": "",
