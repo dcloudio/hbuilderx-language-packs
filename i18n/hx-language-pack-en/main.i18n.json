@@ -3884,7 +3884,7 @@
 			"properties.files.exclude.description": "Configure files and folders that the project manager does not display, with each rule separated by a half corner comma",
 			"properties.dir.exclude.title": "Search For Directories That Are Not Included By Default",
 			"properties.dir.exclude.description": "Folders that are not searched, with each rule separated by a half corner comma",
-			"properties.terminal.maxcount.title": "Number Of Terminals Open",
+			"properties.terminal.maxcount.title": "Maximum Number of Terminals Allowed to be Open",
 			"properties.terminal.maxcount.description": "The maximum number of terminals allowed to be open. Since terminals are resource-intensive, opening too many terminals may cause a crash",
 			"properties.editor.wordwrap.title": "Autowrap",
 			"properties.editor.wordwrap.description": "Whether to automatically wrap by default globally. When the value is true, automatic line wrapping is enabled",
