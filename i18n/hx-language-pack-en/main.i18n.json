@@ -4021,7 +4021,7 @@
 			"properties.editor.contentassistselectionmode.description": "Shortcut selection of an item in the application code prompt",
 			"properties.editor.contentassistselectionmode.enum.item.allandnumber": "Alt+Number Mode",
 			"properties.editor.contentassistselectionmode.enum.item.number": "Number Mode",
-			"properties.editor.wordwrapmode.title": "Select Word Wrap Method",
+			"properties.editor.wordwrapmode.title": "Word Wrap Strategy",
 			"properties.editor.wordwrapmode.enum.char.title": "By Character",
 			"properties.editor.wordwrapmode.enum.word.title": "By Word",
 			"properties.editor.wordwrapmode.description": "This setting will only take effect after automatic line wrapping is turned on",
