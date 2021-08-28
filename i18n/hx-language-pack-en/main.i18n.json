@@ -3916,7 +3916,7 @@
 			"properties.editor.editorconfigsupport.description": "When enabled, the editor configuration will be overwritten",
 			"properties.editor.viewindentationguides.title": "Render Indent Guides",
 			"properties.editor.viewindentationguides.description": "",
-			"properties.editor.longlineindicator.title": "Show Long Indicator Lines",
+			"properties.editor.longlineindicator.title": "Render Long Line Indicator",
 			"properties.editor.longlineindicator.description": "",
 			"properties.editor.longlineindicatorcolumn.title": "The Long Line Indicates Which Column The Vertical Line Is Displayed In",
 			"properties.editor.longlineindicatorcolumn.description": "",
