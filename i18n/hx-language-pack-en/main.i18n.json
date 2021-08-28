@@ -3902,7 +3902,7 @@
 			"properties.explorer.expandsonclick.description": "If you turn off this option, double-click to expand/collapse the directory",
 			"properties.explorer.folder.openexplorerviewonclick.title": "Project Explorer: Open Built-in Resource Explorer when Single Click on the Directory",
 			"properties.explorer.folder.openexplorerviewonclick.description": "When you click or double-click the directory in the project manager, open the internal resource manager tab in the editor area on the right ",
-			"properties.editor.showendofline.title": "Display Line Breaks",
+			"properties.editor.showendofline.title": "Render End of Line Characters(EOL)",
 			"properties.editor.showendofline.description": "Whether to display line breaks. Display the carriage return at the end of the line when the value is true",
 			"properties.editor.showdefaultendofline.title": "Select Default Newline",
 			"properties.editor.showdefaultendofline.description": "Only affect the behavior of hitting the Enter key",
