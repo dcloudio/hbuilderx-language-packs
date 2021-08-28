@@ -3898,7 +3898,7 @@
 			"properties.localhistory.file.maxbackupsize.description": "Limit the file size to be backed up, unit KB",
 			"properties.localhistory.file.maxbackupdays.title": "Maximum Storage Day",
 			"properties.localhistory.file.maxbackupdays.description": "The maximum storage time of a backed up file, in days. Take 0 o'clock every day as the boundary, add 1 day after 0 o'clock, and 0 day means the time period after 0 o'clock on the current date.",
-			"properties.explorer.expandsonclick.title": "Project Manager Click To Expand/Collapse Table Of Contents",
+			"properties.explorer.expandsonclick.title": "Project Explorer: Expand/Collapse of Directory when Single Click",
 			"properties.explorer.expandsonclick.description": "If you turn off this option, double-click to expand/collapse the directory",
 			"properties.explorer.folder.openexplorerviewonclick.title": "The Project Manager Opens The Internal Resource Manager When Clicking On The Directory",
 			"properties.explorer.folder.openexplorerviewonclick.description": "When you click or double-click the directory in the project manager, open the internal resource manager tab in the editor area on the right ",
