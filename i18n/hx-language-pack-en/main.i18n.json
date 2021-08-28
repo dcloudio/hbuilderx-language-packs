@@ -3956,7 +3956,7 @@
 			"properties.editor.wordseparators.description": "The character that will be used as the text separator when performing text-related navigation or operations",
 			"properties.editor.multicursormodifier.title": "Insert Modifier Keys Used By Multiple Cursors",
 			"properties.editor.multicursormodifier.description": "Use the mouse to insert the keyboard modifier keys used by multiple cursors in the editor, the mouse usage of the “Go to Definition” function automatically uses another modifier key",
-			"properties.editor.mousewheelzoom.title": "Use Ctrl+mouse Wheel To Zoom Editor",
+			"properties.editor.mousewheelzoom.title": "Use Ctrl + Mouse Wheel to Zoom Editor",
 			"properties.editor.mousewheelzoom.description": "",
 			"properties.editor.guessindent.title": "Intelligent Calculation Of Tab Length",
 			"properties.editor.guessindent.description": "Intelligently guess the number of spaces in the tab. When it is false, the value of editor.tabSize in the configuration will be used. After modifying this item, you need to reopen the file",
