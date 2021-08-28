@@ -1,0 +1,49 @@
+{
+    "": [
+        "--------------------------------------------------------------------------------------------",
+        "Copyright (c) DCloud . All rights reserved.",
+        "--------------------------------------------------------------------------------------------"
+    ],
+    "version": "1.0.0",
+    "contents": {
+        "html": {
+            "audio.body.text": "当前浏览器不支持audio",
+            "scriptHtml5plus.description": "html5plus提前注入时需要加上此script块",
+            "video.body.text1": "当前浏览器不支持 video直接播放，点击这里下载视频:",
+            "video.body.text2": "下载视频"
+        },
+        "nml": {
+            "u_list.body.text1": "列表元素，属性type值相同时，需要确保渲染后的视图布局也完全相同",
+            "u_list.body.text2": "加载更多",
+            "u_list.body.text3": "加载更多",
+            "u_input.body.text": "请输入text",
+            "u_label.body.text1": "label为input、textarea组件定义标注",
+            "u_label.body.text2": "请输入",
+            "u_refresh.body.text": "停止刷新"
+        },
+        "uni_vue_tag": {
+            "uNavBar.body.text1": "返回",
+            "uNavBar.body.text2": "菜单",
+            "uNavBar.body.text3": "标题",
+            "uSegmentedControl.body.text1": "选项卡1的内容",
+            "uSegmentedControl.body.text2": "选项卡2的内容",
+            "uSegmentedControl.body.text3": "选项卡3的内容",
+            "uCard.body.text1": "标题文字",
+            "uCard.body.text2": "额外信息",
+            "uCard.body.text3": "内容主体，可自定义内容及样式",
+            "uCollapse.body.text": "内容",
+            "uGroup.body.text": "内容主体，可自定义内容及样式",
+            "uSection.body.text": "内容主体，可自定义内容及样式",
+            "uTable.body.text": "暂无更多数据"
+        },
+        "ux": {
+            "q_list.body.text1": "列表元素，属性type值相同时，需要确保渲染后的视图布局也完全相同",
+            "q_list.body.text2": "加载更多",
+            "q_list.body.text3": "加载更多",
+            "q_input.body.text": "请输入text",
+            "q_label.body.text1": "label为input、textarea组件定义标注",
+            "q_label.body.text2": "请输入",
+            "q_refresh.body.text": "停止刷新"
+        }
+    }
+}

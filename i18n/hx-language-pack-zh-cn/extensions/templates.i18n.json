@@ -1,0 +1,39 @@
+{
+    "": [
+        "--------------------------------------------------------------------------------------------",
+        "Copyright (c) DCloud . All rights reserved.",
+        "--------------------------------------------------------------------------------------------"
+    ],
+    "version": "1.0.0",
+    "contents": {
+        "file/vue-page/config": {
+            "default.name"                         : "默认模板",
+            "less.name"                            : "使用less的页面",
+            "scss.name"                            : "使用scss的页面",
+            "stylus.name"                          : "使用stylus的页面",
+            "typescript.name"                      : "使用typescript的页面",
+            "uni.bigImage.newsList.description"    : "垂直排列，略缩图显示大图",
+            "uni.blend.newsList.description"       : "基于 uni-list 的云端一体新闻列表模板，仿今日头条混合布局",
+            "uni.imageAndText.newsList.description": "垂直排列，图文混排",
+            "uni.leftPicture.newsList.description" : "水平排列，左图右文",
+            "uni.listProductList.description"      : "基于 uni-list 的云端一体商品列表模板（列表模式）",
+            "uni.multiGraph.newsList.description"  : "垂直排列，略缩图显示多图",
+            "uni.newsDetail.description"           : "云端一体新闻详情模板",
+            "uni.noThumbnail.newsList.description" : "垂直排列，无略缩图，主标题+副标题显示",
+            "uni.palaceGridProductList.description": "基于 uni-list 的云端一体商品列表模板（宫格模式）",
+            "uni.productList.description"          : "基于 uni-list 的云端一体化商品列表模板",
+            "uni.rightPicture.newsList.description": "基于 uni-list 的云端一体新闻列表模板(左文右图)",
+            "uni.bigImage.newsList.name"           : "大图模式 | 云端一体新闻列表",
+            "uni.blend.newsList.name"              : "混合布局 | 云端一体新闻列表",
+            "uni.imageAndText.newsList.name"       : "图文混排 | 云端一体新闻列表",
+            "uni.leftPicture.newsList.name"        : "左图右文 | 云端一体新闻列表",
+            "uni.listProductList.name"             : "列表模式 | 云端一体商品列表",
+            "uni.multiGraph.newsList.name"         : "多图显示 | 云端一体新闻列表",
+            "uni.newsDetail.name"                  : "云端一体新闻详情",
+            "uni.noThumbnail.newsList.name"        : "无略缩图 | 云端一体新闻列表",
+            "uni.palaceGridProductList.name"       : "宫格模式 | 云端一体商品列表",
+            "uni.productList.name"                 : "云端一体商品列表",
+            "uni.rightPicture.newsList.name"       : "左文右图 | 云端一体新闻列表"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "": [
+        "--------------------------------------------------------------------------------------------",
+        "Copyright (c) DCloud . All rights reserved.",
+        "--------------------------------------------------------------------------------------------"
+    ],
+    "version": "1.0.0",
+    "contents": {
+        "vue_script": {
+            "VueComponents.description": "注册vue组件"
+        },
+        "javascript":{
+            "clog.description"    : "打印变量",
+            "clogvar.description" : "打印变量",
+            "clogjson.description": "打印JSON字符串",
+            "dbget.description"   : "读取数据库数据（客户端用法）",
+            "dbadd.description"   : "向数据库插入数据（客户端用法）",
+            "dbupdate.description": "更新数据库数据（客户端用法）",
+            "dbremove.description": "删除数据库数据（客户端用法）"
+        }
+    }
+}
