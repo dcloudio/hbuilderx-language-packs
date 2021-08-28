@@ -3880,7 +3880,7 @@
 			"properties.files.associations.contextmenu.description": "“Open With HBuilder X” is displayed in the right-click menu of the file in “My Computer”",
 			"properties.files.associations.title": "Language Association",
 			"properties.files.associations.description": "To configure the language association (such as: \"*.htm\": \" HTML \"), the language type that can be configured can be seen by clicking the lower right corner of the editor, and the corresponding name can be entered here",
-			"properties.files.exclude.title": "Project Manager Filter Configuration (Effective After Reboot)",
+			"properties.files.exclude.title": "Exclude Directories Pattern For Find",
 			"properties.files.exclude.description": "Configure files and folders that the project manager does not display, with each rule separated by a half corner comma",
 			"properties.dir.exclude.title": "Search For Directories That Are Not Included By Default",
 			"properties.dir.exclude.description": "Folders that are not searched, with each rule separated by a half corner comma",
