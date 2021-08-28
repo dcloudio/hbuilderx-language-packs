@@ -3598,13 +3598,13 @@
 			"workbench.action.gotodefinitionwithpane.name.d": "&Go to Definition to Column[Command+Alt+Click]",
 			"run.name": "&Run",
 			"publish.name": "&Publish",
-			"project.action.app.pack.name": "&Native App - Cloud Packing",
-			"project.action.app.status.name": "&Native App - View Status of Cloud Packing",
-			"publish.makelocal.name": "&Native App - Local Packing",
+			"project.action.app.pack.name": "&Native App - Cloud Packaging",
+			"project.action.app.status.name": "&Native App - View Status of Cloud Packaging",
+			"publish.makelocal.name": "&Native App - Local Packaging",
 			"project.action.app.export.app.name": "&Generate Local Packaged App Resources",
-			"workbench.action.openandroidpackageguide.name": "&Local Packing Guide for Android...",
-			"workbench.action.openiospackageguide.name": "&Local Packing Guide for IOS...",
-			"project.action.app.export.wgt.app.name": "&Native App - Export Wgt App",
+			"workbench.action.openandroidpackageguide.name": "&Local Packaging Guide for Android...",
+			"workbench.action.openiospackageguide.name": "&Local Packaging Guide for IOS...",
+			"project.action.app.export.wgt.app.name": "&Native App - Export Wgt Package",
 			"project.action.app.publish.weapp.name": "&Mini-Program - WeChat(For uni-app Only)",
 			"project.action.app.publish.baiduapp.name": "&Mini-Program - BaiDu(For uni-app Only)",
 			"project.action.app.publish.alipayapp.name": "&Mini-Program - AliPay(For uni-app Only)",
@@ -3613,7 +3613,7 @@
 			"project.action.app.publish.360app.name": "&Mini-Program - 360(For uni-app Only)",
 			"project.action.app.publish.huaweiapp.name": "&QuickApp - HuaWei(For uni-app Only)",
 			"project.action.app.publish.quickappunion.name": "&Quickapp - Union(For uni-app Only)",
-			"project.action.app.publish.html5.name": "&Web - H5 For Cell Phone(For uni-app Only)",
+			"project.action.app.publish.html5.name": "&Website - PC Web or Phone H5 (For uni-app Only)",
 			"publish.custom.name": "&Custom Publish",
 			"project.action.app.publish.app.name": "&Generate Unified Publishing Page",
 			"project.action.app.publish.statichosting.name": "&Upload Website to Server",
@@ -4989,8 +4989,8 @@
 			"markdown-share.share.submenu.title": "&0 Share Markdown to Link"
 		},
 		":/unicloudhosting/package.json": {
-			"unicloud.web.publish.title": "View server web files(&D)",
-			"launchers.Deploy.label": "Upload website to server(&N)"
+			"unicloud.web.publish.title": "View Server Web Files(&D)",
+			"launchers.Deploy.label": "Upload Website to Server(&N)"
 		},
 		":/IPK/package.json": {
 			"IPK.installToMobile.title": "Install to phone"
