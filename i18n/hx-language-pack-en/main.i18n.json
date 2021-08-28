@@ -3476,7 +3476,7 @@
 			"editor.action.windows.name": "&Convert Document Line Breaks to \\r\\n",
 			"editor.action.macos.name": "&Convert Document Line Breaks to \\r",
 			"editor.action.unix.name": "&Convert Document Line Breaks to \\n",
-			"edit.indent.name": "&Indent",
+			"edit.indent.name": "&Indentation",
 			"tab.name.d": "Right indent",
 			"outdent.name": "Left indent",
 			"edit.transform.name": "&Convert Case",
