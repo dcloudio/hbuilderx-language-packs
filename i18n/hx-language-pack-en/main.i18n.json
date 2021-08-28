@@ -1417,7 +1417,7 @@
 			"menu.mainWindow.macOS11RunPrefix.desc": "Run-[Device:",
 			"menu.mainWindow.macOS11stopPrefix.desc": "Stop-[Device:",
 			"menu.mainWindow.showConsole.name": "&Show Console",
-			"msgbox.search.saveFile.name": "Save File {1} ?",
+			"msgbox.search.saveFile.name": "Save file {1} ?",
 			"msgbox.search.lostIfNotSave.title": "If not saved, the change will be lost.",
 			"msgbox.search.saveButton.name": "&Save",
 			"msgbox.search.notSaveButton.name": "&Not save",
