@@ -4799,6 +4799,7 @@
             "edit.toggle.multicursormodifier.name": "切换为\"Alt+单击\"插入多光标",
             "edit.toggle.multicursormodifier.name.d": "切换为\"Ctrl+单击\"插入多光标",
             "edit.toggle.multicursormodifier.name.d.d": "切换为\"Command+单击\"插入多光标",
+            "edit.toggle.mouseHelp.name": "快速选择指南...",
             "find.name": "查找(&I)",
             "workbench.action.quickopen.name": "查找文件(&T)",
             "actions.find.name": "查找字符串(当前文件)(&F)",

@@ -3552,6 +3552,7 @@
 			"edit.toggle.multicursormodifier.name": "Switch to \"Alt+Click\" for Multi-Cursor",
 			"edit.toggle.multicursormodifier.name.d": "Switch to \"Ctrl+Click\" for Multi-Cursor",
 			"edit.toggle.multicursormodifier.name.d.d": "Switch to \"⌘+Click\" for Multi-Cursor",
+			"edit.toggle.mouseHelp.name": "Quick Selection Guide...",
 			"find.name": "&Find",
 			"workbench.action.quickopen.name": "&Find File",
 			"actions.find.name": "&Find",
