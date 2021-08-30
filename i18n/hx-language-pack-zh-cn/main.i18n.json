@@ -566,6 +566,7 @@
             "msgbox.continueWithReplacement.desc.question": "注意：“替换”将整体删除目录 {1} 里的内容到回收站后，然后再复制新文件"
         },
         "FileWizard": {
+            "mui html"            : "包含mui的html文件",
             "empty"               : "空白文件",
             "simple"              : "简单模板",
             "default component"   : "默认模板",
