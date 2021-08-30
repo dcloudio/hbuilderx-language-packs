@@ -595,6 +595,8 @@
             "textbox.pleaseInputDirName.placeholder": "请输入目录名称",
             "textbox.pleaseInputPageName.placeholder": "请输入页面名称",
             "textbox.pleaseInputComponentName.placeholder": "请输入组件名称",
+            "label.selectminiprogram.title": "选择App和小程序的分包:",
+			"checkbox.createdir.title":"创建同名目录",
             "label.selfTemplates.link": "[<a href='click'>自定义模板</a>]",
             "label.dirCannotBeEmpty.error": "目录名称不能为空",
             "label.pageNameCannotEmpty.error": "页面名称不能为空",
