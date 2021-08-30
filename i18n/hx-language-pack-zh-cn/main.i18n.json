@@ -592,6 +592,7 @@
             "dialog.page.title.part": "页面",
             "dialog.component.title.part": "组件",
             "dialog.template.title.part": "从模板新建(&M)",
+            "textbox.pleaseInputFileName.placeholder": "请输入文件名",
             "textbox.pleaseInputDirName.placeholder": "请输入目录名称",
             "textbox.pleaseInputPageName.placeholder": "请输入页面名称",
             "textbox.pleaseInputComponentName.placeholder": "请输入组件名称",
