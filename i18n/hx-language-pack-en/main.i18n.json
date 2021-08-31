@@ -3686,7 +3686,7 @@
 			"tool.action.explorericon.none.name": "&No Icon",
 			"tool.externalcommand.name": "&External Commands",
 			"editor.action.validation.name": "&Validate Document",
-			"ext_settings.name": "&External Command plug-in Setting",
+			"ext_settings.name": "&External Command Setting",
 			"update.openplugindialog.name": "&Plug-in Installation",
 			"help.name": "&Help",
 			"workbench.action.opentutorial.name": "&Started Tutorial...",
