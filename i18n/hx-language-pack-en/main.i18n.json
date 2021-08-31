@@ -3498,7 +3498,7 @@
 			"editor.action.transformtouppercase.name": "&Upper Case",
 			"editor.action.transformtolowercase.name": "&Lower Case",
 			"editor.action.transformtotitlecase.name": "&Title Case",
-			"editor.action.triggersuggest.name": "&Active Code Assistant",
+			"editor.action.triggersuggest.name": "Trigger Code Completion(&A)",
 			"select.name": "&Select",
 			"editor.action.selectall.name": "&Select All",
 			"select.system.name": "&System Selection",
