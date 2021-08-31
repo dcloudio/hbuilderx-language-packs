@@ -1002,6 +1002,7 @@
 			"console.cannotFindPathOfNode.error": "Can't find node.exe"
 		},
 		"QObject": {
+			"snippet.proposal.desc": "From: Snippet",
 			"console.depositService.desc": "deposit service",
 			"console.notSupportService.error": "space '{1}' does not support this service",
 			"console.samenameResourcePleaseRecover.error": "there is same name resource in target, please try --force to recover",
