@@ -1,5 +1,11 @@
 {
 	"contents":{
+		"com.pandora.language.js":{
+			"Text.Define":"Defined in:"
+		},
+		  "io.dcloud.editor.html.ext":{
+			"Text.Define":"Defined in:"
+		},
 		"com.pandora.language":{
 			"Language.Belong.Class" : "Libraries",
 			"Language.Belong.Object" : "Belong To",
