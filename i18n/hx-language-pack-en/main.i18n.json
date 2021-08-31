@@ -4947,7 +4947,7 @@
 		},
 		":/conf/resources/conf/plugins.json": {
 			"mac:launcher.description": "Browse and test uni-app on Android or iOS devices.",
-			"launcher.name": "Playground Native Runner",
+			"launcher.name": "Mobile App Playground",
 			"git.description": "Git version management (depends on TortoiseGit)",
 			"svn.description": "SVN version management (depends on TortoiseSVN)",
 			"mac:uniapp-cli.name": "Uni-app(vue2) Compile",
@@ -4977,7 +4977,7 @@
 			"uniapp-cli.name": "Uni-app(vue2) Compile",
 			"builtincef3terminal.name": "Built-in Terminal",
 			"unicloud.name": "Unicloud Cloud Development",
-			"mac:launcher.name": "Playground Native Runner",
+			"mac:launcher.name": "Mobile App Playground",
 			"mac:uniapp-debugger.description": "Uni-app App debugging tool",
 			"mac:uniapp-cli.description": "Uni-app is compiled to the compiler of each end",
 			"svn.name": "SVN plugin",
