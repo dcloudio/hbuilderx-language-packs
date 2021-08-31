@@ -345,7 +345,8 @@
 			"IndexFilesOfProjectJob.Name" : "{0}索引文件中的项目",
 			"IndexPlugin.IndexingFile" : "索引{0}",
 			"IndexRequestJob.Name" : "索引{0}",
-			"RemoveIndexOfFilesOfProjectJob.Name" : "删除项目中的{0}文件索引"
+			"RemoveIndexOfFilesOfProjectJob.Name" : "删除项目中的{0}文件索引",
+			"Build.Completed":"构建完成"
 		},
 		"io.dcloud.internal.index.core":{
 			"DiskIndex.Unable.To.Create.Index.File" : "无法创建新的索引文件",
