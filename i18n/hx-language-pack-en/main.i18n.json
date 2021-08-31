@@ -1285,7 +1285,6 @@
 			"menu.explorerTree.openInExplorer.name": "&Reveal in System Explorer",
 			"menu.explorerTree.openFileInExplorer.name": "&Reveal in Finder",
 			"menu.explorerTree.copyFile.name": "Copy &File",
-			"editor.leftClickChangeColor.tooltips": "Mouse Left Modify Color Value",
 			"msgbox.fileSave.title": "File Save",
 			"dialog.editor.saveFile.title": "Save File",
 			"dialog.editor.saveAsFile.title": "Save As File",
@@ -2065,7 +2064,10 @@
 			"menu.clearBreakpoints.name": "Clear Breakpoints",
 			"tooltpis.openHyperlink.Alt.desc": "Open link (Alt + click)",
 			"tooltpis.openHyperlink.Command.desc": "Open link (Command + click)",
-			"tooltpis.openHyperlink.Ctrl.desc": "Open link (Ctrl + click)"
+			"tooltpis.openHyperlink.Ctrl.desc": "Open link (Ctrl + click)",
+            "editor.leftClickChangeColor.Alt.tooltips": "Use [Alt + click] to open color pick.",
+            "editor.leftClickChangeColor.Ctrl.tooltips": "Use [Ctrl + click] to open color pick.",
+            "editor.leftClickChangeColor.Command.tooltips": "Use [Command + click] to open color pick."
 		},
 		"UniAppBasicJsonFormPage": {
 			"msgbox.loginFirstFetchAppid.title": "Please log in first, then use the cloud to get the Appid function",
