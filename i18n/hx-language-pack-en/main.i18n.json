@@ -3423,13 +3423,8 @@
 			"workbench.action.files.openfile.name": "&Open File ...",
 			"workbench.action.files.openfolder.name": "&Open Directory ...",
 			"history.name.d": "&Open History File",
-<<<<<<< Updated upstream
-			"workbench.action.reopenclosededitor.name": "&Recover the Closed Tab",
-			"workbench.action.clearhistoryfiles.name": "&Clear the History List",
-=======
 			"workbench.action.reopenclosededitor.name": "&Recover The Closed Tab",
 			"workbench.action.clearhistoryfiles.name": "&Clear The History List",
->>>>>>> Stashed changes
 			"encodings.name": "&Reopen With Specified Encoding",
 			"workbench.action.files.save.name": "&Save",
 			"workbench.action.files.saveas.name": "&Save As ...",
