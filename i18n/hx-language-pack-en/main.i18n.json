@@ -7105,6 +7105,26 @@
 			"variableDescription.subDesc05": "${fileDir}          当前文件所在目录的完整路径,     比如 D:\\files",
 			"variableDescription.subDesc06": "${projectDir}       当前文件所在项目的完整路径,     只有当前文件是项目管理器中某个项目下的文件时才起作用"
 		},
+        ":/conf/resources/conf/snippet_template.json":{
+			"snippet_template.json.desc01": "Note: This document only supports single-line comments, and there can be no non-blank characters before the'//'!!!",
+			"snippet_template.json.desc02": "HBuilderX uses json extension code block, compatible with vscode code block format",
+			"snippet_template.json.desc03": "This document has been modified, save it to take effect, no need to restart.",
+			"snippet_template.json.desc04": "This document is used for user-defined %%1 code blocks.",
+			"snippet_template.json.desc05": "The description of each configuration item is as follows:",
+			"snippet_template.json.desc06": "'key': The display name of the code block, the name displayed in the code assistant list. In the following example,'console.log' is a key.",
+			"snippet_template.json.desc07": "'prefix': the trigger character of the code block, which is what letter is typed to match this code block.",
+			"snippet_template.json.desc08": "'body': the content of the code block. The content has the following special format",
+			"snippet_template.json.desc09": "$1 indicates the position of the cursor after the code block is entered. If you need multiple cursors, configure $1 in multiple places. If there are preset data at this position, the writing method is ${1:foo1} .Multiple options (used in the drop-down candidate list) ${1:foo1/foo2/foo3}",
+			"snippet_template.json.desc10": "$2 means that after the code block is entered, press tab again, and the cursor will switch to the position. tabstops(press tab after the code block is expanded to jump to the next tabstop)",
+			"snippet_template.json.desc11": "$0 represents the final cursor position after the code block is entered (you can also press Enter to jump directly).",
+            "snippet_template.json.desc12": "Double quotes are escaped using \\'",
+            "snippet_template.json.desc13": "Newlines are represented by multiple arrays, one array per line, surrounded by double quotes and separated by commas",
+            "snippet_template.json.desc14": "Indent needs to be represented by \\t, you can't enter indent directly!",
+            "snippet_template.json.desc15": "'triggerAssist' ：True means that the code prompt is triggered on the first tabtop immediately after the code block is entered into the document, and the code assistant is pulled out. The default is false.",
+			"snippet_template.json.desc16": "Each code block uses the key as the primary key, and multiple code blocks need to be separated by commas.",
+			"snippet_template.json.desc17": "If the json syntax is illegal, an error message will pop up at the bottom, please pay attention to correct it.",
+			"snippet_template.json.desc18": "Example:"
+        },
 		"QLineEdit": {
 			"&Copy": "&Copy",
 			"&Paste": "&Paste",
