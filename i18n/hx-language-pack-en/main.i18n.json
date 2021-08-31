@@ -1314,7 +1314,7 @@
 			"menu.mainWindow.gotoPreviousCursor.name": "Goto Previous Location",
 			"menu.mainWindow.gotoNextCursor.name": "Goto Next Location",
 			"msgbox.editor.change.title": "File Change",
-			"msgbox.editor.thisFile.title ": "This File",
+			"msgbox.editor.thisFile.title": "This File",
 			"msgbox.editor.saveAsButton.name": "Save as...",
 			"msgbox.editor.saveAllButton.name": "&Save All",
 			"core.cancelButton.name": "&Cancel",
