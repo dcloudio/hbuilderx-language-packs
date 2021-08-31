@@ -2135,7 +2135,7 @@
 		"UserAuthWidget": {
 			"menu.exitAccount.name": "Sign &out",
 			"button.login.name": "Login",
-			"button.noLogin.name": "Not logged in",
+			"button.noLogin.name": "Not signed in",
 			"menu.switchAccount.name": "&Switch Account",
 			"menu.newAccount.name": "&Add Account"
 		},
