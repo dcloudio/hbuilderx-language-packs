@@ -3685,7 +3685,7 @@
 			"tool.explorericon.theme.name": "&File Icon Theme",
 			"tool.action.explorericon.none.name": "&No Icon",
 			"tool.externalcommand.name": "&External Commands",
-			"editor.action.validation.name": "&Verify Document Syntax",
+			"editor.action.validation.name": "&Validate Document",
 			"ext_settings.name": "&External Command plug-in Setting",
 			"update.openplugindialog.name": "&Plug-in Installation",
 			"help.name": "&Help",
