@@ -27,7 +27,7 @@ function fileIsExist(filePath) {
         }
         // console.log('文件存在');
     } catch (err) {
-        // console.error('文件不存在');
+        console.error('文件不存在, err: ' + err);
     }
     return flag;
 }
@@ -44,9 +44,9 @@ function folderIsExist(folderPath) {
         if (stat.isDirectory()) {
             flag = true;
         }
-        // console.log('文件存在');
+        // console.log('文件夹存在');
     } catch (err) {
-        // console.error('文件不存在');
+        console.error('文件夹不存在, err: ' + err);
     }
     return flag;
 }
@@ -80,6 +80,7 @@ function createFile(filePath, jsonData) {
         // console.log('创建文件失败');
         if (err) throw err;
     });
+    console.log('文件已生成, 路径: ' + filePath);
 }
 
 // 获取某个文件夹下的所有文件夹的名称
