@@ -4997,7 +4997,7 @@
 			"vertran.migrate.title": "Migration cloudfunctions Migration(&E)"
 		},
 		":/markdown-share/package.json": {
-			"markdown-share.share.title": "&Share to Link",
+			"markdown-share.share.title": "&Share to WebLink",
 			"markdown-share.share.publish.title": "&Share Markdown to WebLink",
 			"markdown-share.share.submenu.title": "&0 Share Markdown to WebLink"
 		},
