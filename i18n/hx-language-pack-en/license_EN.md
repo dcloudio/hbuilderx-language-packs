@@ -1,5 +1,5 @@
 # HBuilder License Agreement
-This agreement is an agreement between Digital Heaven (DCloud) and you on the HBuilder software (hereinafter referred to as the software).
+This agreement is an agreement between DCloud and you on the HBuilder software (hereinafter referred to as the software).
 The place of signing of this agreement is Haidian District, Beijing of China.
 Your use of this software means that you have read and agreed to be bound by this agreement.
 
