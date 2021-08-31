@@ -1,11 +1,18 @@
 {
 	"contents":{
+		"com.pandora.language.js":{
+			"Text.Define":"定义于:"
+		},
+		  "io.dcloud.editor.html.ext":{
+			"Text.Define":"定义于:"
+		},
 		"com.pandora.language":{
 			"Language.Belong.Class" : "所属类库",
 			"Language.Belong.Object" : "所属对象",
 			"Language.Reference" : "参考",
 			"Language.ReturnValue" : "返回值",
 			"Language.ClassType" : "类型",
+			"Language.Example" : "示例",
 			"Language.CloudFunction1" : "[云函数:",
 			"Language.CloudFunction2" : "] 运行日志：",
 			"Language.Error.NotFoundMainEXE" : "检测不到主进程，开始自动退出。",
