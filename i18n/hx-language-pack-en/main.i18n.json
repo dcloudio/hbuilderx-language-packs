@@ -3565,7 +3565,7 @@
 			"editor.action.startfindreplaceaction.name": "&Replace",
 			"editor.action.nextselectionmatchfindaction.name": "&Find Next",
 			"editor.action.previousselectionmatchfindaction.name": "&Find Previous",
-			"actions.quickfind.name": "&Find Symbol",
+			"actions.quickfind.name": "&Find Symbol in Editor...",
 			"goto.name": "&Goto",
 			"system_goto.name": "&System Goto",
 			"cursorleft.name": "Cursor Left",
