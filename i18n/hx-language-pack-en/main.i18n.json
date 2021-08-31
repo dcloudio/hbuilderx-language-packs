@@ -4998,8 +4998,8 @@
 		},
 		":/markdown-share/package.json": {
 			"markdown-share.share.title": "&Share to Link",
-			"markdown-share.share.publish.title": "&Share Markdown to Link",
-			"markdown-share.share.submenu.title": "&0 Share Markdown to Link"
+			"markdown-share.share.publish.title": "&Share Markdown to WebLink",
+			"markdown-share.share.submenu.title": "&0 Share Markdown to WebLink"
 		},
 		":/unicloudhosting/package.json": {
 			"unicloud.web.publish.title": "View Server Web Files(&D)",
