@@ -815,6 +815,11 @@
             "msgbox.destinationSubtreeSource.desc": "目标位置是源文件夹的子文件夹",
             "msgbox.cannotMovedOrRenamed.desc": "源文件夹是根文件夹，禁止拷贝或移动，"
         },
+        "PluginHostService": {
+            "plugin-host.exception.exit.error.desc": "哦噢，某些操作引起了插件进程异常退出，可能会导致部分插件功能无法正常使用，建议重启HBuilderX。<a href='https://ask.dcloud.net.cn/publish/bug/'>反馈此问题</a>。",
+            "button.restart.title":"重启(&R)",
+            "button.ignore.title":"忽略(&I)"
+        },
         "PluginMannager": {
             "button.Install.name": "安装(&I)",
             "button.Cancel.name": "取消(&C)",
@@ -1028,6 +1033,7 @@
             "console.cannotFindPathOfNode.error": "无法找到node.exe"
         },
         "QObject": {
+        	"snippet.proposal.desc": "来自：代码块",
             "title.msgbox.vueVersionDiffDesc.warning": "不同版本的vue混用可能会引起未知的错误",
             "title.msgbox.vueVersionDifferentFrom.warning": "导入的插件所使用的vue版本为{1}, 与当前项目使用的版本{2}并不相同",
             "console.depositService.desc": "开通托管服务",
@@ -4343,6 +4349,8 @@
             "properties.editor.foldedcodeexpandmode.description": "对已折叠的代码展开的方式",
             "properties.editor.fontfamily.macos.description": "编辑英文显示的字体， 需要自定义字体请先在操作系统内安装相应字体。",
             "properties.editor.foldedcodeexpandmode.title": "代码展开方式",
+            "properties.editor.foldedcodeexpandmode.item.partialexpansion": "部分展开",
+            "properties.editor.foldedcodeexpandmode.item.allxpansion": "全部展开",
             "properties.editor.viewindentationguides.title": "显示代码缩进对齐线",
             "properties.builtin.web.server.port.title": "内置web服务器端口(重启后生效)",
             "properties.editor.fontsize.description": "编辑器字体大小，单位像素",
@@ -4389,6 +4397,8 @@
             "properties.alipayapp.devtools.path.description": "支付宝小程序开发者工具可执行程序，如未安装请到<a style='color:#298bdb' href='https://docs.alipay.com/mini/ide/download'>https://docs.alipay.com/mini/ide/download</a>下载",
             "properties.workbench.titlebar.usenativestyle.description": "勾选后，顶部菜单将不再是沉浸式，而变成传统windows窗口样式。重启后生效。",
             "properties.terminal.type.description": "运行的终端类型",
+            "properties.terminal.type.enum.item.built-in": "内置终端",
+            "properties.terminal.type.enum.item.external": "外部终端",
             "properties.editor.showdefaultendofline.title": "选择默认换行符",
             "properties.baiduapp.devtools.path.description": "百度开发者工具可执行程序，如未安装请到<a style='color:#298bdb' href='https://smartprogram.baidu.com/docs/develop/devtools/history/'>https://smartprogram.baidu.com/docs/develop/devtools/history/</a>下载",
             "properties.dir.exclude.title": "搜索默认不包含的目录",
@@ -4421,7 +4431,7 @@
             "properties.browsers.config.properties.firefox.path.description": "",
             "properties.editor.saveonfocuslost.title": "失去焦点自动保存",
             "properties.editor.longlineindicatorcolumn.description": "",
-            "properties.bytedanceapp.devtools.path.description": "字节跳动小程序开发者工具可执行程序，如未安装请到<a style='color:#298bdb' href='https://developer.toutiao.com/docs/devtool/versionUpdate.html'>https://developer.toutiao.com/docs/devtool/versionUpdate.html</a>下载",
+            "properties.bytedanceapp.devtools.path.description": "字节跳动小程序开发者工具可执行程序，如未安装请到<a style='color:#298bdb' href='https://microapp.bytedance.com/docs/zh-CN/mini-app/develop/developer-instrument/overview/'>https://microapp.bytedance.com/docs/zh-CN/mini-app/develop/developer-instrument/overview/</a>下载",
             "properties.android.simulator.port.title": "Android模拟器端口",
             "properties.webserver.config.title": "Web服务器配置",
             "properties.editor.showendofline.description": "是否显示换行符。当值为true时显示行尾的回车符",
@@ -4448,6 +4458,8 @@
             "properties.editor.editorconfigsupport.description": "启用后将覆盖编辑器配置",
             "properties.terminal.maxcount.title": "打开终端数量",
             "properties.editor.contentassistselectionmode.description": "应用代码提示中某一项的快捷选择方式",
+            "properties.editor.contentassistselectionmode.enum.item.allandnumber": "Alt+数字模式",
+            "properties.editor.contentassistselectionmode.enum.item.number": "数字模式",
             "properties.browsers.config.title": "浏览器运行配置",
             "properties.editor.renderwhitespace.title": "高亮时显示空白字符",
             "properties.editor.scrollbeyondlastline.title": "编辑器向下滚动一屏",
@@ -4475,6 +4487,8 @@
             "properties.editor.codeassist.px2upx.decimallength.description": "",
             "properties.editor.wordwrapmode.title": "选择自动换行方式",
             "properties.editor.wordwrapmode.description": "需要开启自动换行后该设置才会生效",
+            "properties.editor.wordwrapmode.enum.char.title":"按字符截取",
+            "properties.editor.wordwrapmode.enum.word.title":"按单词截取",
             "properties.kuaishouapp.devtools.path.title": "快手小程序开发者工具路径",
             "properties.kuaishouapp.devtools.path.description": "快手小程序开发者工具可执行程序，如未安装请到<a style='color:#298bdb' href='https://mp.kuaishou.com/docs/develop/developerTools/downloadPath.html'>https://mp.kuaishou.com/docs/develop/developerTools/downloadPath.html</a>下载",
             "properties.logInfo.auto.reportCrash.title":"帮助我们改进HBuilderX的功能和性能",
