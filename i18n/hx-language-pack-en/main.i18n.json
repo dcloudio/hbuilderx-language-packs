@@ -4920,11 +4920,11 @@
 		},
 		"SelectSpaceDialog": {
 			"dialog.dialog.text": "Choose a cloud service space",
-			"spaceList.text": "Note: Currently only supports Aliyun cloud service space",
-			"button.ok.text": "OK(&F)",
-			"button.cancel.text": "Cancel(&C)",
-			"label.footTitle.text": "Please select a service space. After selecting the service space, the installation package will be uploaded to the cloud storage.",
-			"label.footTitle.des": "After the upload is successful, the console will display the download address of the installation package"
+			"spaceList.text": "Only supports Aliyun service space",
+			"button.ok.text": "&OK",
+			"button.cancel.text": "&Cancel",
+			"label.footTitle.text": "The install pack will uploaded to the cloud storage.",
+			"label.footTitle.des": "If upload success, the console will output download url"
 		},
 		"PublishDialog": {
 			"dialog.dialog.text": "H5 Mobile version issuance",
