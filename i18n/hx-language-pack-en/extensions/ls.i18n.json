@@ -141,8 +141,8 @@
 		},
 		"com.pandora.launcher.core.iphone":{
 			"IPhoneLauncher.21" : "Start listening on iPhone device...",
-			"IPhoneLauncher.Connected.PC" : "Connected to computer",
-			"IPhoneLauncher.Existed.PC" : "Disconnected",
+			"IPhoneLauncher.Connected.PC" : " connected to computer",
+			"IPhoneLauncher.Existed.PC" : " disconnected",
 			"IPhoneLauncher.Initiative.Start.App" : "If the HBuilder debugging dock on the mobile phone is not started, please start it manually. If the application is not updated, please kill the docking station on the phone and restart the process",
 			"IPhoneLauncher.Initiative.Stop.App" : "Please manually stop the HBuilder Dock App on your phone...",
 			"IPhoneLauncher.Open.Connection.Failed" : "Failed to open the phone connection, please try to unplug the data cable and reconnect the phone, or restart the phone and try again",
