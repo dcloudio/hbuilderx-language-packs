@@ -9,10 +9,10 @@
     "version": "1.0.0",
     "contents": {
         "package": {
-            "description": "share markdown to uniCloud server",
-            "markdown-share.showsharehistory.title": "share to web show share history",
-            "displayname": "mardown-share extentions"
+            "markdown-share.displayname": "Markdown one-click sharing",
+            "markdown-share.description": "Share markdown to uniCloud front-end website deployment server",
+            "contributes.configuration.properties.markdown-share.spaceId.description":"Configure the uniCloud service space Id to upload for markdown sharing (currently only supports Alibaba Cloud), <a style='color:#298bdb' href='https: //ask.dcloud.net.cn/article/37573'>Configuration Tutorial</a>",
+            "markdown-share.showShareHistory.title":"View markdown history sharing records"
         }
-
     }
 }
