@@ -841,7 +841,7 @@
 		},
 		"PreviouUniAppVueCompiler": {
 			"console.projectStartCompiling.info": "Project '{1}' start compiling...",
-			"console.projectCompilingEnd.info": "Project '{1}' Project.",
+			"console.projectCompilingEnd.info": "Project '{1}' compiled successfully.",
 			"console.projectCompilingFailed.warning": "Project '{1}' Compiling failed.",
 			"console.seeLogInBrowserConsole.info": "Please see the log of front-end in browser console.",
 			"console.seeLogInMiniprogramConsole.info": "Please see the log of front-end in miniprogram console.",
