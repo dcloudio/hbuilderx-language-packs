@@ -7155,6 +7155,9 @@
 			"Scroll left": "Scroll Left",
 			"Scroll right": "Scroll Right",
 			"Top": "Top"
-		}
+		},
+		"CloseButton": {
+    		    "Close Tab": "Close Tab"
+    		}
 	}
 }
