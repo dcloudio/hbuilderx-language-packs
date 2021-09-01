@@ -10,7 +10,7 @@
     "contents": {
         "package": {
             "description": "share markdown to uniCloud server",
-            "markdown-share.showsharehistory.title": "share to web showsharehistory ----",
+            "markdown-share.showsharehistory.title": "share to web show share history",
             "displayname": "mardown-share extentions"
         }
 
