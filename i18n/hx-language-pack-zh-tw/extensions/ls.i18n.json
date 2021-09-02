@@ -1,13 +1,19 @@
 {
-    "version": "1.0.0.20210815",
-    "author": "wandali",
+    "version": "1.0.0.20210902",
     "contents": {
+        "com.pandora.language.js": {
+            "Text.Define": "定義於:"
+        },
+        "io.dcloud.editor.html.ext": {
+            "Text.Define": "定義於:"
+        },
         "com.pandora.language": {
             "Language.Belong.Class": "所屬類庫",
             "Language.Belong.Object": "所屬對象",
             "Language.Reference": "參考",
             "Language.ReturnValue": "返回值",
             "Language.ClassType": "類型",
+            "Language.Example": "示例",
             "Language.CloudFunction1": "[雲函數:",
             "Language.CloudFunction2": "] 運行日誌：",
             "Language.Error.NotFoundMainEXE": "檢測不到主進程，開始自動退出。",
@@ -340,7 +346,8 @@
             "IndexFilesOfProjectJob.Name": "{0}索引文件中的項目",
             "IndexPlugin.IndexingFile": "索引{0}",
             "IndexRequestJob.Name": "索引{0}",
-            "RemoveIndexOfFilesOfProjectJob.Name": "刪除項目中的{0}文件索引"
+            "RemoveIndexOfFilesOfProjectJob.Name": "刪除項目中的{0}文件索引",
+            "Build.Completed": "構建完成"
         },
         "io.dcloud.internal.index.core": {
             "DiskIndex.Unable.To.Create.Index.File": "無法創建新的索引文件",
