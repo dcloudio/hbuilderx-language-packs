@@ -12,16 +12,16 @@
         "Language Packs"
     ],
     "tips": {
-        "setLanguageMessage": "當前語言已經設置為{1}, 重啟應用程序後生",
-        "missingLanguageMessage": "在語言包({2})中沒有找到對應語言({1})",
-        "askChangeLanguageMessage": "當前設置的缺省語言(中文(簡體))與系統語言不同({1})",
+        "setLanguageMessage": "當前語言已經設置為【{1}】, 重啟生效。",
+        "missingLanguageMessage": "在語言包【{2}】中沒有找到對應語言【{1}】",
+        "askChangeLanguageMessage": "當前設置的缺省語言【中文(簡體)】與系統語言不同【{1}】",
         "changeToButton": "設置與系統語言一致並重啟"
     },
     "contributes": {
         "localizations": [{
             "languageId": "zh_TW",
             "languageName": "chinese",
-            "localizedLanguageName": "繁體中文（中國台灣）",
+            "localizedLanguageName": "繁體中文(中國台灣)",
             "translations": [{
                     "id": "hbuilderx",
                     "path": "./main.i18n.json"

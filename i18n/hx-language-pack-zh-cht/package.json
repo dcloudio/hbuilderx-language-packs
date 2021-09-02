@@ -12,9 +12,9 @@
         "Language Packs"
     ],
     "tips": {
-        "setLanguageMessage": "當前語言已經設置爲{1}, 重啓應用程序後生效",
-        "missingLanguageMessage": "在語言包({2})中沒有找到對應語言({1})",
-        "askChangeLanguageMessage": "當前設置的缺省語言(中文(簡體))與系統語言不同({1})",
+        "setLanguageMessage": "當前語言已經設置爲【{1}】, 重啓生效。",
+        "missingLanguageMessage": "在語言包【{2}】中沒有找到對應語言【{1}】",
+        "askChangeLanguageMessage": "當前設置的缺省語言【中文(簡體)】與系統語言不同【{1}】",
         "changeToButton": "設置與系統語言一致並重啓"
     },
     "contributes": {
