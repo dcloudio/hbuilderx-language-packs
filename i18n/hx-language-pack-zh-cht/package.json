@@ -6,7 +6,7 @@
     "version": "1.0.0",
     "publisher": "HBuilderX",
     "engines": {
-        "HBuilderX": "^3.2.2"
+        "HBuilderX": "^3.2.6"
     },
     "categories": [
         "Language Packs"
@@ -23,9 +23,17 @@
             "languageName": "chinese",
             "localizedLanguageName": "繁體中文",
             "translations": [{
-                "id": "hbuilderx",
-                "path": "./main.i18n.json"
-            }]
+                    "id": "hbuilderx",
+                    "path": "./main.i18n.json"
+                }, {
+                    "id": "ls",
+                    "path": "./extensions/ls.i18n.json"
+                },
+                {
+                    "id": "templates",
+                    "path": "./extensions/templates.i18n.json"
+                }
+           ]
         }]
     }
 }
