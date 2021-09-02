@@ -1,0 +1,34 @@
+{
+    "version": "1.0.0.20210902",
+    "contents": {
+        "file/vue-page/config": {
+            "default.name": "默認模板",
+            "less.name": "使用less的頁面",
+            "scss.name": "使用scss的頁面",
+            "stylus.name": "使用stylus的頁面",
+            "typescript.name": "使用typescript的頁面",
+            "uni.bigImage.newsList.description": "垂直排列，略縮圖顯示大圖",
+            "uni.blend.newsList.description": "基於 uni-list 的雲端一體新聞列表模板，仿今日頭條混合佈局",
+            "uni.imageAndText.newsList.description": "垂直排列，圖文混排",
+            "uni.leftPicture.newsList.description": "水平排列，左圖右文",
+            "uni.listProductList.description": "基於 uni-list 的雲端一體商品列表模板（列表模式）",
+            "uni.multiGraph.newsList.description": "垂直排列，略縮圖顯示多圖",
+            "uni.newsDetail.description": "雲端一體新聞詳情模板",
+            "uni.noThumbnail.newsList.description": "垂直排列，無略縮圖，主標題+副標題顯示",
+            "uni.palaceGridProductList.description": "基於 uni-list 的雲端一體商品列表模板（宮格模式）",
+            "uni.productList.description": "基於 uni-list 的雲端一體化商品列表模板",
+            "uni.rightPicture.newsList.description": "基於 uni-list 的雲端一體新聞列表模板(左文右圖)",
+            "uni.bigImage.newsList.name": "大圖模式 | 雲端一體新聞列表",
+            "uni.blend.newsList.name": "混合佈局 | 雲端一體新聞列表",
+            "uni.imageAndText.newsList.name": "圖文混排 | 雲端一體新聞列表",
+            "uni.leftPicture.newsList.name": "左圖右文 | 雲端一體新聞列表",
+            "uni.listProductList.name": "列表模式 | 雲端一體商品列表",
+            "uni.multiGraph.newsList.name": "多圖顯示 | 雲端一體新聞列表",
+            "uni.newsDetail.name": "雲端一體新聞詳情",
+            "uni.noThumbnail.newsList.name": "無略縮圖 | 雲端一體新聞列表",
+            "uni.palaceGridProductList.name": "宮格模式 | 雲端一體商品列表",
+            "uni.productList.name": "雲端一體商品列表",
+            "uni.rightPicture.newsList.name": "左文右圖 | 雲端一體新聞列表"
+        }
+    }
+}
