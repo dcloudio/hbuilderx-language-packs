@@ -2131,7 +2131,8 @@
 			"msgbox.updataVersion.question.title": "Make sure to switch to the latest version？",
 			"button.Cancel.name": "Cancel(&C)",
 			"buttn.Ok.name": "OK",
-			"msgbox.fallbackVersion.question.title": "Make sure to switch to the previous version？"
+			"msgbox.fallbackVersion.question.title": "Make sure to switch to the previous version？",
+			"msgbox.settingUpdate.title": "Checking for updates has been disabled. Please enable updates and try again.It can be modified in 'Tool->Settings->Common configure->Updates Settings'"
 		},
 		"UserAuth": {
 			"text.sponsor.desc": "{1} [{2}sponsor] {3}"
@@ -3825,6 +3826,7 @@
 			"settings.explorer.fileReveal.policy.desc2": "Support settings: default (automatically associated in a single item), never (never associated), always (always associated)",
 			"settings.explorer.folder.openExplorerViewOnClick.desc": "Project manager click on the folder to trigger the explorer view",
 			"settings.logInfo.auto.reportCrash.desc": "Automatically report crash log",
+			"settings.software.update.settings.desc": "Update Settings",
 			"settings.explorer.iconTheme.desc": "File Icon Theme",
 			"settings.explorer.showClosedProject.desc": "Whether to show closed projects",
 			"settings.files.associations.contextmenu.desc": "Right-click menu to use HBuilder X to open the file",
@@ -4045,7 +4047,12 @@
 			"properties.kuaishouapp.devtools.path.title": "Kuaishou Mini Program Developer Tool Path",
 			"properties.kuaishouapp.devtools.path.description": "Kuaishou Mini Program Developer Tool executable program, if not installed, please go to <a style='color:#298bdb' href='https://mp.kuaishou.com/docs/develop/developerTools/downloadPath.html'>download</a>",
 			"properties.logInfo.auto.reportCrash.title": "Help us improve the functionality and performance of HBuilderX",
-			"properties.logInfo.auto.reportCrash.description": "Automatically report usage statistics and crashes to us"
+			"properties.logInfo.auto.reportCrash.description": "Automatically report usage statistics and crashes to us",
+			"properties.software.update.settings.title":"Update Settings",
+			"properties.software.update.settings.description":"Configure whether checks updates,Requires a restart after change",
+            "properties.software.update.default.title":"Check for updates on startup",
+            "properties.software.update.manual.title":"Manually check for updates",
+            "properties.software.update.none.title":"Disable updates"
 		},
 		":/conf/resources/conf/settings-uiconfig.json": {
 			"editor.wordwrap.title": "Editor",
