@@ -5,7 +5,7 @@
     "web.simple.description": "Contains index.html and css, js, img directories",
     "web.html_vue.name": "Vue Project(Basic)",
     "web.html_vue.description": "Reference vue.js in html (v3.2.8)",
-    "web.vue3-cli.name": "Vue Cli(3.2.6)",
+    "web.vue3-cli.name": "Vue Cli(3.2.8)",
     "web.vue3-cli.description": "vue3 Cli default project template (contains vite)",
     "web.hello-vue.name": "Vue Cli(2.6.10)",
     "web.hello-vue.description": "vue2 Cli default project template (Only contains babel)",

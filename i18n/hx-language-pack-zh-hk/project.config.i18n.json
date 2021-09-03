@@ -5,7 +5,7 @@
     "web.simple.description": "包含index.html和css、js、img目錄",
     "web.html_vue.name": "vue項目(普通模式)",
     "web.html_vue.description": "在html中引用vue.js (v3.2.8)",
-    "web.vue3-cli.name": "vue3項目(3.2.6)",
+    "web.vue3-cli.name": "vue3項目(3.2.8)",
     "web.vue3-cli.description": "vue3-cli默認項目（包含vite）",
     "web.hello-vue.name": "vue2項目(2.6.10)",
     "web.hello-vue.description": "vue-cli默認項目（僅包含babel）",
