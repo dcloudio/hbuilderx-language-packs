@@ -2131,8 +2131,7 @@
 			"msgbox.updataVersion.question.title": "Make sure to switch to the latest version？",
 			"button.Cancel.name": "Cancel(&C)",
 			"buttn.Ok.name": "OK",
-			"msgbox.fallbackVersion.question.title": "Make sure to switch to the previous version？",
-			"msgbox.settingUpdate.title": "Checking for updates has been disabled. Please enable updates and try again.It can be modified in 'Tool->Settings->Common configure->Updates Settings'"
+			"msgbox.fallbackVersion.question.title": "Make sure to switch to the previous version？"
 		},
 		"UserAuth": {
 			"text.sponsor.desc": "{1} [{2}sponsor] {3}"
@@ -4051,8 +4050,7 @@
 			"properties.software.update.settings.title":"Update Settings",
 			"properties.software.update.settings.description":"Configure whether checks updates,Requires a restart after change",
             "properties.software.update.default.title":"Check for updates on startup",
-            "properties.software.update.manual.title":"Manually check for updates",
-            "properties.software.update.none.title":"Disable updates"
+            "properties.software.update.manual.title":"Manually check for updates"
 		},
 		":/conf/resources/conf/settings-uiconfig.json": {
 			"editor.wordwrap.title": "Editor",
