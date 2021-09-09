@@ -2131,7 +2131,8 @@
 			"msgbox.updataVersion.question.title": "Make sure to switch to the latest version？",
 			"button.Cancel.name": "Cancel(&C)",
 			"buttn.Ok.name": "OK",
-			"msgbox.fallbackVersion.question.title": "Make sure to switch to the previous version？"
+			"msgbox.fallbackVersion.question.title": "Make sure to switch to the previous version？",
+			"msgbox.versionUpdateReleasenNode.question.title": "Whether to view the release note?"
 		},
 		"UserAuth": {
 			"text.sponsor.desc": "{1} [{2}sponsor] {3}"
