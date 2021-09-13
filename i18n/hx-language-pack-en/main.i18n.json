@@ -687,6 +687,11 @@
 			"msgbox.pleaseLogin.info": "Please log in first, then use the cloud to get the Appid function",
 			"msgbox.title.inputAppidFirst": "Please enter the appid first, and then get the universal link"
 		},
+		"UniAppSplashJsonFormPage": {
+            "button.ok.description": "确认(&O)",
+            "button.cancel.description": "取消(&C)",
+            "msgbox.title.warning": "根据工业和信息化部关于开展APP侵害用户权益专项整治要求，应用启动运行时需弹出隐私政策相关提示框，不配置将无法通过应用市场审核，确认不使用原生隐私协议提示框？"
+        },
 		"JsonFormFile": {
 			"button.Browse.name": "Browse..."
 		},
