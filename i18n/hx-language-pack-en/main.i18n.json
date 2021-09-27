@@ -161,7 +161,7 @@
 			"console.cancelErrorPleaseLater.error": "Project {1} [{2}] failed to cancel package, Cloud server is busy, please try again later",
 			"console.cancelFailedCheckNetwork.error": "Project {1} [{2}] failed to cancel package, Network connection failed, please check network status and system proxy settings",
 			"console.sendingRequestCancel.info": "Sending a request to cancel the package of project {1} [{2}]",
-			"button.cancelProjectPackage.name": "Cancel project {1} package",
+			"button.cancelProjectPackage.name": "{1} is being packaged, click here to cancel",
 			"button.hidden.name": "&Hide",
 			"radio.releasePackage.name": "Release",
 			"radio.customPackage.name": "Custom playground native runner(iOS's  Safari remote debug must be use deverloper certificate )",
