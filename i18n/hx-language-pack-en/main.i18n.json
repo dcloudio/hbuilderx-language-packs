@@ -201,7 +201,8 @@
 			"wechat.login.payment.sharing.same.text": "The UniversalLinks of WeChat login, WeChat payment, and WeChat sharing are inconsistent",
 			"android.googleplay.aab.text": "The Android App Bundle (AAB) format used in the Android platform GooglePlay channel does not currently support safe packaging {1}. The GooglePlay channel package will be submitted to the cloud using the traditional packaging mode. Do you want to continue?",
 			"qq.login.sharing.ulink.text ": "The UniversalLinks of QQ login and QQ sharing are inconsistent",
-			"sina.weibo.login.sharing.same.text": "Sina Weibo login and Sina Weibo shared UniversalLinks are inconsistent"
+			"sina.weibo.login.sharing.same.text": "Sina Weibo login and Sina Weibo shared UniversalLinks are inconsistent",
+			"msgbox.bindingspace.text": "The current project has no associated service space. Do you want to continue packaging?"
 		},
 		"AppPackageJob": {
 			"console.checkPackingState.desc": "Check the cloud packing status...",
