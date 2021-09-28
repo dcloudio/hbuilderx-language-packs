@@ -2594,7 +2594,8 @@
 			"menu.gotoLineEndDirect.name": "Cursor to end of line",
 			"menu.cursorLeft.name": "Cursor left",
 			"menu.gotoWordPartLeft.name": "Cursor to the left one camel case word",
-			"menu.showPublishMenu.name": "Display the release menu(&P)"
+			"menu.showPublishMenu.name": "Display the release menu(&P)",
+			"msgbox.dependOnH5.desc.question": "H5 release function depends on plug-in [H5 extension]. Are you sure you want to install it?"
 		},
 		"Workspace": {
 			"notify.tip.filesmovedrelateproject": "Files have moved successfully.",
