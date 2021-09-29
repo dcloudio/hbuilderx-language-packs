@@ -5291,6 +5291,7 @@
 			"qt.platformtheme.cancel": "Cancel"
 		},
 		"CUniCloudDebugPublic":{
+			"console.button.debug.desc":"Turn on debugging",
 			"msgbox.title.projectHasRunning"    : "There is already a debugging process running in the current project, and new debugging is not currently supported",
 			"console.noUnicloudProcess.tip"     : "uniCloud debugging service is not started and cannot be debugged",
 			"console.remoteDebug.tip"           : "Cloud function debugging is not supported temporarily, please switch to the UniAPP console page and check 'local cloud function' before debugging",
