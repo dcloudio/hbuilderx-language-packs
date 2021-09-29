@@ -2074,7 +2074,8 @@
 			"tooltpis.openHyperlink.Ctrl.desc": "Open link (Ctrl + click)",
 			"editor.leftClickChangeColor.Alt.tooltips": "Use [Alt + click] to open color pick.",
 			"editor.leftClickChangeColor.Ctrl.tooltips": "Use [Ctrl + click] to open color pick.",
-			"editor.leftClickChangeColor.Command.tooltips": "Use [Command + click] to open color pick."
+			"editor.leftClickChangeColor.Command.tooltips": "Use [Command + click] to open color pick.",
+			"editor.addbreakpoint.tips"       :"Double-click to Add Breakpoint or Pressing"
 		},
 		"UniAppBasicJsonFormPage": {
 			"msgbox.loginFirstFetchAppid.title": "Please log in first, then use the cloud to get the Appid function",
@@ -5289,6 +5290,51 @@
 			"qt.platformtheme.ok": "OK",
 			"qt.platformtheme.cancel": "Cancel"
 		},
+		"CUniCloudDebugPublic":{
+			"msgbox.title.projectHasRunning"    : "There is already a debugging process running in the current project, and new debugging is not currently supported",
+			"console.noUnicloudProcess.tip"     : "uniCloud debugging service is not started and cannot be debugged",
+			"console.remoteDebug.tip"           : "Cloud function debugging is not supported temporarily, please switch to the UniAPP console page and check 'local cloud function' before debugging",
+			"console.localDebugSuccess.tip"     : "Start debugging successfully",
+			"console.localDebugrunmoretimes.tip": "The local debugging service has been opened, please do not click repeatedly",
+			"console.log.missingplug-ins.desc"  : "Missing the necessary debugging plug-in, the debugging service cannot run"
+        },
+        "DebuggerViewWidget":{
+            "debugview.variables.title"  : "Variables",
+            "debugview.expressions.title": "Watchs",
+            "debugview.callstack.title"  : "Call Stack",
+            "debugview.breakpoints.title": "Breakpoints",
+            "debugview.collapseall"      : "Collapse All"
+        },
+        "BreakpointListWidget": {
+            "breakpoints.view.toggleAllActivate": "Disable Breakpoints",
+            "breakpoints.view.removeAll"        : "Delete All Breakpoints",
+            "breakpoints.view.remove"           : "Delete Breakpoints",
+            "breakpoints.view.enableAll"        : "Enable All Breakpoints",
+            "breakpoints.view.disableAll"       : "Disable All Breakpoints"
+        },
+        "ExpressionWatchWidget":{
+            "expressions.view.add"         : "Add Expression",
+            "expressions.view.removeAll"   : "Delete All Expressions",
+            "expressions.view.remove"      : "Delete Expressions",
+            "expressions.view.edit"        : "Edit Expression",
+            "expressions.view.copyValue"   : "Copy Value",
+            "expressions.input.placeholder": "Expression to watch"
+        },
+        "VariableTreeView": {
+            "variables.view.copyValue"     : "Copy Value",
+            "variables.view.copyExptession": "Copy as Expression",
+            "variables.view.addToWatch"    : "Add to Watch",
+            "variables.view.edit"          : "Edit Expression",
+            "variables.input.placeholder"  : "Expression to watch"
+        },
+        "DebugControlPanel":{
+            "btn.toolTip.Pause.desc"   : "Pause",
+            "btn.toolTip.Continue.desc": "Continue",
+            "btn.toolTip.StepOver.desc": "Step Over",
+            "btn.toolTip.StepInto.desc": "Step Into",
+            "btn.toolTip.StepOut.desc" : "Step Out",
+            "comboBox.notSelcted.item" : "No Available Debug"
+        },
 		":/conf/resources/conf/keybindings.json": {
 			"keybindings.workbench.action.closeOtherEditors.desc": "关闭其他文件",
 			"keybindings.actions.find.desc": "本文档内查找字符串",
