@@ -74,7 +74,7 @@
 			"tabbar.iosSettings.name": "iOS Settings",
 			"label.textboxAppid.desc": "Appid",
 			"label.textboxPrivateKeyPw.desc": "Key and Keystore password",
-			"label.textboxiOSPrivateKeyPw.desc":"Certificate password",
+			"label.textboxiOSPrivateKeyPw.desc": "Certificate password",
 			"label.textboxCertificateProfile.desc": "Provisioning profile",
 			"button.browse.name": "Choose...",
 			"label.textboxprivatekeycertificate.desc": "Certificate path",
@@ -577,7 +577,7 @@
 			"textbox.pleaseInputPageName.placeholder": "Please input a page name",
 			"textbox.pleaseInputComponentName.placeholder": "Please enter the component name",
 			"label.selectminiprogram.title": "Choose Subcontracting:",
-			"checkbox.createdir.title":"Create same name directory",
+			"checkbox.createdir.title": "Create same name directory",
 			"label.selfTemplates.link": "[<a href='click'> Custom template </a>]",
 			"label.dirCannotBeEmpty.error": "Dir name cannot be empty",
 			"label.pageNameCannotEmpty.error": "Page name cannot be empty",
@@ -689,10 +689,10 @@
 			"msgbox.title.inputAppidFirst": "Please enter the appid first, and then get the universal link"
 		},
 		"UniAppSplashJsonFormPage": {
-            "button.ok.description": "确认(&O)",
-            "button.cancel.description": "取消(&C)",
-            "msgbox.title.warning": "根据工业和信息化部关于开展APP侵害用户权益专项整治要求，应用启动运行时需弹出隐私政策相关提示框，不配置将无法通过应用市场审核，确认不使用原生隐私协议提示框？"
-        },
+			"button.ok.description": "确认(&O)",
+			"button.cancel.description": "取消(&C)",
+			"msgbox.title.warning": "根据工业和信息化部关于开展APP侵害用户权益专项整治要求，应用启动运行时需弹出隐私政策相关提示框，不配置将无法通过应用市场审核，确认不使用原生隐私协议提示框？"
+		},
 		"JsonFormFile": {
 			"button.Browse.name": "Browse..."
 		},
@@ -740,8 +740,8 @@
 			"label.emailFormatIsIncorrect.error": "Email format is incorrect",
 			"label.pleaseInputPassword.error": "Please input password",
 			"label.accountDoesNotExist.error": "The account does not exist. Please confirm that the registered account is entered",
-			"radio.chinaRadio.name":"China",
-            "radio.gloalRadio.name":"Global"
+			"radio.chinaRadio.name": "China",
+			"radio.gloalRadio.name": "Global"
 		},
 		"NVueCompiler": {
 			"console.projectStartCompiling.desc": "Project '{1}' start compiling ...",
@@ -785,7 +785,7 @@
 			"button.Stop.name": "Stop",
 			"button.copy.name": "copy",
 			"label.readyToCopy.desc": "Ready to copy...",
-			"msgbox.title.replaceAndTips":"A file named {1} already exists at this location. Do you want to replace it with the item you are moving？",
+			"msgbox.title.replaceAndTips": "A file named {1} already exists at this location. Do you want to replace it with the item you are moving？",
 			"button.move.name": "move",
 			"label.readyToMove.desc": "Ready to move...",
 			"button.Cancel.name": "Cancel",
@@ -2072,9 +2072,9 @@
 			"tooltpis.openHyperlink.Alt.desc": "Open link (Alt + click)",
 			"tooltpis.openHyperlink.Command.desc": "Open link (Command + click)",
 			"tooltpis.openHyperlink.Ctrl.desc": "Open link (Ctrl + click)",
-            "editor.leftClickChangeColor.Alt.tooltips": "Use [Alt + click] to open color pick.",
-            "editor.leftClickChangeColor.Ctrl.tooltips": "Use [Ctrl + click] to open color pick.",
-            "editor.leftClickChangeColor.Command.tooltips": "Use [Command + click] to open color pick."
+			"editor.leftClickChangeColor.Alt.tooltips": "Use [Alt + click] to open color pick.",
+			"editor.leftClickChangeColor.Ctrl.tooltips": "Use [Ctrl + click] to open color pick.",
+			"editor.leftClickChangeColor.Command.tooltips": "Use [Command + click] to open color pick."
 		},
 		"UniAppBasicJsonFormPage": {
 			"msgbox.loginFirstFetchAppid.title": "Please log in first, then use the cloud to get the Appid function",
@@ -4257,10 +4257,10 @@
 			"properties.kuaishouapp.devtools.path.description": "Kuaishou Mini Program Developer Tool executable program, if not installed, please go to <a style='color:#298bdb' href='https://mp.kuaishou.com/docs/develop/developerTools/downloadPath.html'>download</a>",
 			"properties.logInfo.auto.reportCrash.title": "Help us improve the functionality and performance of HBuilderX",
 			"properties.logInfo.auto.reportCrash.description": "Automatically report usage statistics and crashes to us",
-			"properties.software.update.settings.title":"Update Settings",
-			"properties.software.update.settings.description":"Configure whether checks updates,Requires a restart after change",
-            "properties.software.update.default.title":"Check for updates on startup",
-            "properties.software.update.manual.title":"Manually check for updates"
+			"properties.software.update.settings.title": "Update Settings",
+			"properties.software.update.settings.description": "Configure whether checks updates,Requires a restart after change",
+			"properties.software.update.default.title": "Check for updates on startup",
+			"properties.software.update.manual.title": "Manually check for updates"
 		},
 		":/conf/resources/conf/settings-uiconfig.json": {
 			"editor.wordwrap.title": "Editor",
@@ -5691,7 +5691,14 @@
 			"mac:keybindings.mouse.desc11": "command+alt    +滚轮           横向滚动一屏",
 			"mac:keybindings.switchLabelCard.desc": "切换最近的标签卡alt+tab，该快捷键无法自定义",
 			"mac:keybingings.workbench.action.zoomIn.desc": "增大字体【command+鼠标滚动向上】",
-			"mac:keybingings.workbench.action.zoomOut.desc": "减小字体【command+鼠标滚动向下】"
+			"mac:keybingings.workbench.action.zoomOut.desc": "减小字体【command+鼠标滚动向下】",
+			"keybindings.debug.subDesc": "Debug related shortcuts",
+			"keybindings.editor.debug.action.toggleBreakpoint.desc": "Set shortcut keys, used to set/cancel breakpoints",
+			"keybindings.debug.action.stepover.desc": "stepover",
+			"keybindings.debug.action.stepin.desc": "stepin",
+			"keybindings.debug.action.stepout.desc": "stepout",
+			"keybindings.debug.action.continue.desc": "continue",
+			"keybindings.debug.action.pause.desc": "pause"
 		},
 		":/conf/resources/conf/keybinding_sublime.json": {
 			"keybindings.workbench.action.closeOtherEditors.desc": "关闭其他文件",
@@ -6095,7 +6102,14 @@
 			"mac:keybindings.mouse.desc11": "command+alt    +滚轮           横向滚动一屏",
 			"mac:keybindings.switchLabelCard.desc": "切换最近的标签卡alt+tab，该快捷键无法自定义",
 			"mac:keybingings.workbench.action.zoomIn.desc": "增大字体【command+鼠标滚动向上】",
-			"mac:keybingings.workbench.action.zoomOut.desc": "减小字体【command+鼠标滚动向下】"
+			"mac:keybingings.workbench.action.zoomOut.desc": "减小字体【command+鼠标滚动向下】",
+			"keybindings.debug.subDesc": "Debug related shortcuts",
+			"keybindings.editor.debug.action.toggleBreakpoint.desc": "Set shortcut keys, used to set/cancel breakpoints",
+			"keybindings.debug.action.stepover.desc": "stepover",
+			"keybindings.debug.action.stepin.desc": "stepin",
+			"keybindings.debug.action.stepout.desc": "stepout",
+			"keybindings.debug.action.continue.desc": "continue",
+			"keybindings.debug.action.pause.desc": "pause"
 		},
 		":/conf/resources/conf/keybinding_vscode.json": {
 			"keybindings.workbench.action.closeOtherEditors.desc": "关闭其他文件",
@@ -6499,7 +6513,14 @@
 			"mac:keybindings.mouse.desc11": "command+alt    +滚轮           横向滚动一屏",
 			"mac:keybindings.switchLabelCard.desc": "切换最近的标签卡alt+tab，该快捷键无法自定义",
 			"mac:keybingings.workbench.action.zoomIn.desc": "增大字体【command+鼠标滚动向上】",
-			"mac:keybingings.workbench.action.zoomOut.desc": "减小字体【command+鼠标滚动向下】"
+			"mac:keybingings.workbench.action.zoomOut.desc": "减小字体【command+鼠标滚动向下】",
+			"keybindings.debug.subDesc": "Debug related shortcuts",
+			"keybindings.editor.debug.action.toggleBreakpoint.desc": "Set shortcut keys, used to set/cancel breakpoints",
+			"keybindings.debug.action.stepover.desc": "stepover",
+			"keybindings.debug.action.stepin.desc": "stepin",
+			"keybindings.debug.action.stepout.desc": "stepout",
+			"keybindings.debug.action.continue.desc": "continue",
+			"keybindings.debug.action.pause.desc": "pause"
 		},
 		":/conf/resources/conf/keybindings_intellij.json": {
 			"keybindings.workbench.action.closeOtherEditors.desc": "关闭其他文件",
@@ -6903,7 +6924,14 @@
 			"mac:keybindings.mouse.desc11": "command+alt    +滚轮           横向滚动一屏",
 			"mac:keybindings.switchLabelCard.desc": "切换最近的标签卡alt+tab，该快捷键无法自定义",
 			"mac:keybingings.workbench.action.zoomIn.desc": "增大字体【command+鼠标滚动向上】",
-			"mac:keybingings.workbench.action.zoomOut.desc": "减小字体【command+鼠标滚动向下】"
+			"mac:keybingings.workbench.action.zoomOut.desc": "减小字体【command+鼠标滚动向下】",
+			"keybindings.debug.subDesc": "Debug related shortcuts",
+			"keybindings.editor.debug.action.toggleBreakpoint.desc": "Set shortcut keys, used to set/cancel breakpoints",
+			"keybindings.debug.action.stepover.desc": "stepover",
+			"keybindings.debug.action.stepin.desc": "stepin",
+			"keybindings.debug.action.stepout.desc": "stepout",
+			"keybindings.debug.action.continue.desc": "continue",
+			"keybindings.debug.action.pause.desc": "pause"
 		},
 		":/conf/resources/conf/keybindings_eclipse.json": {
 			"keybindings.workbench.action.closeOtherEditors.desc": "关闭其他文件",
@@ -7307,7 +7335,14 @@
 			"mac:keybindings.mouse.desc11": "command+alt    +滚轮           横向滚动一屏",
 			"mac:keybindings.switchLabelCard.desc": "切换最近的标签卡alt+tab，该快捷键无法自定义",
 			"mac:keybingings.workbench.action.zoomIn.desc": "增大字体【command+鼠标滚动向上】",
-			"mac:keybingings.workbench.action.zoomOut.desc": "减小字体【command+鼠标滚动向下】"
+			"mac:keybingings.workbench.action.zoomOut.desc": "减小字体【command+鼠标滚动向下】",
+			"keybindings.debug.subDesc": "Debug related shortcuts",
+			"keybindings.editor.debug.action.toggleBreakpoint.desc": "Set shortcut keys, used to set/cancel breakpoints",
+			"keybindings.debug.action.stepover.desc": "stepover",
+			"keybindings.debug.action.stepin.desc": "stepin",
+			"keybindings.debug.action.stepout.desc": "stepout",
+			"keybindings.debug.action.continue.desc": "continue",
+			"keybindings.debug.action.pause.desc": "pause"
 		},
 		":/conf/resources/conf/external-commands.json": {
 			"configurationAttributeDescription.command.desc": "需要执行的外部命令及参数：",
@@ -7388,7 +7423,7 @@
 			"Top": "Top"
 		},
 		"CloseButton": {
-    		    "Close Tab": "Close Tab"
-    		}
+			"Close Tab": "Close Tab"
+		}
 	}
 }
