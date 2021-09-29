@@ -5336,6 +5336,9 @@
             "btn.toolTip.StepOut.desc" : "Step Out",
             "comboBox.notSelcted.item" : "No Available Debug"
         },
+		"ExpressionWatchModel":{
+            "table.notAvailable.item": "Not available"
+        },
 		":/conf/resources/conf/keybindings.json": {
 			"keybindings.workbench.action.closeOtherEditors.desc": "关闭其他文件",
 			"keybindings.actions.find.desc": "本文档内查找字符串",
