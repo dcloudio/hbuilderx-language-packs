@@ -1787,7 +1787,8 @@
 			"msgbox.button.continue": "continue(&R)",
 			"msgbox.reportCrash.title": "The application HBuilderX has exited unexpectedly",
 			"msgbox.reportCrash.description": "A crash report has been generated. To help us improve HBuilderX, please select \"Continue\" to add a detailed description, which includes the process of reproducing this step<a href='https://hx.dcloud.net.cn/Tutorial/CrashReporter'>[Details]</a>。\n\nWe will use this crash report to find a future solution to this problem",
-			"console.unicloudResouceconflicts.error": "The initialization wizard has been interrupted, please resolve the above conflicts and try again"
+			"console.unicloudResouceconflicts.error": "The initialization wizard has been interrupted, please resolve the above conflicts and try again",
+            "menu.item.Hide.name":"Hide"
 		},
 		"QuickAppCompiler": {
 			"console.startCompile.warning": "Project '{1}' start compiling...",
