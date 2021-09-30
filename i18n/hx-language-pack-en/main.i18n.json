@@ -1670,7 +1670,7 @@
 			"menu.mainWindow.showMinimap.name": "Show Minimap",
 			"menu.mainWindow.showCodeLens.name": "Enable Preview on Mouse Hover",
 			"text.cloudfunction.noSpace.desc": "Unselect cloud server space",
-			"text.cloudfunction.relatedProject.desc": "Related project",
+			"text.cloudfunction.relatedProject.desc": "Related project ",
 			"menu.mainWindow.makeRelationToSpace.name": "&Current Cloud Space ...",
 			"menu.mainWindow.locateRelatedProject.name": "&View Related Cloud Space",
 			"menu.mainWindow.unbindRelatedProject": "&Unbind Related Cloud Space",
