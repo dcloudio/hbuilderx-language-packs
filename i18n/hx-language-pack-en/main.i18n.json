@@ -7475,6 +7475,10 @@
 		},
 		"CloseButton": {
 			"Close Tab": "Close Tab"
-		}
+		},
+		"TerminalServer": {
+            "menu.openInExternalBrowser.terminal":"Open In External Browser",
+            "menu.openInBuilt-inBrowser.terminal":"Open In Built-in Browser"
+        }
 	}
 }
