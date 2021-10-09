@@ -1010,6 +1010,7 @@
 			"console.cannotFindPathOfNode.error": "Can't find node.exe"
 		},
 		"QObject": {
+			"hover.frame.help": "Press F1 to Open Help Docs",
 			"snippet.proposal.desc": "From: Snippet",
 			"console.depositService.desc": "deposit service",
 			"console.notSupportService.error": "space '{1}' does not support this service",

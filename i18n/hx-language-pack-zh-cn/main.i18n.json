@@ -1033,6 +1033,7 @@
             "console.cannotFindPathOfNode.error": "无法找到node.exe"
         },
         "QObject": {
+            "hover.frame.help": "按F1打开帮助文档",
         	"snippet.proposal.desc": "来自：代码块",
             "title.msgbox.vueVersionDiffDesc.warning": "不同版本的vue混用可能会引起未知的错误",
             "title.msgbox.vueVersionDifferentFrom.warning": "导入的插件所使用的vue版本为{1}, 与当前项目使用的版本{2}并不相同",
