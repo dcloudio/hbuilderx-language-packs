@@ -3475,7 +3475,9 @@
             "uniapp-cli(vue3).name": "uni-app（vue3）编译",
             "uniapp-cli(vue3).description": "uni-app编译vue3到各端的编译器",
             "mac:uniapp-cli(vue3).name": "uni-app（vue3）编译",
-            "mac:uniapp-cli(vue3).description": "uni-app编译vue3到各端的编译器"
+            "mac:uniapp-cli(vue3).description": "uni-app编译vue3到各端的编译器",
+            "node-debug.name":"Node.js 调试",
+            "node-debug.description":"Node.js 的调试支持，可用于调试uniCloud"
         },
         ":/config/app-manifest-schema.json": {
             "properties.plus.properties.distribute.properties.plugins.properties.share.properties.sina.title": "新浪微博分享",

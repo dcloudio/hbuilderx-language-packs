@@ -5219,7 +5219,9 @@
 			"uniapp-cli(vue3).name": "Uni-app(vue3) Compile",
 			"uniapp-cli(vue3).description": "Uni-app compile vue3 compiler",
 			"mac:uniapp-cli(vue3).name": "Uni-app(vue3) Compile",
-			"mac:uniapp-cli(vue3).description": "Uni-app compile vue3 compiler"
+			"mac:uniapp-cli(vue3).description": "Uni-app compile vue3 compiler",
+			"node-debug.name":"Node Debug",
+            "node-debug.description":"Node.js debugging support，uniCloud debugging tool"
 		},
 		":/i18n/package.json": {
 			"menu.localizations.title": "Switch &Language"
