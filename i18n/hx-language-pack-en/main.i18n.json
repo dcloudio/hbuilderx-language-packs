@@ -4158,6 +4158,8 @@
 			"properties.editor.codeassist.title": "Enable Code Completion",
 			"properties.editor.codeassist.description": "",
 			"properties.editor.codeassistkeytab.title": "Auto Insert the Selected Item in Code Completion when Pressing Tab",
+			"properties.editor.hover.assist.title": "Hover Code Assist",
+			"properties.editor.hover.assist.description": "When hover on the identifier, pop up dialog that show the details",
 			"properties.editor.codeassistkeytab.description": "After enabling this option, the tab key will not trigger emmet when the code assistant is displayed.",
 			"properties.editor.codeassistfontsize.title": "Code Completion Widget Font Size",
 			"properties.editor.codeassistfontsize.description": "",

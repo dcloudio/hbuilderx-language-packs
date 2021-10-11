@@ -4387,6 +4387,8 @@
             "properties.files.associations.suffixs.title": "文件类型关联",
             "properties.editor.codeassist.description": "",
             "properties.editor.codeassistkeytab.title": "Tab键自动插入代码助手选中项",
+            "properties.editor.hover.assist.title": "代码悬浮提示",
+            "properties.editor.hover.assist.description": "当鼠标悬浮在标识符上时， 弹出窗口显示标识符的详细说明",
             "properties.files.associations.contextmenu.description": "“我的电脑”中文件的右键菜单，出现“Open With HBuilder X”",
             "properties.editor.viewindentationguides.description": "",
             "properties.editor.renderwhitespace.description": "不含行尾换行符",
