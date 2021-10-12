@@ -3863,6 +3863,7 @@
 			"workbench.action.togglestatusbarvisibility.name": "&Show Status Bar",
 			"workbench.debug.action.togglerepl.name": "&Show Console",
 			"workbench.action.tiggleterminal.name": "&Show Terminal",
+                        "workbench.action.toggleDebugView.name": "Show Debug View",
 			"workbench.action.toggleremotedebug.name": "&Show Webview Debug Console",
 			"workbench.action.toggleunicloudview.name": "&Show Web Hosting",
 			"workbench.action.showextensionview.name": "&Show Plug-in Views",
