@@ -4928,7 +4928,7 @@
             "properties.app-plus.properties.modules.title": "打包模块配置",
             "properties.app-plus.properties.distribute.properties.android.properties.minsdkversion.title": "minSdkVersion",
             "properties.versioncode.title": "应用版本号",
-            "properties.vueversion.title": "VUE版本选择",
+            "properties.vueversion.title": "Vue版本选择",
             "properties.app-plus.properties.distribute.properties.sdkconfigs.properties.oauth.properties.weixin.properties.appsecret.description": "微信开放平台申请应用的AppSecret值，<a style='color:#298bdb' href='https://ask.dcloud.net.cn/article/192#secret'>参数安全性问题</a>",
             "properties.mp-toutiao.properties.unistatistics.properties.enable.title": "启用字节跳动小程序平台",
             "properties.app-plus.properties.distribute.properties.sdkconfigs.properties.oauth.properties.xiaomi.properties.appid_ios.description": "iOS平台小米登录的APPID",
