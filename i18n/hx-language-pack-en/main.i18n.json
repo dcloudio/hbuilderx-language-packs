@@ -3228,7 +3228,8 @@
 			"Explorer": "Explorer"
 		},
 		"SashView": {
-			"Explorer": "Explorer"
+			"Explorer": "Explorer",
+                        "DebugView": "Debug View"
 		},
 		"DrawerManager": {
 			"Explorer": "Explorer"
