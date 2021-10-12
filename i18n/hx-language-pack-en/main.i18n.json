@@ -33,10 +33,10 @@
 			"command.unicloud.JQLRunOrStop.name": "Run",
 			"editor.command.JQLRunOrStop.run.name": "Execute JQL(&N)",
 			"editor.command.JQLRunOrStop.stop.name": "Stop JQL(&O)",
-			"menu.runLocalFuntionRelease.name": "运行-本地云函数",
-			"menu.runLocalFuntionRelease.terminate.name": "停止运行-本地云函数",
-			"menu.runLocalFuntionDebug.name": "调试运行-本地云函数",
-			"menu.runLocalFuntionDebug.terminate.name": "停止调试运行-本地云函数"
+			"menu.runLocalFuntionRelease.name": "Run-LocalCloduFunction",
+			"menu.runLocalFuntionRelease.terminate.name": "Stop-LocalCloduFunction",
+			"menu.runLocalFuntionDebug.name": "Start debugguing-LocalCloduFunction",
+			"menu.runLocalFuntionDebug.terminate.name": "Stop debugging-LocalCloduFunction"
 		},
 		"CLisenceDialog": {
 			"button.cancel.name": "cancel(&C)",
