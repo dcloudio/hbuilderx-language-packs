@@ -5303,13 +5303,22 @@
 			"qt.platformtheme.cancel": "Cancel"
 		},
 		"CUniCloudDebugPublic":{
+			"toolbar.button.openDebug.desc":"Turn on breakpoint debugging",
+            "toolbar.button.closeDebug.desc":"Turn off debugging",
+            "console.log.closeDebug":"Debugging is off",
+            "console.log.closeDebugFailed":"Failed to turn off debugging",
+            "session.cloudfunction.desc":"CloudFunction",
 			"console.button.debug.desc":"Turn on debugging",
+			"msgbox.title.isCloseUniCloudConsole":"The uniCloud debugging service is running. Closing the console will cause the debugging function to be abnormal. Do you want to continue to close it?",
+            "msg.button.confirm.desc":"Continue to close",
+            "msg.button.cancel.desc":"cancel",
 			"msgbox.title.projectHasRunning"    : "There is already a debugging process running in the current project, and new debugging is not currently supported",
+			"console.localDebugTitle.tip":"[本地调试]",
 			"console.noUnicloudProcess.tip"     : "uniCloud debugging service is not started and cannot be debugged",
 			"console.remoteDebug.tip"           : "Cloud function debugging is not supported temporarily, please switch to the UniAPP console page and check 'local cloud function' before debugging",
 			"console.localDebugSuccess.tip"     : "Start debugging successfully",
 			"console.localDebugrunmoretimes.tip": "The local debugging service has been opened, please do not click repeatedly",
-			"console.log.missingplug-ins.desc"  : "Missing the necessary debugging plug-in, the debugging service cannot run"
+			"msgbox.title.missingplug-ins.desc"  : "Missing the necessary debugging plug-in, the debugging service cannot run"
         },
         "DebuggerViewWidget":{
             "debugview.variables.title"  : "Variables",
