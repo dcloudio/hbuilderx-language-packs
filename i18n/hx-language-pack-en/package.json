@@ -2,7 +2,7 @@
     "name": "hx-language-pack-en",
     "displayName": "HBuilderX English language pack",
     "description": "HBuilderX English language pack",
-    "version": "0.0.4.qualifier",
+    "version": "0.0.7.qualifier",
     "publisher": "HBuilderX",
     "license": "SEE LICENSE IN LICENSE.md",
     "engines": {
