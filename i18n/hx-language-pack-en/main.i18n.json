@@ -6,6 +6,22 @@
 	],
 	"version": "1.0.0",
 	"contents": {
+		"NodeExtensionLauncher":{
+			"msgbox.title.missingplug-ins.desc":"Extension debug feature depends [node-debug] extension,please install and retry.",
+			"console.process.force.quit.error":"Process has crashed",
+			"view.console.extension.title":"Extension Development"
+		},
+		":/nodejs-extension-dev/package.json":{
+			"contributes.launchers.extensionDevelopment.label":"Run Extension-[${workspaceFolder.name}]",
+			"contributes.launchers.extensionDevelopment.terminateLabel":"Stop Run Extension-[${workspaceFolder.name}]",
+			"contributes.launchers.extensionDevelopment.debug.label":"Debug Extension-[${workspaceFolder.name}]",
+			"contributes.launchers.extensionDevelopment.debug.terminateLabel":"Stop Debug Extension-[${workspaceFolder.name}]",
+			"contributes.launchers.nodejs.label":"Run Current File-[node ${file.name}]",
+			"contributes.launchers.nodejs.terminateLabel":"Stop Run-[node ${file.name}]",
+			"contributes.launchers.nodejs.debug.label":"Debug Current File-[node ${file.name}]",
+			"contributes.launchers.nodejs.debug.terminateLabel":"Stop Debug-[node ${file.name}]",
+			"contributes.launchers.nodejs-settings.label":"Node Path Settings"
+		},
 		":/unicloud/package.json": {
 			"menu.execJQL.name": "&Run JQL Query",
 			"menu.execJQL.terminate.name": "&Stop JQL Query",
