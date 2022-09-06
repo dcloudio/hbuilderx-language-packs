@@ -9,7 +9,7 @@
 
 ## 许可证
 
-源代码和字符串使用[LICENSE](https://www.dcloud.io/language-pack/LICENSE.md)许可进行授权。
+源代码和字符串使用[MIT](https://www.dcloud.io/language-pack/LICENSE.md)许可进行授权。
 
 ## 感谢
 
@@ -28,7 +28,7 @@ If you'd like to participate in the effort either to contribue translation or im
 
 ## License
 
-The source code and strings are licensed under the [LICENSE](https://www.dcloud.io/language-pack/LICENSE.md) license.
+The source code and strings are licensed under the [MIT](https://www.dcloud.io/language-pack/LICENSE.md) license.
 
 ## Credits
 

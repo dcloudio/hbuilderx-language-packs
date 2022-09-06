@@ -33,7 +33,13 @@
             "uni.noThumbnail.newsList.name"        : "无略缩图 | 云端一体新闻列表",
             "uni.palaceGridProductList.name"       : "宫格模式 | 云端一体商品列表",
             "uni.productList.name"                 : "云端一体商品列表",
-            "uni.rightPicture.newsList.name"       : "左文右图 | 云端一体新闻列表"
+            "uni.rightPicture.newsList.name"       : "左文右图 | 云端一体新闻列表",
+            "uni.stickyList.name": "NVUE滚动吸顶效果",
+            "uni.stickyList.description": "NVUE滚动吸顶效果",
+            "uni.nvueSwiper.name": "NVUE多页签滑动效果",
+            "uni.nvueSwiper.description": "NVUE多页签滑动效果",
+            "uni.swiperSticky.name": "NVUE多页签滑动吸顶效果",
+            "uni.swiperSticky.description": "NVUE多页签滑动吸顶效果"
         }
     }
 }

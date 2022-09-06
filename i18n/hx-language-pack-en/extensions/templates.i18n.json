@@ -33,7 +33,13 @@
             "uni.noThumbnail.newsList.name"        : "No thumbnail | Uni-Cloud news list",
             "uni.palaceGridProductList.name"       : "Palace grid layout | Uni-Cloud commodities list",
             "uni.productList.name"                 : "Uni-Cloud commodities list",
-            "uni.rightPicture.newsList.name"       : "Left text and right picture | Uni-Cloud news list"
+            "uni.rightPicture.newsList.name"       : "Left text and right picture | Uni-Cloud news list",
+            "uni.stickyList.name": "NVUE滚动吸顶效果",
+            "uni.stickyList.description": "NVUE滚动吸顶效果",
+            "uni.nvueSwiper.name": "NVUE多页签滑动效果",
+            "uni.nvueSwiper.description": "NVUE多页签滑动效果",
+            "uni.swiperSticky.name": "NVUE多页签滑动吸顶效果",
+            "uni.swiperSticky.description": "NVUE多页签滑动吸顶效果"
         }
     }
 }
