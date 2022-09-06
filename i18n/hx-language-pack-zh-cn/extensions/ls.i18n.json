@@ -3,7 +3,7 @@
 		"com.pandora.language.js":{
 			"Text.Define":"定义于:"
 		},
-		  "io.dcloud.editor.html.ext":{
+		"io.dcloud.editor.html.ext":{
 			"Text.Define":"定义于:"
 		},
 		"com.pandora.language":{
@@ -149,7 +149,8 @@
 			"IPhoneLauncher.Open.Install.Service.Failed" : "打开安装服务失败，请尝试拔掉数据线后重新连接手机，或重启手机再试",
 			"IPhoneLauncher.Open.Phone.Service.Failed" : "打开手机服务失败，请尝试拔掉数据线后重新连接手机，或重启手机再试",
 			"IPhoneLauncher.Open.Service.Failed" : "打开服务失败，请尝试拔掉数据线后重新连接手机，或重启手机再试",
-			"IPhoneLauncher.Open.Write.File.Service.Failed" : "打开文件服务失败，请尝试拔掉数据线后重新连接手机，或重启手机再试",
+			"IPhoneLauncher.Open.Write.File.Service.Failed" : "打开文件服务失败，请尝试拔掉数据线后重新连接手机，或重启手机再试(如果是IOS15.1以上的设备，请确认基座版本号为3.3.2及以上)",
+			"IPhoneLauncher.CustomOpen.Write.File.Service.Failed" : "打开文件服务失败，请尝试拔掉数据线后重新连接手机，或重启手机再试(请确认自定义基座的iOS证书已添加iOS设备的UDID;如果是IOS15.1以上的设备，请确认基座版本号为3.3.2及以上)",
 			"IPhoneLauncher.Select.Phone" : "您还没有选择设备，请重新选择",
 			"IPhoneLauncher.Error.NoCustomApp":"安装自定义基座App失败，失败原因：基座App丢失，请重新制作自定义基座",
 			"IPhoneLauncher.Error.NoBaseApp":"安装HBuilder基座App失败，失败原因：基座App丢失，请重新从官网下载新的HBuilder",
@@ -359,67 +360,8 @@
 			"JSMetadataReader.Invalid.Property.Type" : "无效的属性类型“{0}”属性“{1}”",
 			"JSMetadataReader.Invalid.Return.Type" : "无效的返回类型：",
 			"JSMetadataReader.Invalid.Type.Name" : "无效的类型名称：{0}"
-		},
-		"io.dcloud.editor.js.contentassist.model":{
-			"ClassGroupElement.Averages" : "平均长度",
-			"ClassGroupElement.ClassCount" : "类",
-			"ClassGroupElement.Counts" : "数量",
-			"ClassGroupElement.MaxLengths" : "最大长度",
-			"ClassGroupElement.Medians" : "中位数长度",
-			"ClassGroupElement.MethodAverageLength" : "方法",
-			"ClassGroupElement.MethodCount" : "方法",
-			"ClassGroupElement.MethodLengthSums" : "方法",
-			"ClassGroupElement.MethodMaxLength" : "方法",
-			"ClassGroupElement.MethodMedianLength" : "方法",
-			"ClassGroupElement.MethodMinLength" : "方法",
-			"ClassGroupElement.MinLengths" : "最小的长度",
-			"ClassGroupElement.PropertyAverageLength" : "属性",
-			"ClassGroupElement.PropertyCount" : "属性",
-			"ClassGroupElement.PropertyLengthSums" : "属性",
-			"ClassGroupElement.PropertyMaxLength" : "属性",
-			"ClassGroupElement.PropertyMedianLength" : "属性",
-			"ClassGroupElement.PropertyMinLength" : "属性",
-			"ClassGroupElement.Sums" : "长度的总和",
-			"ClassGroupElement.TypeAverageLength" : "类型",
-			"ClassGroupElement.TypeCount" : "类型",
-			"ClassGroupElement.TypeLengthSums" : "类型",
-			"ClassGroupElement.TypeMaxLength" : "类型",
-			"ClassGroupElement.TypeMedianLength" : "类型",
-			"ClassGroupElement.TypeMinLength" : "类型",
-			"EventElement.Name" : "名称",
-			"EventElement.OwningType" : "拥有的类型",
-			"EventElement.PropertyCount" : "属性数量",
-			"EventPropertyElement.Name" : "名称",
-			"EventPropertyElement.Type" : "类型",
-			"JSElement.ChildCount" : "子元素数量",
-			"JSElement.IndexFile" : "索引文件",
-			"JSElement.IndexFileSizeLabel" : "索引文件大小",
-			"JSElement.IndexLabel" : "索引",
-			"JSElement.Name" : "名称",
-			"JSElement.NodeLabel" : "JS",
-			"JSElement.Version" : "版本",
-			"PropertyElement.Description" : "描述",
-			"PropertyElement.Documents" : "文档",
-			"PropertyElement.InstanceProperty" : "实例属性",
-			"PropertyElement.Name" : "名称",
-			"PropertyElement.OwningType" : "拥有的类型",
-			"PropertyElement.ReturnTypes" : "返回类型",
-			"PropertyElement.StaticProperty" : "静态属性",
-			"PropertyElement.Types" : "类型",
-			"TypeElement.Deprecated" : "已过时",
-			"TypeElement.Description" : "描述",
-			"TypeElement.Documents" : "文件",
-			"TypeElement.EventCount" : "事件计数",
-			"TypeElement.Name" : "名称",
-			"TypeElement.ParentTypes" : "父类型",
-			"TypeElement.PropertyCount" : "属性数量"
-		},
-		"io.dcloud.editor.js.parsing.ast":{
-			"JSBinaryArithmeticOperatorNode.0" : "无法识别的运算符：",
-			"JSBinaryBooleanOperatorNode.0" : "无法识别的运算符：",
-			"JSPostUnaryOperatorNode.0" : "无法识别的运算符：",
-			"JSPreUnaryOperatorNode.0" : "无法识别的运算符："
 		}
+		
 	}
 }
 
